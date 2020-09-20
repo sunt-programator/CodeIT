@@ -1,0 +1,20 @@
+{
+	"name": "Hugo CodeIT theme",
+	"dockerFile": "Dockerfile",
+	"settings": {
+		"resmon.show.battery": false,
+		"resmon.show.cpufreq": false,
+		"terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'",
+		"terminal.integrated.shell.linux": "/bin/zsh"
+	},
+	"extensions": [
+		"budparr.language-hugo-vscode",
+		"be5invis.toml",
+		"esbenp.prettier-vscode",
+		"visualstudioexptteam.vscodeintellicode",
+		"eamodio.gitlens",
+		"mutantdino.resourcemonitor"
+	],
+	"runArgs": [
+    ]
+}
