@@ -32,13 +32,3 @@ min_version = "0.62.0"
   name = "LoveIt"
   homepage = "https://hugoloveit.com/"
   repo = "https://github.com/dillonzq/loveit"
-
-[original]
-  name = "LeaveIt"
-  homepage = "https://liuzhichao.com/"
-  repo = "https://github.com/liuzc/LeaveIt"
-
-[original]
-  name = "Fastbyte01"
-  homepage = "https://www.fsb01.com/"
-  repo = "https://github.com/Fastbyte01/KeepIt"
