@@ -1,18 +1,21 @@
 {
-  "name": "loveit-src",
-  "version": "0.2.0",
-  "description": "LoveIt theme source file",
+  "name": "codeit-src",
+  "description": "CodeIT theme source file",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sunt-programator/hugo-codeit#readme",
+  "author": "Victor Pogor",
+  "license": "MIT",
   "private": true,
   "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
     "babel-preset-minify": "^0.5.1",
     "babelify": "^10.0.0",
-    "browserify": "^16.5.0",
-    "core-js": "^3.6.4",
-    "husky": "^4.2.3",
+    "browserify": "^16.5.2",
+    "core-js": "^3.6.5",
+    "husky": "^4.3.0",
     "minimist": "^1.2.5",
     "segmentit": "^2.0.3"
   },
@@ -36,16 +39,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dillonzq/LoveIt.git"
+    "url": "git+https://github.com/sunt-programator/hugo-codeit.git"
   },
   "keywords": [
+    "gohugo",
     "hugo",
     "theme"
   ],
-  "author": "Dillon",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dillonzq/LoveIt/issues"
-  },
-  "homepage": "https://github.com/dillonzq/LoveIt#readme"
+    "url": "https://github.com/sunt-programator/hugo-codeit/issues"
+  }
 }

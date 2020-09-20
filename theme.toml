@@ -1,11 +1,11 @@
 # theme.toml template for a Hugo theme
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
-name = "LoveIt"
+name = "CodeIT"
 license = "MIT"
-licenselink = "https://github.com/dillonzq/LoveIt/blob/master/LICENSE"
-description = "A Clean, Elegant but Advanced Hugo Theme for Hugo."
-homepage = "https://hugoloveit.com"
+licenselink = "https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE"
+description = "A clean, elegant but advanced blog theme for Hugo."
+homepage = "http://codeit.suntprogramator.dev/"
 tags = [
   "blog",
   "clean",
@@ -25,8 +25,18 @@ features = [
 min_version = "0.62.0"
 
 [author]
-  name = "Dillon"
-  homepage = "https://dillonzq.com/"
+  name = "Victor Pogor"
+  homepage = "https://suntprogramator.dev/"
+
+[original]
+  name = "LoveIt"
+  homepage = "https://hugoloveit.com/"
+  repo = "https://github.com/dillonzq/loveit"
+
+[original]
+  name = "LeaveIt"
+  homepage = "https://liuzhichao.com/"
+  repo = "https://github.com/liuzc/LeaveIt"
 
 [original]
   name = "Fastbyte01"
