@@ -1,0 +1,8 @@
+{
+    "recommendations": [
+        "budparr.language-hugo-vscode",
+        "be5invis.toml",
+        "esbenp.prettier-vscode",
+        "visualstudioexptteam.vscodeintellicode"
+    ]
+}
