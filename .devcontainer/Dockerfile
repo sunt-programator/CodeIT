@@ -8,7 +8,7 @@ RUN apt update && \
     apt install -y sudo \
     curl \
     git-core \
-    gnupg \
+    gnupg2 \
     linuxbrew-wrapper \
     locales \
     zsh \
@@ -16,6 +16,10 @@ RUN apt update && \
     fonts-powerline \
     # set up locale
     && locale-gen en_US.UTF-8
+
+# Install Node.js
+RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+RUN apt install nodejs
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
