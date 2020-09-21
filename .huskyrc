@@ -1,9 +1,0 @@
-{
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build && npm run copy && git add resources assets/js",
-      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || false",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  }
-}
