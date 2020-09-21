@@ -15,9 +15,7 @@
     "babel-preset-minify": "^0.5.1",
     "babelify": "^10.0.0",
     "browserify": "^16.5.2",
-    "commitizen": "^4.2.1",
     "core-js": "^3.6.5",
-    "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
     "minimist": "^1.2.5",
     "segmentit": "^2.0.3"
@@ -53,10 +51,5 @@
   ],
   "bugs": {
     "url": "https://github.com/sunt-programator/hugo-codeit/issues"
-  },
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
-    }
   }
 }

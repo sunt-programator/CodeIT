@@ -21,6 +21,9 @@ RUN apt update && \
 RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 RUN apt install nodejs
 
+# Install commitizen and commitlint globally
+RUN npm install -g commitizen cz-conventional-changelog
+
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
 
