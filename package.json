@@ -35,6 +35,13 @@
   "resolutions": {
     "minimist": "^1.2.5"
   },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build && npm run copy && git add resources assets/js",
+      "prepare-commit-msg": "exec < /dev/tty && npx cz --hook || true",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sunt-programator/hugo-codeit.git"
@@ -46,5 +53,10 @@
   ],
   "bugs": {
     "url": "https://github.com/sunt-programator/hugo-codeit/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
