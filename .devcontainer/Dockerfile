@@ -7,22 +7,22 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update && \
     apt install -y sudo \
     curl \
-    git-core \
     gnupg2 \
     linuxbrew-wrapper \
     locales \
     zsh \
     wget \
     fonts-powerline \
+    software-properties-common \
     # set up locale
     && locale-gen en_US.UTF-8
+
+# Install git
+RUN add-apt-repository -y ppa:git-core/ppa && apt update && apt install git -y
 
 # Install Node.js
 RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
 RUN apt install nodejs
-
-# Install commitizen and commitlint globally
-RUN npm install -g commitizen cz-conventional-changelog
 
 # Switch back to dialog for any ad-hoc use of apt-get
 ENV DEBIAN_FRONTEND=dialog
