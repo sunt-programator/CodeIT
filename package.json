@@ -1,18 +1,24 @@
 {
-  "name": "loveit-src",
-  "version": "0.2.0",
-  "description": "LoveIt theme source file",
+  "name": "codeit-src",
+  "description": "CodeIT theme source file",
+  "version": "0.0.1",
+  "homepage": "https://github.com/sunt-programator/hugo-codeit#readme",
+  "author": "Victor Pogor",
+  "license": "MIT",
   "private": true,
-  "dependencies": {},
   "devDependencies": {
-    "@babel/cli": "^7.8.4",
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.0",
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "babel-preset-minify": "^0.5.1",
     "babelify": "^10.0.0",
-    "browserify": "^16.5.0",
-    "core-js": "^3.6.4",
-    "husky": "^4.2.3",
+    "browserify": "^16.5.2",
+    "commitizen": "^4.2.1",
+    "core-js": "^3.6.5",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^4.3.0",
     "minimist": "^1.2.5",
     "segmentit": "^2.0.3"
   },
@@ -24,28 +30,27 @@
     "start": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender",
     "start-production": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender -e production",
     "check": "htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external",
-    "copy": "rm -rf resources && cp -rf exampleSite/resources resources"
+    "copy": "rm -rf resources && cp -rf exampleSite/resources resources",
+    "cm": "cz"
   },
   "resolutions": {
     "minimist": "^1.2.5"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run build && npm run copy && git add resources assets/js"
-    }
-  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dillonzq/LoveIt.git"
+    "url": "git+https://github.com/sunt-programator/hugo-codeit.git"
   },
   "keywords": [
+    "gohugo",
     "hugo",
     "theme"
   ],
-  "author": "Dillon",
-  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dillonzq/LoveIt/issues"
+    "url": "https://github.com/sunt-programator/hugo-codeit/issues"
   },
-  "homepage": "https://github.com/dillonzq/LoveIt#readme"
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
 }
