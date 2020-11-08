@@ -14,7 +14,7 @@
     "@commitlint/config-conventional": "^11.0.0",
     "babel-preset-minify": "^0.5.1",
     "babelify": "^10.0.0",
-    "browserify": "^16.5.2",
+    "browserify": "^17.0.0",
     "commitizen": "^4.2.2",
     "core-js": "^3.7.0",
     "cz-conventional-changelog": "^3.3.0",
