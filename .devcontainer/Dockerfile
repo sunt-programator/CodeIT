@@ -12,6 +12,7 @@ RUN apt update && \
     locales \
     zsh \
     wget \
+    powerline \
     fonts-powerline \
     software-properties-common \
     # set up locale
@@ -57,8 +58,10 @@ RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -
 # Install powerlevel10k theme
 RUN git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
 
-RUN cd $HOME && curl -fsSLO https://raw.githubusercontent.com/romkatv/dotfiles-public/master/.purepower
+# Install syntax highlighting
+RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.zsh-syntax-highlighting --depth 1
 
 # Add .zsh configuration
+ADD .p10k.zsh $HOME
 ADD .zshrc $HOME
 ADD .zprofile $HOME
