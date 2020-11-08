@@ -5,7 +5,7 @@ name = "CodeIT"
 license = "MIT"
 licenselink = "https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE"
 description = "A clean, elegant but advanced blog theme for Hugo."
-homepage = "http://codeit.suntprogramator.dev/"
+homepage = "https://codeit.suntprogramator.dev/"
 tags = [
   "blog",
   "clean",
