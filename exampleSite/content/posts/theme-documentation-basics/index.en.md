@@ -53,21 +53,21 @@ cd my_website
 
 ### 2.2 Install the Theme
 
-The **LoveIt** theme’s repository is: [https://github.com/dillonzq/LoveIt](https://github.com/dillonzq/LoveIt).
+The **LoveIt** theme’s repository is: [https://github.com/sunt-programator/CodeIT](https://github.com/sunt-programator/CodeIT).
 
-You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/dillonzq/LoveIt/releases) of the theme and extract it in the `themes` directory.
+You can download the [latest release :(far fa-file-archive fa-fw): .zip file](https://github.com/sunt-programator/CodeIT/releases) of the theme and extract it in the `themes` directory.
 
 Alternatively, clone this repository to the `themes` directory:
 
 ```bash
-git clone https://github.com/dillonzq/LoveIt.git themes/LoveIt
+git clone https://github.com/sunt-programator/CodeIT.git themes/LoveIt
 ```
 
 Or, create an empty git repository and make this repository a submodule of your site directory:
 
 ```bash
 git init
-git submodule add https://github.com/dillonzq/LoveIt.git themes/LoveIt
+git submodule add https://github.com/sunt-programator/CodeIT.git themes/LoveIt
 ```
 
 ### 2.3 Basic Configuration {#basic-configuration}
@@ -122,7 +122,7 @@ theme = "LoveIt"
 [markup]
   # Syntax Highlighting (https://gohugo.io/content-management/syntax-highlighting)
   [markup.highlight]
-    # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
+    # false is a necessary configuration (https://github.com/sunt-programator/CodeIT/issues/158)
     noClasses = false
 ```
 
@@ -656,7 +656,7 @@ Please open the code block below to view the complete sample configuration :(far
     lineNos = true
     lineNumbersInTable = true
     # false is a necessary configuration
-    # ({{< link "https://github.com/dillonzq/LoveIt/issues/158" >}})
+    # ({{< link "https://github.com/sunt-programator/CodeIT/issues/158" >}})
     noClasses = false
   # Goldmark is from Hugo 0.60 the default library used for Markdown
   [markup.goldmark]
@@ -975,7 +975,7 @@ Translations strings are used for common default values used in the theme. Trans
 
 To override these values, create a new file in your local i18n folder `i18n/<languageCode>.toml` and inspire yourself from `themes/LoveIt/i18n/en.toml`.
 
-By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/dillonzq/LoveIt/pulls) to the theme!
+By the way, as these translations could be used by other people, please take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
 
 ## 5 Search
 
