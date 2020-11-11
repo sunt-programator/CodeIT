@@ -8,11 +8,11 @@
                 </div>
             {{- end -}}
 
-            {{- /* Hugo and LoveIt */ -}}
+            {{- /* Hugo and CodeIT */ -}}
             {{- if ne .Site.Params.footer.hugo false -}}
                 <div class="footer-line">
                     {{- $hugo := printf `<a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer" title="Hugo %v">Hugo</a>` hugo.Version -}}
-                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/sunt-programator/CodeIT" target="_blank" rel="noopener noreferrer" title="LoveIt %v"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>` -}}
+                    {{- $theme := .Scratch.Get "version" | printf `<a href="https://github.com/sunt-programator/CodeIT" target="_blank" rel="noopener noreferrer" title="CodeIT %v"><i class="fas fa-notebook fa-fw"></i> CodeIT</a>` -}}
                     {{- dict "Hugo" $hugo "Theme" $theme | T "poweredBySome" | safeHTML }}
                 </div>
             {{- end -}}

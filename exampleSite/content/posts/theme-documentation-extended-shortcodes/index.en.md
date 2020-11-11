@@ -4,9 +4,9 @@ title: "Theme Documentation - Extended Shortcodes"
 date: 2020-03-03T16:29:41+08:00
 lastmod: 2020-03-03T16:29:41+08:00
 draft: false
-author: "Dillon"
-authorLink: "https://dillonzq.com"
-description: "LoveIt theme provides multiple shortcodes on top of built-in ones in Hugo."
+author: "Sunt Programator!"
+authorLink: "https://suntprogramator.dev/"
+description: "CodeIT theme provides multiple shortcodes on top of built-in ones in Hugo."
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
@@ -19,7 +19,7 @@ categories: ["documentation"]
 lightgallery: true
 ---
 
-**LoveIt** theme provides multiple shortcodes on top of built-in ones in Hugo.
+**CodeIT** theme provides multiple shortcodes on top of built-in ones in Hugo.
 
 <!--more-->
 
@@ -1284,12 +1284,12 @@ Example `script` input:
 
 ```markdown
 {{</* script */>}}
-console.log('Hello LoveIt!');
+console.log('Hello CodeIT!');
 {{</* /script */>}}
 ```
 
 You can see the output in the console of the developer tool.
 
 {{< script >}}
-console.log('Hello LoveIt!');
+console.log('Hello CodeIT!');
 {{< /script >}}
