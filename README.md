@@ -1,9 +1,9 @@
 # CodeIT Theme | Hugo
 
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
+[![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/github/sunt-programator/hugo-codeit/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/sunt-programator/hugo-codeit)
+[![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/CodeQL/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3ACodeQL)
 
 > **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
