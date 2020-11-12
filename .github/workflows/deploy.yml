@@ -1,0 +1,27 @@
+name: "Deploy CodeIT theme to codeit.suntprogramator.dev"
+on:
+  push:
+    branches:
+      - master
+      - dev
+jobs:
+  deploy-blog:
+    name: Deploying the static pages to the FTP server
+    runs-on: klakegg/hugo:ext-ubuntu
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
+      - name: Check Hugo version
+        run: hugo version
+      - name: Build static pages
+        run: hugo
+      - name: Deploy static pages
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.FTP_URL }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: "public"
+          remoteDir: "www/codeit.suntprogramator.dev"
