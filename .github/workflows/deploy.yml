@@ -7,7 +7,8 @@ on:
 jobs:
   deploy-blog:
     name: Deploying the static pages to the FTP server
-    runs-on: klakegg/hugo:ext-ubuntu
+    runs-on: ubuntu-latest
+    container: klakegg/hugo:ext-ubuntu
     steps:
       - name: Set up Git repository
         uses: actions/checkout@v2
