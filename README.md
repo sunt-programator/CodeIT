@@ -4,6 +4,7 @@
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
 [![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/CodeQL/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3ACodeQL)
+[![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/Deploy%20status/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3A%22Deploy+status%22)
 
 > **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
