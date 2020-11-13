@@ -1,4 +1,4 @@
-name: "Deploy CodeIT theme to codeit.suntprogramator.dev"
+name: "Deploy status"
 on:
   push:
     branches:
