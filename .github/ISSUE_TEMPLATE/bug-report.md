@@ -26,11 +26,11 @@ If applicable, add screenshots to help explain your problem.
 
 Please try to use Hugo **extended** version before opening the issue.
 
-### Preview Environment
+## Preview Environment
 
 - OS: [e.g. Windows 10, macOS, Ubuntu, iOS, Android]
 - Browser [e.g. Chrome, Safari, Firefox]
 
-### Additional Information
+## Additional Information
 
 Configuration files or front matter code...
