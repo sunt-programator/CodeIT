@@ -1,24 +1,24 @@
 ---
-name: Bug Report
+name: 🐛 Bug Report
 about: Create a bug report
 title: "[BUG] Some problem..."
 labels: bug
 
 ---
 
-### Describe the bug
+## Describe the bug
 
-A clear and concise description of what the bug is.
+Briefly describe the issue you are experiencing, what you were trying to do and what happened instead. Remember, this is *not* a place to ask questions. For that, go to the official [Discord channel](https://discord.com/channels/777188233284681768/777188575485493259)!
 
-### Expected behavior
+## Expected behavior
 
 A clear and concise description of what you expected to happen.
 
-### Screenshots
+## Screenshots
 
 If applicable, add screenshots to help explain your problem.
 
-### Build Environment
+## Build Environment
 
 - OS: [e.g. Windows 10, macOS, Ubuntu]
 - Theme version/commit [e.g. 0.2.0, 2ccba79]
