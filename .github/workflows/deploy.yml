@@ -3,7 +3,6 @@ on:
   push:
     branches:
       - master
-      - dev
 jobs:
   deploy-blog:
     name: Deploying the static pages to the FTP server

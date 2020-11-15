@@ -1,0 +1,21 @@
+name: "pre-release"
+on:
+  push:
+    branches:
+      - master
+jobs:
+  pre-release:
+    name: "Pre Release"
+    runs-on: "ubuntu-latest"
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+        with:
+          path: 'CodeIT'
+          fetch-depth: 0
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: true
+          title: "Development Build"
