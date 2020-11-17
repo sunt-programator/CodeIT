@@ -643,7 +643,7 @@ ignoreErrors = ["error-remote-getjson"]
       # title name
       name = "CodeIT"
       # you can add extra information before the name (HTML format is supported), such as icons
-      pre = "<i class='far fa-kiss-wink-heart fa-fw'></i>"
+      pre = "<i class='fas fa-laptop-code fa-fw'></i>"
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
       # whether to use typeit animation for title name
