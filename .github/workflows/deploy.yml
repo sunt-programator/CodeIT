@@ -7,7 +7,6 @@ jobs:
   deploy-blog:
     name: Deploying the static pages to the FTP server
     runs-on: ubuntu-20.04
-    container: klakegg/hugo:ext-alpine
     defaults:
       run:
         working-directory: CodeIT
@@ -17,8 +16,11 @@ jobs:
         with:
           path: 'CodeIT'
           fetch-depth: 0
-      - name: Check Hugo version
-        run: hugo version
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
       - name: Build static pages
         run: hugo --source=exampleSite -v -e production
       - name: Deploy static pages
