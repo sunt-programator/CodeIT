@@ -20,7 +20,8 @@
     "cz-conventional-changelog": "^3.3.0",
     "husky": "^4.3.0",
     "minimist": "^1.2.5",
-    "segmentit": "^2.0.3"
+    "segmentit": "^2.0.3",
+    "standard-version": "^9.0.0"
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
@@ -31,7 +32,11 @@
     "start-production": "npm run babel && hugo server --source=exampleSite --themesDir ../.. -D --disableFastRender -e production",
     "check": "htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external",
     "copy": "rm -rf resources && cp -rf exampleSite/resources resources",
-    "cm": "cz"
+    "cm": "cz",
+    "release": "standard-version",
+    "release:minor": "standard-version --release-as minor",
+    "release:patch": "standard-version --release-as patch",
+    "release:major": "standard-version --release-as major"
   },
   "resolutions": {
     "minimist": "^1.2.5"
