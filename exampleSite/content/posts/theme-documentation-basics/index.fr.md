@@ -1,12 +1,12 @@
 ---
 weight: 1
-title: "Theme Documentation - Basics"
-date: 2020-03-06T21:29:01+08:00
-lastmod: 2020-03-06T21:29:01+08:00
+title: "Thème Documentation - Concepts de Base"
+date: 2020-03-06T21:40:32+08:00
+lastmod: 2020-03-06T21:40:32+08:00
 draft: false
 author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
-description: "Discover what the Hugo - CodeIT theme is all about and the core-concepts behind it."
+description: "Découvrez en quoi consiste le thème Hugo - CodeIT et les concepts fondamentaux qui le sous-tendent."
 resources:
   - name: "featured-image"
     src: "featured-image.jpg"
@@ -20,9 +20,14 @@ toc:
   auto: false
 ---
 
-Discover what the Hugo - **CodeIT** theme is all about and the core-concepts behind it.
+Découvrez en quoi consiste le thème Hugo - **CodeIT** et les concepts fondamentaux qui le sous-tendent.
 
 <!--more-->
+
+{{< admonition warning >}}
+Sorry, this article has not been completely translated into **French**.
+Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw): making a PR](https://github.com/sunt-programator/CodeIT/pulls) to the theme!
+{{< /admonition >}}
 
 ## 1 Requirements
 

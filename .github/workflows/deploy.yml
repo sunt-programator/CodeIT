@@ -1,0 +1,33 @@
+name: "Deploy status"
+on:
+  push:
+    branches:
+      - master
+jobs:
+  deploy-blog:
+    name: Deploying the static pages to the FTP server
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: CodeIT
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+        with:
+          path: 'CodeIT'
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+      - name: Build static pages
+        run: hugo --source=exampleSite -v -e production
+      - name: Deploy static pages
+        uses: sebastianpopp/ftp-action@releases/v2
+        with:
+          host: ${{ secrets.FTP_URL }}
+          user: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          localDir: "CodeIT/exampleSite/public"
+          remoteDir: "www/codeit.suntprogramator.dev"

@@ -1,22 +1,23 @@
 # CodeIT Theme | Hugo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/releases)
-[![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/github/sunt-programator/hugo-codeit/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/sunt-programator/hugo-codeit)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT)](https://github.com/sunt-programator/hugo-codeit/releases)
+[![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-blue)](https://gohugo.io/)
+[![License](https://img.shields.io/github/license/sunt-programator/CodeIT)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
+[![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/CodeQL/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3ACodeQL)
+[![Deploy status](https://github.com/sunt-programator/CodeIT/workflows/Deploy%20status/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3A%22Deploy+status%22)
 
 > **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
-It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), [LeaveIt Theme](https://github.com/liuzc/LeaveIt), and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose CodeIT](#why-choose-CodeIT) so that you can choose the one that works best for you.
+read [Why to choose CodeIT](#why-choose-CodeIT) so that you can choose the one that works best for you.
 
 ![Hugo Theme CodeIT](https://github.com/sunt-programator/hugo-codeit/raw/master/images/Apple-Devices-Preview.png)
 
 ## [Demo Site](https://codeit.suntprogramator.dev/)
 
-To see this theme in action, here is a live [demo site](https://codeit.suntprogramator.dev/) which is rendered with **CodeIT** theme.
+To see this theme in action, here is a live [demo site](https://codeit.suntprogramator.dev/) that is rendered with the **CodeIT** theme.
 
 ## Why choose CodeIT
 
@@ -29,14 +30,14 @@ Compared to the original LeaveIt theme and the KeepIt theme, the CodeIT theme ha
 * More readable **dark mode**
 * Some beautiful **CSS animations**
 * Easy-to-use and self-expanding **table of contents**
-* More **social links**, **share sites** and **comment system**
-* **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
-* **Copy code** to clipboard with one click
+* More **social links**, **share sites**, and **comment system**
+* **Search** supported by [Lunr.js](https://lunrjs.com/) or [Algolia](https://www.algolia.com/)
+* **Copy code** to the clipboard with one click
 * Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
 * Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
+* Extended Markdown syntax for **fractions**
 * **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagram syntax** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
+* **Diagram syntax** shortcode supported by [mermaids](https://github.com/knsv/mermaid)
 * **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
 * **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
 * Embedded **music player** supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
@@ -49,7 +50,7 @@ Compared to the original LeaveIt theme and the KeepIt theme, the CodeIT theme ha
 In short,
 if you prefer the design language and freedom of the CodeIT theme,
 if you want to use the extended Font Awesome icons conveniently,
-if you want to embed mathematical formulas, flowcharts, music or Bilibili videos in your posts,
+if you want to embed mathematical formulas, flowcharts, music, or Bilibili videos in your posts,
 the CodeIT theme may be more suitable for you.
 
 I hope you will CodeIT 👩‍💻!
@@ -58,11 +59,11 @@ I hope you will CodeIT 👩‍💻!
 
 ### Performance and SEO
 
-* Optimized for **performance**: 99/100 on mobile and 100/100 on desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
+* Optimized for **performance**: 99/100 on mobile and 100/100 on the desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
 * Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
 * **[Google Analytics](https://analytics.google.com/analytics)** supported
 * **[Fathom Analytics](https://usefathom.com/)** supported
-* Search engine **verification** supported (Google, Bind, Yandex and Baidu)
+* Search engine **verification** supported (Google, Bind, Yandex, and Baidu)
 * **CDN** for third-party libraries supported
 * Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
 
@@ -95,13 +96,13 @@ I hope you will CodeIT 👩‍💻!
 * **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
 * **Twemoji** supported
 * Automatically **highlighting** code
-* **Copy code** to clipboard with one click
+* **Copy code** to the clipboard with one click
 * **Images gallery** supported by [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js)
 * Extended Markdown syntax for **[Font Awesome](https://fontawesome.com/) icons**
 * Extended Markdown syntax for **ruby annotation**
-* Extended Markdown syntax for **fraction**
+* Extended Markdown syntax for **fractions**
 * **Mathematical formula** supported by [KaTeX](https://katex.org/)
-* **Diagrams** shortcode supported by [mermaid](https://github.com/knsv/mermaid)
+* **Diagrams** shortcode supported by [mermaids](https://github.com/knsv/mermaid)
 * **Interactive data visualization** shortcode supported by [ECharts](https://echarts.apache.org/)
 * **Mapbox** shortcode supported by [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js)
 * **Music player** shortcode supported by [APlayer](https://github.com/MoePlayer/APlayer) and [MetingJS](https://github.com/metowolf/MetingJS)
@@ -114,9 +115,32 @@ I hope you will CodeIT 👩‍💻!
 * **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 * ...
 
-## [Documentation](https://codeit.suntprogramator.dev/categories/documentation/)
+## Add the theme to your blog
 
-Build Documentation Locally:
+First, download the theme from GitHub and add it to your site’s themes directory:
+
+```bash
+cd your-hugo-blog-directory
+git init
+git submodule add https://github.com/sunt-programator/CodeIT.git themes/CodeIT
+```
+
+*Note for non-git users:*
+
+If you do not have git installed, you can download the archive of the latest version of this theme from the [release page](https://github.com/sunt-programator/CodeIT/releases) of this repository.
+
+Extract the `.zip` file to get a `CodeIT-latest` directory.
+Rename that directory to `CodeIT`, and move it into the `themes/` directory.
+Then, add the theme to the site configuration:
+
+```bash
+echo 'theme = "CodeIT"' >> config.toml
+```
+
+## [Build documentation instructions](https://codeit.suntprogramator.dev/categories/documentation/)
+
+You can build the theme documentation locally by using a [devcontainer](https://code.visualstudio.com/docs/remote/containers) or by manually install the [`Hugo`](https://gohugo.io/getting-started/installing).
+The main advantage of the `devcontainer` is that you will have a preconfigured container with all tools required for developing and building the theme documentation.
 
 ```bash
 hugo server --source=exampleSite
@@ -142,8 +166,6 @@ CodeIT supports the following languages:
 
 [Languages Compatibility](https://codeit.suntprogramator.dev/theme-documentation-basics/#language-compatibility)
 
-## [Roadmap](https://github.com/sunt-programator/hugo-codeit/projects/1)
-
 ## Questions, ideas, bugs, pull requests
 
 All feedback is welcome! Head over to the [issue tracker](https://github.com/sunt-programator/hugo-codeit/issues).
@@ -152,7 +174,7 @@ All feedback is welcome! Head over to the [issue tracker](https://github.com/sun
 
 CodeIT is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE) for details.
 
-Thanks to the authors of following resources included in the theme:
+Thanks to the authors of the following resources included in the theme:
 
 * [normalize.css](https://github.com/necolas/normalize.css)
 * [Font Awesome](https://fontawesome.com/)
