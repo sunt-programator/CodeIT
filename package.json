@@ -60,10 +60,13 @@
   },
   "standard-version": {
     "skip": {
-      "commit": true,
-      "tag": true,
+      "commit": false,
+      "tag": false,
       "changelog": false,
-      "bump": true
+      "bump": false
+    },
+    "scripts": {
+      "posttag": "npm version from-git"
     }
   }
 }
