@@ -33,10 +33,10 @@
     "check": "htmlproofer exampleSite/public --check-html --allow-hash-href --empty-alt-ignore --disable-external",
     "copy": "rm -rf resources && cp -rf exampleSite/resources resources",
     "cm": "cz",
-    "release": "standard-version",
-    "release:minor": "standard-version --release-as minor",
-    "release:patch": "standard-version --release-as patch",
-    "release:major": "standard-version --release-as major"
+    "release": "standard-version -s",
+    "release:minor": "standard-version -s --release-as minor",
+    "release:patch": "standard-version -s --release-as patch",
+    "release:major": "standard-version -s --release-as major"
   },
   "resolutions": {
     "minimist": "^1.2.5"
@@ -56,6 +56,14 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "commit": true,
+      "tag": true,
+      "changelog": false,
+      "bump": true
     }
   }
 }
