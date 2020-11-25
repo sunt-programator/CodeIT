@@ -64,9 +64,6 @@
       "tag": false,
       "changelog": false,
       "bump": false
-    },
-    "scripts": {
-      "posttag": "npm version from-git"
     }
   }
 }
