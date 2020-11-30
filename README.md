@@ -1,28 +1,26 @@
-# LoveIt Theme | Hugo [![Netlify Status](https://api.netlify.com/api/v1/badges/e60303f2-862c-4342-bf59-7c9adb10812e/deploy-status)](https://app.netlify.com/sites/hugo-loveit/deploys)
+# CodeIT Theme | Hugo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.62.0-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/dillonzq/LoveIt?style=flat-square)](https://github.com/dillonzq/LoveIt/blob/master/LICENSE)
-[![CircleCI](https://img.shields.io/circleci/build/github/dillonzq/LoveIt/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/dillonzq/LoveIt)
+[![License](https://img.shields.io/github/license/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
+[![CircleCI](https://img.shields.io/circleci/build/github/sunt-programator/hugo-codeit/develop?label=CI&style=flat-square&logo=circleci)](https://app.circleci.com/pipelines/github/sunt-programator/hugo-codeit)
 
-English README | [简体中文说明](https://github.com/dillonzq/LoveIt/blob/master/README.zh-cn.md)
+> **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
-> **LoveIt** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
-
-It is based on the original [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
+It is based on the original [LoveIt Theme](https://github.com/dillonzq/CodeIT), [LeaveIt Theme](https://github.com/liuzc/LeaveIt) and [KeepIt Theme](https://github.com/Fastbyte01/KeepIt).
 
 Since the three themes have a similar look, if you have questions about their differences,
-read [Why choose LoveIt](#why-choose-loveit) so that you can choose the one that works best for you.
+read [Why choose CodeIT](#why-choose-CodeIT) so that you can choose the one that works best for you.
 
-![Hugo Theme LoveIt](https://github.com/dillonzq/LoveIt/raw/master/images/Apple-Devices-Preview.png)
+![Hugo Theme CodeIT](https://github.com/sunt-programator/hugo-codeit/raw/master/images/Apple-Devices-Preview.png)
 
-## [Demo Site](https://hugoloveit.com/)
+## [Demo Site](https://codeit.suntprogramator.dev/)
 
-To see this theme in action, here is a live [demo site](https://hugoloveit.com/) which is rendered with **LoveIt** theme.
+To see this theme in action, here is a live [demo site](https://codeit.suntprogramator.dev/) which is rendered with **CodeIT** theme.
 
-## Why choose LoveIt
+## Why choose CodeIT
 
-Compared to the original LeaveIt theme and the KeepIt theme, the LoveIt theme has the following modifications.
+Compared to the original LeaveIt theme and the KeepIt theme, the CodeIT theme has the following modifications.
 
 * Custom **Header**
 * Custom **CSS Style**
@@ -49,12 +47,12 @@ Compared to the original LeaveIt theme and the KeepIt theme, the LoveIt theme ha
 * ...
 
 In short,
-if you prefer the design language and freedom of the LoveIt theme,
+if you prefer the design language and freedom of the CodeIT theme,
 if you want to use the extended Font Awesome icons conveniently,
 if you want to embed mathematical formulas, flowcharts, music or Bilibili videos in your posts,
-the LoveIt theme may be more suitable for you.
+the CodeIT theme may be more suitable for you.
 
-I hope you will LoveIt ❤️!
+I hope you will CodeIT 👩‍💻!
 
 ## Features
 
@@ -116,7 +114,7 @@ I hope you will LoveIt ❤️!
 * **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 * ...
 
-## [Documentation](https://hugoloveit.com/categories/documentation/)
+## [Documentation](https://codeit.suntprogramator.dev/categories/documentation/)
 
 Build Documentation Locally:
 
@@ -126,7 +124,7 @@ hugo server --source=exampleSite
 
 ## Multilingual and i18n
 
-LoveIt supports the following languages:
+CodeIT supports the following languages:
 
 * English
 * Simplified Chinese
@@ -140,19 +138,19 @@ LoveIt supports the following languages:
 * Russian
 * Romanian
 * Vietnamese
-* [Contribute with a new language](https://github.com/dillonzq/LoveIt/pulls)
+* [Contribute with a new language](https://github.com/sunt-programator/hugo-codeit/pulls)
 
-[Languages Compatibility](https://hugoloveit.com/theme-documentation-basics/#language-compatibility)
+[Languages Compatibility](https://codeit.suntprogramator.dev/theme-documentation-basics/#language-compatibility)
 
-## [Roadmap](https://github.com/dillonzq/LoveIt/projects/1)
+## [Roadmap](https://github.com/sunt-programator/hugo-codeit/projects/1)
 
 ## Questions, ideas, bugs, pull requests
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/dillonzq/LoveIt/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/sunt-programator/hugo-codeit/issues).
 
 ## License
 
-LoveIt is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/dillonzq/LoveIt/blob/master/LICENSE) for details.
+CodeIT is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE) for details.
 
 Thanks to the authors of following resources included in the theme:
 
@@ -181,16 +179,10 @@ Thanks to the authors of following resources included in the theme:
 * [Valine](https://valine.js.org/)
 * [cookieconsent](https://github.com/osano/cookieconsent)
 
-## Author
-
-[Dillon](https://dillonzq.com)
-
 ## Sponsor
 
 If you enjoy the theme, please consider buying me a coffee ☕️.
 
-* [PayPal](https://paypal.me/dillonzq)
-* [Alipay](https://github.com/dillonzq/LoveIt/raw/master/images/Alipay.jpg)
-* [Wechat](https://github.com/dillonzq/LoveIt/raw/master/images/Wechat.jpg)
+* [PayPal](https://paypal.me/victorpogor)
 
 Thanks! ❤️
