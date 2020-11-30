@@ -1,4 +1,4 @@
-name: "Deploy CodeIT theme to codeit.suntprogramator.dev"
+name: "Deploy status"
 on:
   push:
     branches:
@@ -22,5 +22,5 @@ jobs:
           host: ${{ secrets.FTP_URL }}
           user: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          localDir: "public"
+          localDir: "CodeIT/exampleSite/public"
           remoteDir: "www/codeit.suntprogramator.dev"
