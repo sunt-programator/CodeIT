@@ -15,7 +15,11 @@ jobs:
       - name: Check Hugo version
         run: hugo version
       - name: Build static pages
+<<<<<<< HEAD
         run: hugo
+=======
+        run: hugo --source=exampleSite -v -e production
+>>>>>>> f266f5d (ci: updated deployment script)
       - name: Deploy static pages
         uses: sebastianpopp/ftp-action@releases/v2
         with:
