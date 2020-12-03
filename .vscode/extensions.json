@@ -3,6 +3,9 @@
         "budparr.language-hugo-vscode",
         "be5invis.toml",
         "esbenp.prettier-vscode",
-        "visualstudioexptteam.vscodeintellicode"
+        "visualstudioexptteam.vscodeintellicode",
+        "davidanson.vscode-markdownlint",
+        "dbaeumer.vscode-eslint",
+        "stylelint.vscode-stylelint"
     ]
 }
