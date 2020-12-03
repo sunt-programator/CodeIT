@@ -1,5 +1,7 @@
 {
-    "files.associations": {
-        ".huskyrc": "json"
-    }
+  "files.associations": {
+    ".huskyrc": "json",
+    ".stylelintrc": "json",
+    ".lintstagedrc": "json"
+  }
 }
