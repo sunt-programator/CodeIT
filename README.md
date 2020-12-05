@@ -256,6 +256,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.cmpsoares.com/"><img src="https://avatars2.githubusercontent.com/u/4914211?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Manuel Soares</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=cmpsoares91" title="Code">💻</a></td>
     <td align="center"><a href="https://www.scrample.xyz/"><img src="https://avatars3.githubusercontent.com/u/51033013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=anup92k" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/SilkeHenderickx"><img src="https://avatars0.githubusercontent.com/u/28140438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Silke Henderickx</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=SilkeHenderickx" title="Code">💻</a></td>
+    <td align="center"><a href="https://ghos.in/"><img src="https://avatars1.githubusercontent.com/u/26043355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ghosin</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Ghosin" title="Code">💻</a></td>
   </tr>
 </table>
 
