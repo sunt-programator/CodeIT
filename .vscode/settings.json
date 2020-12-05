@@ -2,6 +2,7 @@
   "files.associations": {
     ".huskyrc": "json",
     ".stylelintrc": "json",
-    ".lintstagedrc": "json"
+    ".lintstagedrc": "json",
+    ".all-contributorsrc": "json",
   }
 }
