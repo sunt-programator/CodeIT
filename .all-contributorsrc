@@ -303,6 +303,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "AutomationD",
+      "name": "Dmitry Kireev",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1790594?v=4",
+      "profile": "https://automationd.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
