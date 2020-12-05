@@ -105,6 +105,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "edte",
+      "name": "edte",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/50194671?v=4",
+      "profile": "https://edte.github.io/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
