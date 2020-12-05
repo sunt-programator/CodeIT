@@ -7,3 +7,4 @@ node_modules/
 # Example site public folders
 exampleSite/public/
 exampleSite/resources/
+exampleSite/content/posts/basic-markdown-syntax
