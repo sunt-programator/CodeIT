@@ -250,6 +250,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/markdluethje"><img src="https://avatars2.githubusercontent.com/u/31922494?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Mark-Daniel Lüthje</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=markdluethje" title="Code">💻</a></td>
     <td align="center"><a href="https://devandreacarratta.it/"><img src="https://avatars3.githubusercontent.com/u/46504271?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andrea Carratta</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=devandreacarratta" title="Code">💻</a></td>
     <td align="center"><a href="https://dogukanerel.com/"><img src="https://avatars3.githubusercontent.com/u/19349444?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Doğukan Erel</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=derelartwork" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.codedge.de/"><img src="https://avatars3.githubusercontent.com/u/4409904?v=4?s=100" width="100px;" alt=""/><br /><sub><b>codedge</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=codedge" title="Code">💻</a></td>
   </tr>
 </table>
 
