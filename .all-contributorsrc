@@ -132,6 +132,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "yoloyi",
+      "name": "余农场主",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/40978171?v=4",
+      "profile": "https://blog.yoloyi.com/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
