@@ -227,6 +227,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://youngxhui.top/"><img src="https://avatars2.githubusercontent.com/u/16971804?v=4?s=100" width="100px;" alt=""/><br /><sub><b>youngxhui</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=youngxhui" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/solarpowerinncr"><img src="https://avatars0.githubusercontent.com/u/37186560?v=4?s=100" width="100px;" alt=""/><br /><sub><b>solarpowerinncr</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=solarpowerinncr" title="Code">💻</a></td>
   </tr>
 </table>
 
