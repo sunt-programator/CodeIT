@@ -141,6 +141,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "wtchangdm",
+      "name": "W.T. Chang",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1546333?v=4",
+      "profile": "https://blog.wtcx.dev/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7

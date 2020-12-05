@@ -234,6 +234,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://coders.school/"><img src="https://avatars0.githubusercontent.com/u/4595135?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Łukasz Ziobroń</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=ziobron" title="Code">💻</a></td>
     <td align="center"><a href="https://blog.yoloyi.com/"><img src="https://avatars1.githubusercontent.com/u/40978171?v=4?s=100" width="100px;" alt=""/><br /><sub><b>余农场主</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=yoloyi" title="Code">💻</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://blog.wtcx.dev/"><img src="https://avatars3.githubusercontent.com/u/1546333?v=4?s=100" width="100px;" alt=""/><br /><sub><b>W.T. Chang</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=wtchangdm" title="Code">💻</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
