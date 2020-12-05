@@ -44,11 +44,9 @@
   text-anchor: start;
   font-size: 11px;
   text-height: 14px;
-  font-family: 'trebuchet ms', verdana, arial;
+  font-family: "trebuchet ms", verdana, arial;
   font-family: var(--mermaid-font-family);
-
 }
-
 
 /* Grid and axis */
 
@@ -57,7 +55,7 @@
   opacity: 0.8;
   shape-rendering: crispEdges;
   text {
-    font-family: 'trebuchet ms', verdana, arial;
+    font-family: "trebuchet ms", verdana, arial;
     font-family: var(--mermaid-font-family);
     fill: $taskTextOutsideColor;
   }
@@ -67,7 +65,6 @@
   stroke-width: 0;
 }
 
-
 /* Today line */
 
 .today {
@@ -75,7 +72,6 @@
   stroke: $todayLineColor;
   stroke-width: 2px;
 }
-
 
 /* Task styling */
 
@@ -87,7 +83,7 @@
 
 .taskText {
   text-anchor: middle;
-  font-family: 'trebuchet ms', verdana, arial;
+  font-family: "trebuchet ms", verdana, arial;
   font-family: var(--mermaid-font-family);
 }
 
@@ -99,9 +95,8 @@
   fill: $taskTextDarkColor;
   text-anchor: start;
   font-size: 11px;
-  font-family: 'trebuchet ms', verdana, arial;
+  font-family: "trebuchet ms", verdana, arial;
   font-family: var(--mermaid-font-family);
-
 }
 
 .taskTextOutsideLeft {
@@ -150,8 +145,7 @@
 }
 
 .taskTextOutside0,
-.taskTextOutside2
-{
+.taskTextOutside2 {
   fill: $taskTextOutsideColor !important;
 }
 
@@ -159,7 +153,6 @@
 .taskTextOutside3 {
   fill: $taskTextOutsideColor !important;
 }
-
 
 /* Active task */
 
@@ -178,7 +171,6 @@
   fill: $taskTextDarkColor;
 }
 
-
 /* Completed task */
 
 .done0,
@@ -196,7 +188,6 @@
 .doneText3 {
   fill: $taskTextDarkColor;
 }
-
 
 /* Tasks on the critical line */
 
@@ -230,7 +221,7 @@
 }
 
 .milestone {
-  transform: rotate(45deg) scale(0.8,0.8);
+  transform: rotate(45deg) scale(0.8, 0.8);
 }
 
 .milestoneText {
@@ -254,6 +245,6 @@
   text-anchor: middle;
   font-size: 18px;
   fill: $taskTextOutsideColor;
-  font-family: 'trebuchet ms', verdana, arial;
+  font-family: "trebuchet ms", verdana, arial;
   font-family: var(--mermaid-font-family);
 }

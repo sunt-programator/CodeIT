@@ -5,12 +5,12 @@ $border-color-dark: #363636;
 
 // ========== Code ========== //
 // Color of the code
-$code-color: #E74C3C !default;
-$code-color-dark: #E5BF78 !default;
+$code-color: #e74c3c !default;
+$code-color-dark: #e5bf78 !default;
 
 // Color of the code background
 $code-background-color: #f5f5f5 !default;
-$code-background-color-dark: #272C34 !default;
+$code-background-color-dark: #272c34 !default;
 
 @mixin overflow-wrap($value) {
   word-wrap: $value;
@@ -29,9 +29,10 @@ $code-background-color-dark: #272C34 !default;
   tab-size: $value;
 }
 
-.v[data-class=v] {
+.v[data-class="v"] {
   .vcards .vcard .vcontent.expand {
-    &::before, &::after {
+    &::before,
+    &::after {
       z-index: 50;
     }
   }
@@ -43,12 +44,14 @@ $code-background-color-dark: #272C34 !default;
   blockquote {
     border-color: $border-color;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       border-color: $border-color-dark;
     }
   }
 
-  code, pre, pre code {
+  code,
+  pre,
+  pre code {
     font-size: 90%;
     @include overflow-wrap(break-word);
     @include line-break(anywhere);
@@ -56,13 +59,14 @@ $code-background-color-dark: #272C34 !default;
     color: $code-color;
     background: $code-background-color;
 
-    [theme=dark] & {
+    [theme="dark"] & {
       color: $code-color-dark;
       background: $code-background-color-dark;
     }
   }
 
-  .emoji, .vemoji {
+  .emoji,
+  .vemoji {
     max-width: 1.5em;
     vertical-align: text-bottom;
   }

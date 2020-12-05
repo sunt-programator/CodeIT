@@ -4,13 +4,13 @@ html {
   font-display: swap;
   font-size: $global-font-size;
   line-height: $global-line-height;
-  width:100%;
+  width: 100%;
 }
 
 /* scrollbar, only support webkit */
 ::-webkit-scrollbar {
-  width: .5rem;
-  height: .5rem;
+  width: 0.5rem;
+  height: 0.5rem;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -24,7 +24,7 @@ html {
 ::selection {
   background-color: $selection-color;
 
-  [theme=dark] & {
+  [theme="dark"] & {
     background-color: $selection-color-dark;
   }
 }
@@ -35,7 +35,7 @@ body {
   @include overflow-wrap(break-word);
   scrollbar-color: auto;
 
-  &[theme=dark] {
+  &[theme="dark"] {
     color: $global-font-color-dark;
     background-color: $global-background-color-dark;
   }

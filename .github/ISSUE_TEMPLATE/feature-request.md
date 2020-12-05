@@ -3,7 +3,6 @@ name: 🔮 Feature request
 about: Suggest an idea for this project
 title: "[FEATURE] Some feature"
 labels: enhancement
-
 ---
 
 ## Describe the feature you want

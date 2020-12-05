@@ -1,7 +1,7 @@
 g.classGroup text {
   fill: $nodeBorder;
   stroke: none;
-  font-family: 'trebuchet ms', verdana, arial;
+  font-family: "trebuchet ms", verdana, arial;
   font-family: var(--mermaid-font-family);
   font-size: 10px;
 
@@ -42,7 +42,7 @@ g.classGroup line {
   fill: none;
 }
 
-.dashed-line{
+.dashed-line {
   stroke-dasharray: 3;
 }
 

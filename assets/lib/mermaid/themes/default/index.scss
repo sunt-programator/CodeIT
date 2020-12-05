@@ -1,14 +1,14 @@
-$mainBkg: #ECECFF;
+$mainBkg: #ececff;
 $secondBkg: #ffffde;
 $lineColor: #333333;
-$border1: #CCCCFF;
+$border1: #ccccff;
 $border2: #aaaa33;
 $arrowheadColor: #333333;
 
 /* Flowchart variables */
 
 $nodeBkg: $mainBkg;
-$nodeBorder: #9370DB;
+$nodeBorder: #9370db;
 $clusterBkg: $secondBkg;
 $clusterBorder: $border2;
 $defaultLinkColor: $lineColor;
@@ -57,4 +57,4 @@ $todayLineColor: red;
 /* state colors */
 $labelColor: black;
 
-@import '../mermaid';
+@import "../mermaid";
