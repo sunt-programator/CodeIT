@@ -241,6 +241,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://thibault-lereste.fr/"><img src="https://avatars2.githubusercontent.com/u/12964583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thibault Le Reste</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tlereste" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/thejayhaykid"><img src="https://avatars0.githubusercontent.com/u/9452325?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jake Hayes</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=thejayhaykid" title="Code">💻</a></td>
     <td align="center"><a href="https://sarathsp.com/"><img src="https://avatars0.githubusercontent.com/u/964542?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sarath Sadasivan Pillai</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sarathsp06" title="Code">💻</a></td>
+    <td align="center"><a href="https://rodomar.mx/"><img src="https://avatars2.githubusercontent.com/u/2797052?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rodolfo Martínez Vega</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=ramrodo" title="Code">💻</a></td>
   </tr>
 </table>
 
