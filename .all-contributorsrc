@@ -96,6 +96,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "maxlefou",
+      "name": "Max le Fou",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6705075?v=4",
+      "profile": "https://gitlab.com/maxlefou",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
