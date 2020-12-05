@@ -254,6 +254,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://www.cmpsoares.com/"><img src="https://avatars2.githubusercontent.com/u/4914211?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Carlos Manuel Soares</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=cmpsoares91" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.scrample.xyz/"><img src="https://avatars3.githubusercontent.com/u/51033013?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Anup</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=anup92k" title="Code">💻</a></td>
   </tr>
 </table>
 
