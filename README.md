@@ -246,6 +246,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   <tr>
     <td align="center"><a href="https://github.com/quyleanh"><img src="https://avatars1.githubusercontent.com/u/9365035?v=4?s=100" width="100px;" alt=""/><br /><sub><b>quyleanh</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=quyleanh" title="Code">💻</a></td>
     <td align="center"><a href="http://www.onisuly.com/"><img src="https://avatars1.githubusercontent.com/u/8399827?v=4?s=100" width="100px;" alt=""/><br /><sub><b>onisuly</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=onisuly" title="Code">💻</a></td>
+    <td align="center"><a href="https://nir.galon.io/"><img src="https://avatars3.githubusercontent.com/u/3472902?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nir Galon</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=nirgn975" title="Code">💻</a></td>
   </tr>
 </table>
 
