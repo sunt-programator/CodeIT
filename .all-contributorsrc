@@ -16,6 +16,17 @@
       "avatar_url": "https://avatars1.githubusercontent.com/u/24962085?v=4",
       "profile": "https://suntprogramator.dev/",
       "contributions": [
+        "code",
+        "bug",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "dillonzq",
+      "name": "Dillon",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/30786232?v=4",
+      "profile": "https://github.com/dillonzq",
+      "contributions": [
         "code"
       ]
     }
