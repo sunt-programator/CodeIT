@@ -258,6 +258,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "codedge",
+      "name": "codedge",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/4409904?v=4",
+      "profile": "https://www.codedge.de/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
