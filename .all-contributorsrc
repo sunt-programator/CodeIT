@@ -159,6 +159,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tomaja-linuxo",
+      "name": "tomaja",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/37209662?v=4",
+      "profile": "https://linuxo.org/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
