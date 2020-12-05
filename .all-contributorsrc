@@ -38,6 +38,17 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/16869546?v=4",
       "profile": "https://giuseppepignataro.eu/",
       "contributions": [
+        "code",
+        "bug",
+        "projectManagement"
+      ]
+    },
+    {
+      "login": "Programazing",
+      "name": "Christopher C. Johnson",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/11393826?v=4",
+      "profile": "http://www.thatamazingprogrammer.com/",
+      "contributions": [
         "code"
       ]
     }
