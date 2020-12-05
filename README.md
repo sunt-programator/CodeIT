@@ -238,6 +238,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://blog.wtcx.dev/"><img src="https://avatars3.githubusercontent.com/u/1546333?v=4?s=100" width="100px;" alt=""/><br /><sub><b>W.T. Chang</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=wtchangdm" title="Code">💻</a></td>
     <td align="center"><a href="http://blog.toneladas.com.br/"><img src="https://avatars1.githubusercontent.com/u/1603028?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vanildo Souto Mangueira</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=vanildosouto" title="Code">💻</a></td>
     <td align="center"><a href="https://linuxo.org/"><img src="https://avatars2.githubusercontent.com/u/37209662?v=4?s=100" width="100px;" alt=""/><br /><sub><b>tomaja</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tomaja-linuxo" title="Code">💻</a></td>
+    <td align="center"><a href="https://thibault-lereste.fr/"><img src="https://avatars2.githubusercontent.com/u/12964583?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thibault Le Reste</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tlereste" title="Code">💻</a></td>
   </tr>
 </table>
 

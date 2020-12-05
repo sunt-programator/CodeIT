@@ -168,6 +168,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "tlereste",
+      "name": "Thibault Le Reste",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/12964583?v=4",
+      "profile": "https://thibault-lereste.fr/",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7
