@@ -1,16 +1,11 @@
 # CodeIT Theme | Hugo
 
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
-
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT)](https://github.com/sunt-programator/hugo-codeit/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-blue)](https://gohugo.io/)
 [![License](https://img.shields.io/github/license/sunt-programator/CodeIT)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
 [![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/CodeQL/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3ACodeQL)
 [![Deploy status](https://github.com/sunt-programator/CodeIT/workflows/Deploy%20status/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3A%22Deploy+status%22)
+![Github All Contributors](https://img.shields.io/github/all-contributors/sunt-programator/CodeIT)
 
 > **CodeIT** is a **clean**, **elegant** but **advanced** blog theme for [Hugo](https://gohugo.io/).
 
@@ -212,8 +207,6 @@ Thanks to the authors of the following resources included in the theme:
 If you enjoy the theme, please consider buying me a coffee ☕️.
 
 - [PayPal](https://paypal.me/victorpogor)
-
-Thanks! ❤️
 
 ## Contributors ✨
 
