@@ -218,7 +218,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://suntprogramator.dev/"><img src="https://avatars1.githubusercontent.com/u/24962085?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor Pogor</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=victor-pogor" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Avictor-pogor" title="Bug reports">🐛</a> <a href="#projectManagement-victor-pogor" title="Project Management">📆</a></td>
-    <td align="center"><a href="https://github.com/dillonzq"><img src="https://avatars1.githubusercontent.com/u/30786232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dillon</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=dillonzq" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/dillonzq"><img src="https://avatars1.githubusercontent.com/u/30786232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dillon</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=dillonzq" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Adillonzq" title="Bug reports">🐛</a> <a href="#projectManagement-dillonzq" title="Project Management">📆</a></td>
+    <td align="center"><a href="https://giuseppepignataro.eu/"><img src="https://avatars0.githubusercontent.com/u/16869546?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giuseppe Pignataro</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Fastbyte01" title="Code">💻</a></td>
   </tr>
 </table>
 
