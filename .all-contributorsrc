@@ -1,0 +1,24 @@
+{
+  "projectName": "CodeIT",
+  "projectOwner": "sunt-programator",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "victor-pogor",
+      "name": "Victor Pogor",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/24962085?v=4",
+      "profile": "https://suntprogramator.dev/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7
+}
