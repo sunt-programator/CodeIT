@@ -35,7 +35,6 @@ math:
 - 本地资源组织
 
 {{< admonition note "本地资源引用" >}}
-{{< version 0.2.10 >}}
 
 有三种方法来引用**图片**和**音乐**等本地资源:
 
@@ -131,7 +130,7 @@ seo:
 ```
 
 - **title**: 文章标题.
-- **subtitle**: {{< version 0.2.0 >}} 文章副标题.
+- **subtitle**: 文章副标题.
 - **date**: 这篇文章创建的日期时间. 它通常是从文章的前置参数中的 `date` 字段获取的, 但是也可以在 [网站配置](../theme-documentation-basics#site-configuration) 中设置.
 - **lastmod**: 上次修改内容的日期时间.
 - **draft**: 如果设为 `true`, 除非 `hugo` 命令使用了 `--buildDrafts`/`-D` 参数, 这篇文章不会被渲染.
@@ -147,26 +146,25 @@ seo:
 - **featuredImagePreview**: 用在主页预览的文章特色图片.
 
 - **hiddenFromHomePage**: 如果设为 `true`, 这篇文章将不会显示在主页上.
-- **hiddenFromSearch**: {{< version 0.2.0 >}} 如果设为 `true`, 这篇文章将不会显示在搜索结果中.
-- **twemoji**: {{< version 0.2.0 >}} 如果设为 `true`, 这篇文章会使用 twemoji.
+- **hiddenFromSearch**: 如果设为 `true`, 这篇文章将不会显示在搜索结果中.
+- **twemoji**: 如果设为 `true`, 这篇文章会使用 twemoji.
 - **lightgallery**: 如果设为 `true`, 文章中的图片将可以按照画廊形式呈现.
-- **ruby**: {{< version 0.2.0 >}} 如果设为 `true`, 这篇文章会使用 [上标注释扩展语法](#ruby).
-- **fraction**: {{< version 0.2.0 >}} 如果设为 `true`, 这篇文章会使用 [分数扩展语法](#fraction).
-- **fontawesome**: {{< version 0.2.0 >}} 如果设为 `true`, 这篇文章会使用 [Font Awesome 扩展语法](#fontawesome).
+- **ruby**: 如果设为 `true`, 这篇文章会使用 [上标注释扩展语法](#ruby).
+- **fraction**: 如果设为 `true`, 这篇文章会使用 [分数扩展语法](#fraction).
+- **fontawesome**: 如果设为 `true`, 这篇文章会使用 [Font Awesome 扩展语法](#fontawesome).
 - **linkToMarkdown**: 如果设为 `true`, 内容的页脚将显示指向原始 Markdown 文件的链接.
-- **rssFullText**: {{< version 0.2.4 >}} 如果设为 `true`, 在 RSS 中将会显示全文内容.
+- **rssFullText**: 如果设为 `true`, 在 RSS 中将会显示全文内容.
 
-- **toc**: {{< version 0.2.9 changed >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.toc` 部分相同.
-- **code**: {{< version 0.2.0 >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.code` 部分相同.
-- **math**: {{< version 0.2.0 changed >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.math` 部分相同.
-- **mapbox**: {{< version 0.2.0 >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.mapbox` 部分相同.
+- **toc**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.toc` 部分相同.
+- **code**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.code` 部分相同.
+- **math**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.math` 部分相同.
+- **mapbox**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.mapbox` 部分相同.
 - **share**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.share` 部分相同.
-- **comment**: {{< version 0.2.0 changed >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.comment` 部分相同.
-- **library**: {{< version 0.2.7 >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.library` 部分相同.
-- **seo**: {{< version 0.2.10 >}} 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.seo` 部分相同.
+- **comment**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.comment` 部分相同.
+- **library**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.library` 部分相同.
+- **seo**: 和 [网站配置](../theme-documentation-basics#site-configuration) 中的 `params.page.seo` 部分相同.
 
 {{< admonition tip >}}
-{{< version 0.2.10 >}}
 
 **featuredImage** 和 **featuredImagePreview** 支持[本地资源引用](#contents-organization)的完整用法.
 
@@ -328,8 +326,6 @@ $$ \ce{Hg^2+ ->[I-] HgI2 ->[I-] [Hg^{II}I4]^2-} $$
 [Hugo]^(一个开源的静态网站生成工具)
 
 ### 分数 {#fraction}
-
-{{< version 0.2.0 >}}
 
 **CodeIT** 主题支持一种 **分数** Markdown 扩展语法:
 
