@@ -1,11 +1,11 @@
 {
-    "recommendations": [
-        "budparr.language-hugo-vscode",
-        "be5invis.toml",
-        "esbenp.prettier-vscode",
-        "visualstudioexptteam.vscodeintellicode",
-        "davidanson.vscode-markdownlint",
-        "dbaeumer.vscode-eslint",
-        "stylelint.vscode-stylelint"
-    ]
+  "recommendations": [
+    "budparr.language-hugo-vscode",
+    "be5invis.toml",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "eamodio.gitlens",
+    "mutantdino.resourcemonitor",
+    "budparr.language-hugo-vscode"
+  ]
 }
