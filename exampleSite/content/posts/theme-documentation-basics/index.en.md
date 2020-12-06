@@ -191,7 +191,7 @@ Please open the code block below to view the complete sample configuration :(far
 
 ```toml
 [params]
-  # {{< version 0.2.0 changed >}} CodeIT theme version
+  # CodeIT theme version
   version = "0.2.X"
   # site description
   description = "This is My New Hugo Site"
@@ -201,15 +201,15 @@ Please open the code block below to view the complete sample configuration :(far
   defaultTheme = "auto"
   # public git repo url only then enableGitInfo is true
   gitRepo = ""
-  # {{< version 0.1.1 >}} which hash function used for SRI, when empty, no SRI is used
+  # which hash function used for SRI, when empty, no SRI is used
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
-  # {{< version 0.2.0 >}} date format
+  # date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
 
-  # {{< version 0.2.0 >}} App icon config
+  # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     title = "CodeIT"
@@ -224,7 +224,7 @@ Please open the code block below to view the complete sample configuration :(far
     # Windows v8-10 tile color
     tileColor = "#da532c"
 
-  # {{< version 0.2.0 >}} Search config
+  # Search config
   [params.search]
     enable = true
     # type of search engine ("lunr", "algolia")
@@ -233,13 +233,13 @@ Please open the code block below to view the complete sample configuration :(far
     contentLength = 4000
     # placeholder of the search bar
     placeholder = ""
-    # {{< version 0.2.1 >}} max number of results length
+    # max number of results length
     maxResultLength = 10
-    # {{< version 0.2.3 >}} snippet length of the result
+    # snippet length of the result
     snippetLength = 30
-    # {{< version 0.2.1 >}} HTML tag name of the highlight part in results
+    # HTML tag name of the highlight part in results
     highlightTag = "em"
-    # {{< version 0.2.4 >}} whether to use the absolute URL based on the baseURL in search index
+    # whether to use the absolute URL based on the baseURL in search index
     absoluteURL = false
     [params.search.algolia]
       index = ""
@@ -252,7 +252,7 @@ Please open the code block below to view the complete sample configuration :(far
     desktopMode = "fixed"
     # mobile header mode ("fixed", "normal", "auto")
     mobileMode = "auto"
-    # {{< version 0.2.0 >}} Header title config
+    # Header title config
     [params.header.title]
       # URL of the LOGO
       logo = ""
@@ -262,19 +262,19 @@ Please open the code block below to view the complete sample configuration :(far
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
       post = ""
-      # {{< version 0.2.5 >}} whether to use typeit animation for title name
+      # whether to use typeit animation for title name
       typeit = false
 
   # Footer config
   [params.footer]
     enable = true
-    # {{< version 0.2.0 >}} Custom content (HTML format is supported)
+    # Custom content (HTML format is supported)
     custom = ''
-    # {{< version 0.2.0 >}} whether to show Hugo and theme info
+    # whether to show Hugo and theme info
     hugo = true
-    # {{< version 0.2.0 >}} whether to show copyright info
+    # whether to show copyright info
     copyright = true
-    # {{< version 0.2.0 >}} whether to show the author
+    # whether to show the author
     author = true
     # Site creation time
     since = 2019
@@ -283,7 +283,7 @@ Please open the code block below to view the complete sample configuration :(far
     # license info (HTML format is supported)
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # {{< version 0.2.0 >}} Section (all posts) page config
+  # Section (all posts) page config
   [params.section]
     # special amount of posts in each section page
     paginate = 20
@@ -292,7 +292,7 @@ Please open the code block below to view the complete sample configuration :(far
     # amount of RSS pages
     rss = 10
 
-  # {{< version 0.2.0 >}} List (category or tag) page config
+  # List (category or tag) page config
   [params.list]
     # special amount of posts in each list page
     paginate = 20
@@ -303,7 +303,7 @@ Please open the code block below to view the complete sample configuration :(far
 
   # Home page config
   [params.home]
-    # {{< version 0.2.0 >}} amount of RSS pages
+    # amount of RSS pages
     rss = 10
     # Home page profile
     [params.home.profile]
@@ -312,7 +312,7 @@ Please open the code block below to view the complete sample configuration :(far
       gravatarEmail = ""
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
-      # {{< version 0.2.7 changed >}} title shown in home page (HTML format is supported)
+      # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
       subtitle = "This is My New Hugo Site"
@@ -320,14 +320,14 @@ Please open the code block below to view the complete sample configuration :(far
       typeit = true
       # whether to show social links
       social = true
-      # {{< version 0.2.0 >}} disclaimer (HTML format is supported)
+      # disclaimer (HTML format is supported)
       disclaimer = ""
     # Home page posts
     [params.home.posts]
       enable = true
       # special amount of posts in each home posts page
       paginate = 6
-      # {{< version 0.2.0 deleted >}} replaced with hiddenFromHomePage in params.page
+      # replaced with hiddenFromHomePage in params.page
       # default behavior when you don't set "hiddenFromHomePage" in front matter
       defaultHiddenFromHomePage = false
 
@@ -396,37 +396,37 @@ Please open the code block below to view the complete sample configuration :(far
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true # {{< version 0.2.0 >}}
+    RSS = true #
 
-  # {{< version 0.2.0 changed >}} Page config
+  # Page config
   [params.page]
-    # {{< version 0.2.0 >}} whether to hide a page from home page
+    # whether to hide a page from home page
     hiddenFromHomePage = false
-    # {{< version 0.2.0 >}} whether to hide a page from search results
+    # whether to hide a page from search results
     hiddenFromSearch = false
-    # {{< version 0.2.0 >}} whether to enable twemoji
+    # whether to enable twemoji
     twemoji = false
     # whether to enable lightgallery
     lightgallery = false
-    # {{< version 0.2.0 >}} whether to enable the ruby extended syntax
+    # whether to enable the ruby extended syntax
     ruby = true
-    # {{< version 0.2.0 >}} whether to enable the fraction extended syntax
+    # whether to enable the fraction extended syntax
     fraction = true
-    # {{< version 0.2.0 >}} whether to enable the fontawesome extended syntax
+    # whether to enable the fontawesome extended syntax
     fontawesome = true
     # whether to show link to Raw Markdown content of the content
     linkToMarkdown = true
-    # {{< version 0.2.4 >}} whether to show the full text content in RSS
+    # whether to show the full text content in RSS
     rssFullText = false
-    # {{< version 0.2.0 >}} Table of the contents config
+    # Table of the contents config
     [params.page.toc]
       # whether to enable the table of the contents
       enable = true
-      # {{< version 0.2.9 >}} whether to keep the static table of the contents in front of the post
+      # whether to keep the static table of the contents in front of the post
       keepStatic = true
       # whether to make the table of the contents in the sidebar automatically collapsed
       auto = true
-    # {{< version 0.2.0 changed >}} {{< link "https://katex.org/" KaTeX >}} mathematical formulas
+    # {{< link "https://katex.org/" KaTeX >}} mathematical formulas
     [params.page.math]
       enable = true
       # default block delimiter is $$ ... $$ and \\[ ... \\]
@@ -439,13 +439,13 @@ Please open the code block below to view the complete sample configuration :(far
       copyTex = true
       # KaTeX extension mhchem
       mhchem = true
-    # {{< version 0.2.0 >}} Code config
+    # Code config
     [params.page.code]
       # whether to show the copy button of the code block
       copy = true
       # the maximum number of lines of displayed code by default
       maxShownLines = 10
-    # {{< version 0.2.0 >}} {{< link "https://docs.mapbox.com/mapbox-gl-js" "Mapbox GL JS" >}} config
+    # {{< link "https://docs.mapbox.com/mapbox-gl-js" "Mapbox GL JS" >}} config
     [params.page.mapbox]
       # access token of Mapbox GL JS
       accessToken = ""
@@ -461,7 +461,7 @@ Please open the code block below to view the complete sample configuration :(far
       scale = true
       # whether to add {{< link "https://docs.mapbox.com/mapbox-gl-js/api#fullscreencontrol" FullscreenControl >}}
       fullscreen = true
-    # {{< version 0.2.0 changed >}} social share links in post page
+    # social share links in post page
     [params.page.share]
       enable = true
       Twitter = true
@@ -491,18 +491,16 @@ Please open the code block below to view the complete sample configuration :(far
       Skype = false
       Trello = false
       Mix = false
-    # {{< version 0.2.0 changed >}} Comment config
+    # Comment config
     [params.page.comment]
       enable = true
       # {{< link "https://disqus.com/" Disqus >}} comment config
       [params.page.comment.disqus]
-        # {{< version 0.1.1 >}}
         enable = false
         # Disqus shortname to use Disqus in posts
         shortname = ""
       # {{< link "https://github.com/gitalk/gitalk" Gitalk >}} comment config
       [params.page.comment.gitalk]
-        # {{< version 0.1.1 >}}
         enable = false
         owner = ""
         repo = ""
@@ -523,7 +521,7 @@ Please open the code block below to view the complete sample configuration :(far
         highlight = true
         enableQQ = false
         serverURLs = ""
-        # {{< version 0.2.6 >}} emoji data file name, default is "google.yml"
+        # emoji data file name, default is "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # located in "themes/CodeIT/assets/data/emoji/" directory
         # you can store your own data files in the same path under your project:
@@ -536,7 +534,7 @@ Please open the code block below to view the complete sample configuration :(far
         numPosts = 10
         appId = ""
         languageCode = ""
-      # {{< version 0.2.0 >}} {{< link "https://comments.app/" "Telegram comments" >}} config
+      # {{< link "https://comments.app/" "Telegram comments" >}} config
       [params.page.comment.telegram]
         enable = false
         siteID = ""
@@ -546,10 +544,10 @@ Please open the code block below to view the complete sample configuration :(far
         colorful = true
         dislikes = false
         outlined = false
-      # {{< version 0.2.0 >}} {{< link "https://commento.io/" "Commento" >}} comment config
+      # {{< link "https://commento.io/" "Commento" >}} comment config
       [params.page.comment.commento]
         enable = false
-      # {{< version 0.2.5 >}} {{< link "https://utteranc.es/" "Utterances" >}} comment config
+      # {{< link "https://utteranc.es/" "Utterances" >}} comment config
       [params.page.comment.utterances]
         enable = false
         # owner/repo
@@ -558,7 +556,7 @@ Please open the code block below to view the complete sample configuration :(far
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
-    # {{< version 0.2.7 >}} Third-party library config
+    # Third-party library config
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
@@ -570,7 +568,7 @@ Please open the code block below to view the complete sample configuration :(far
         # located in "assets/"
         # Or
         # someJavascript = "https://cdn.example.com/some.js"
-    # {{< version 0.2.10 changed >}} Page SEO config
+    # Page SEO config
     [params.page.seo]
       # image URL
       images = []
@@ -579,7 +577,7 @@ Please open the code block below to view the complete sample configuration :(far
         name = ""
         logoUrl = ""
 
-  # {{< version 0.2.5 >}} TypeIt config
+  # TypeIt config
   [params.typeit]
     # typing speed between each step (measured in milliseconds)
     speed = 100
@@ -598,14 +596,14 @@ Please open the code block below to view the complete sample configuration :(far
     pinterest = ""
     baidu = ""
 
-  # {{< version 0.2.10 >}} Site SEO config
+  # Site SEO config
   [params.seo]
     # image URL
     image = ""
     # thumbnail URL
     thumbnailUrl = ""
 
-  # {{< version 0.2.0 >}} Analytics config
+  # Analytics config
   [params.analytics]
     enable = false
     # Google Analytics
@@ -619,7 +617,7 @@ Please open the code block below to view the complete sample configuration :(far
       # server url for your tracker if you're self hosting
       server = ""
 
-  # {{< version 0.2.7 >}} Cookie consent config
+  # Cookie consent config
   [params.cookieconsent]
     enable = true
     # text strings used for Cookie consent banner
@@ -628,7 +626,7 @@ Please open the code block below to view the complete sample configuration :(far
       dismiss = ""
       link = ""
 
-  # {{< version 0.2.7 changed >}} CDN config for third-party library files
+  # CDN config for third-party library files
   [params.cdn]
     # CDN data file name, disabled by default
     # ("jsdelivr.yml")
@@ -637,7 +635,7 @@ Please open the code block below to view the complete sample configuration :(far
     # "assets/data/cdn/"
     data = ""
 
-  # {{< version 0.2.8 >}} Compatibility config
+  # Compatibility config
   [params.compatibility]
     # whether to use Polyfill.io to be compatible with older browsers
     polyfill = false
@@ -692,7 +690,7 @@ Please open the code block below to view the complete sample configuration :(far
 
 # {{< link "https://gohugo.io/about/hugo-and-gdpr/" "Privacy config" >}}
 [privacy]
-  # {{< version 0.2.0 deleted >}} privacy of the Google Analytics (replaced by params.analytics.google)
+  # privacy of the Google Analytics (replaced by params.analytics.google)
   [privacy.googleAnalytics]
     # ...
   [privacy.twitter]
@@ -713,7 +711,6 @@ Please open the code block below to view the complete sample configuration :(far
 
 # Options to make hugo output files
 [outputs]
-  # {{< version 0.2.0 changed >}}
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
@@ -735,7 +732,6 @@ You could enable these features with `hugo serve -e production`.
 {{< /admonition >}}
 
 {{< admonition tip "Tips about CDN Configuration" >}}
-{{< version 0.2.7 changed >}}
 
 ```toml
 [params.cdn]
@@ -749,7 +745,6 @@ You can store your own data file in the same path under your project: `assets/da
 {{< /admonition >}}
 
 {{< admonition tip "Tips about social Configuration" >}}
-{{< version 0.2.0 >}}
 
 You can directly set your ID to get a default social link and its icon:
 
@@ -798,8 +793,6 @@ Customize `browserconfig.xml` and `site.webmanifest` to set theme-color and back
 
 ### 3.3 Style Customization
 
-{{< version 0.2.8 changed >}}
-
 {{< admonition >}}
 Hugo **extended** version is necessary for the style customization.
 {{< /admonition >}}
@@ -827,8 +820,6 @@ In `assets/css/_custom.scss`, you can add some css style code to customize the s
 ![Language Switch](language-switch.gif "Language Switch")
 
 ### 4.1 Compatibility {#language-compatibility}
-
-{{< version 0.2.10 changed >}}
 
 | Language             | Hugo Code | HTML `lang` Attribute |          Theme Docs           |        Lunr.js Support        |
 | :------------------- | :-------: | :-------------------: | :---------------------------: | :---------------------------: |
@@ -977,8 +968,6 @@ By the way, as these translations could be used by other people, please take the
 
 ## 5 Search
 
-{{< version 0.2.0 >}}
-
 Based on [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/), searching is supported in **CodeIT** theme.
 
 ### 5.1 Output Configuration
@@ -1005,13 +994,13 @@ Here is the search configuration in your [site configuration](#site-configuratio
   contentLength = 4000
   # placeholder of the search bar
   placeholder = ""
-  # {{< version 0.2.1 >}} max number of results length
+  # max number of results length
   maxResultLength = 10
-  # {{< version 0.2.3 >}} snippet length of the result
+  # snippet length of the result
   snippetLength = 30
-  # {{< version 0.2.1 >}} HTML tag name of the highlight part in results
+  # HTML tag name of the highlight part in results
   highlightTag = "em"
-  # {{< version 0.2.4 >}} whether to use the absolute URL based on the baseURL in search index
+  # whether to use the absolute URL based on the baseURL in search index
   absoluteURL = false
   [params.search.algolia]
     index = ""
@@ -1026,7 +1015,7 @@ The following is a comparison of two search engines:
   but high bandwidth and low performance (Especially for Chinese which needs a large segmentit library)
 - `algolia`: high performance and low bandwidth, but need to synchronize `index.json` and limit for `contentLength`
 
-{{< version 0.2.3 >}} The content of the post is separated by `h2` and `h3` HTML tag to improve query performance and basically implement full-text search.
+The content of the post is separated by `h2` and `h3` HTML tag to improve query performance and basically implement full-text search.
 `contentLength` is used to limit the max index length of the part starting with `h2` and `h3` HTML tag.
 {{< /admonition >}}
 

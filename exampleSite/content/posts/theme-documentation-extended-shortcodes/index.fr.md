@@ -30,8 +30,6 @@ Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw
 
 ## 1 style
 
-{{< version 0.2.0 changed >}}
-
 {{< admonition >}}
 Hugo **extended** version is necessary for `style` shortcode.
 {{< /admonition >}}
@@ -62,11 +60,9 @@ This is a **right-aligned** paragraph.
 
 ## 2 link
 
-{{< version 0.2.0 >}}
-
 `link` shortcode is an alternative to [Markdown link syntax](../basic-markdown-syntax#links). `link` shortcode can provide some other features and can be used in code blocks.
 
-{{< version 0.2.10 >}} The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
+The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
 
 The `link` shortcode has the following named parameters:
 
@@ -128,11 +124,9 @@ The rendered output looks like this (hover over the link, there should be a tool
 
 ## 3 image {#image}
 
-{{< version 0.2.0 changed >}}
-
 `image` shortcode is an alternative to [`figure` shortcode](../theme-documentation-built-in-shortcodes#figure). `image` shortcode can take full advantage of the dependent libraries of [lazysizes](https://github.com/aFarkas/lazysizes) and [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js).
 
-{{< version 0.2.10 >}} The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
+The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
 
 The `image` shortcode has the following named parameters:
 
@@ -258,7 +252,7 @@ The `admonition` shortcode has the following named parameters:
 
   Title of the `admonition` banner, default value is the value of **type** parameter.
 
-- **open** _[optional]_ (**third** positional parameter) {{< version 0.2.0 changed >}}
+- **open** _[optional]_ (**third** positional parameter)
 
   Whether the content will be expandable by default, default value is `true`.
 
@@ -910,15 +904,13 @@ The `echarts` shortcode has also the following named parameters:
 
 - **width** _[optional]_ (**first** positional parameter)
 
-  {{< version 0.2.0 >}} Width of the data visualization, default value is `100%`.
+  Width of the data visualization, default value is `100%`.
 
 - **height** _[optional]_ (**second** positional parameter)
 
-  {{< version 0.2.0 >}} Height of the data visualization, default value is `30rem`.
+  Height of the data visualization, default value is `30rem`.
 
 ## 7 mapbox
-
-{{< version 0.2.0 >}}
 
 [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js) is a JavaScript library that uses WebGL to render interactive maps from [vector tiles](https://docs.mapbox.com/help/glossary/vector-tiles/) and [Mapbox styles](https://docs.mapbox.com/mapbox-gl-js/style-spec/).
 
@@ -1004,7 +996,7 @@ There are three ways to use it the `music` shortcode.
 
 ### 8.1 Custom Music URL {#custom-music-url}
 
-{{< version 0.2.10 >}} The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
+The complete usage of [local resource references](../theme-documentation-content#contents-organization) is supported.
 
 The `music` shortcode has the following named parameters by custom music URL:
 
@@ -1093,7 +1085,7 @@ The `music` shortcode has other named parameters applying to the above three way
 
 - **theme** _[optional]_
 
-  {{< version 0.2.0 changed >}} Main color of the music player, default value is `#448aff`.
+  Main color of the music player, default value is `#448aff`.
 
 - **fixed** _[optional]_
 
@@ -1138,8 +1130,6 @@ The `music` shortcode has the following named parameters only applying to the ty
   Max height of the music list, default value is `340px`.
 
 ## 9 bilibili
-
-{{< version 0.2.0 changed >}}
 
 The `bilibili` shortcode embeds a responsive video player for bilibili videos.
 
@@ -1276,8 +1266,6 @@ The rendered output looks like this:
 {{< /typeit >}}
 
 ## 11 script
-
-{{< version 0.2.8 >}}
 
 `script` is a shortcode to insert custom **:(fab fa-js fa-fw): Javascript** in your post.
 
