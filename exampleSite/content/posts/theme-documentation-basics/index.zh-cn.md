@@ -619,6 +619,9 @@ hugo
       id = ""
       # 自行托管追踪器时的主机路径
       server = ""
+    # {{< version 0.1.0 >}} Plausible Analytics
+    [params.analytics.plausible]
+      domain = ""
 
   #  Cookie 许可配置
   [params.cookieconsent]
