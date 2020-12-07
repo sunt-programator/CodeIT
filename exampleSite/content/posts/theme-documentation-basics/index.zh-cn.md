@@ -621,7 +621,7 @@ hugo
       id = ""
       # 自行托管追踪器时的主机路径
       server = ""
-    # Plausible Analytics
+    # {{< version 0.1.0 >}} Plausible Analytics
     [params.analytics.plausible]
       domain = ""
 
