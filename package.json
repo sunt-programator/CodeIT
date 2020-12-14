@@ -18,7 +18,7 @@
     "commitizen": "^4.2.2",
     "core-js": "^3.8.1",
     "cz-conventional-changelog": "^3.3.0",
-    "husky": "^4.3.5",
+    "husky": "^4.3.6",
     "minimist": "^1.2.5",
     "segmentit": "^2.0.3",
     "standard-version": "^9.0.0"
