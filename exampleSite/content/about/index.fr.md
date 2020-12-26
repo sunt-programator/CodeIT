@@ -10,9 +10,9 @@ math:
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT?style=flat-square)](https://github.com/sunt-programator/CodeIT/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/sunt-programator/CodeIT?style=flat-square)](https://github.com/sunt-programator/CodeIT/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/sunt-programator/CodeIT?style=social)](https://github.com/sunt-programator/CodeIT)
 [![GitHub forks](https://img.shields.io/github/forks/sunt-programator/CodeIT?style=social)](https://github.com/sunt-programator/CodeIT/fork)
 {{< /style >}}
@@ -36,6 +36,7 @@ Welcome to take the time to propose a translation by [:(fas fa-code-branch fa-fw
 - :(fab fa-searchengin fa-fw): Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
 - :(fab fa-google fa-fw): **[Google Analytics](https://analytics.google.com/analytics)** supported
 - :(far fa-chart-bar fa-fw): **[Fathom Analytics](https://usefathom.com/)** supported
+- :(far fa-chart-bar fa-fw): **[Plausible Analytics](https://plausible.io/)** supported
 - :(fas fa-search fa-fw): Search engine **verification** supported (Google, Bind, Yandex and Baidu)
 - :(fas fa-tachometer-alt fa-fw): **CDN** for third-party libraries supported
 - :(fas fa-cloud-download-alt fa-fw): Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)

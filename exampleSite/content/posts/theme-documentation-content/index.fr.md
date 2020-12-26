@@ -40,7 +40,6 @@ A few suggestions to help you get a good looking site quickly:
 - Local resources organization
 
 {{< admonition note "Local Resource Reference" >}}
-{{< version 0.2.10 >}}
 
 There are three ways to reference local resources such as **images** and **music**:
 
@@ -137,7 +136,7 @@ seo:
 ```
 
 - **title**: the title for the content.
-- **subtitle**: {{< version 0.2.0 >}} the subtitle for the content.
+- **subtitle**: the subtitle for the content.
 - **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurabl in the [site configuration](../theme-documentation-basics#site-configuration).
 - **lastmod**: the datetime at which the content was last modified.
 - **draft**: if `true`, the content will not be rendered unless the `--buildDrafts`/`-D` flag is passed to the `hugo` command.
@@ -153,26 +152,25 @@ seo:
 - **featuredImagePreview**: the featured image for the content preview in the home page.
 
 - **hiddenFromHomePage**: if `true`, the content will not be shown in the home page.
-- **hiddenFromSearch**: {{< version 0.2.0 >}} if `true`, the content will not be shown in the search results.
-- **twemoji**: {{< version 0.2.0 >}} if `true`, the content will enable the twemoji.
+- **hiddenFromSearch**: if `true`, the content will not be shown in the search results.
+- **twemoji**: if `true`, the content will enable the twemoji.
 - **lightgallery**: if `true`, images in the content will be shown as the gallery.
-- **ruby**: {{< version 0.2.0 >}} if `true`, the content will enable the [ruby extended syntax](#ruby).
-- **fraction**: {{< version 0.2.0 >}} if `true`, the content will enable the [fraction extended syntax](#fraction).
-- **fontawesome**: {{< version 0.2.0 >}} if `true`, the content will enable the [Font Awesome extended syntax](#fontawesome).
+- **ruby**: if `true`, the content will enable the [ruby extended syntax](#ruby).
+- **fraction**: if `true`, the content will enable the [fraction extended syntax](#fraction).
+- **fontawesome**: if `true`, the content will enable the [Font Awesome extended syntax](#fontawesome).
 - **linkToMarkdown**: if `true`, the footer of the content will be shown the link to the orignal Markdown file.
-- **rssFullText**: {{< version 0.2.4 >}} if `true`, the full text content will be shown in RSS.
+- **rssFullText**: if `true`, the full text content will be shown in RSS.
 
-- **toc**: {{< version 0.2.9 changed >}} the same as the `params.page.toc` part in the [site configuration](../theme-documentation-basics#site-configuration).
-- **code**: {{< version 0.2.0 >}} the same as the `params.page.code` part in the [site configuration](../theme-documentation-basics#site-configuration).
-- **math**: {{< version 0.2.0 changed >}} the same as the `params.page.math` part in the [site configuration](../theme-documentation-basics#site-configuration).
-- **mapbox**: {{< version 0.2.0 >}} the same as the `params.page.mapbox` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **toc**: the same as the `params.page.toc` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **code**: the same as the `params.page.code` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **math**: the same as the `params.page.math` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **mapbox**: the same as the `params.page.mapbox` part in the [site configuration](../theme-documentation-basics#site-configuration).
 - **share**: the same as the `params.page.share` part in the [site configuration](../theme-documentation-basics#site-configuration).
-- **comment**: {{< version 0.2.0 changed >}} the same as the `params.page.comment` part in the [site configuration](../theme-documentation-basics#site-configuration).
-- **library**: {{< version 0.2.7 >}} the same as the `params.page.library` part in the [site configuration](../theme-documentation-basics#site-configuration).
-- **seo**: {{< version 0.2.10 >}} the same as the `params.page.seo` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **comment**: the same as the `params.page.comment` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **library**: the same as the `params.page.library` part in the [site configuration](../theme-documentation-basics#site-configuration).
+- **seo**: the same as the `params.page.seo` part in the [site configuration](../theme-documentation-basics#site-configuration).
 
 {{< admonition tip >}}
-{{< version 0.2.10 >}}
 
 **featuredImage** and **featuredImagePreview** support the complete usage of [local resource references](#contents-organization).
 
@@ -334,8 +332,6 @@ The rendered output looks like this:
 [Hugo]^(An open-source static site generator)
 
 ### Fraction {#fraction}
-
-{{< version 0.2.0 >}}
 
 An extended Markdown syntax for **fraction** is supported in **CodeIT** theme:
 

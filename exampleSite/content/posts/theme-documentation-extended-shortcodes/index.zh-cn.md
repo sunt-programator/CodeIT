@@ -28,8 +28,6 @@ mapbox:
 
 ## 1 style
 
-{{< version 0.2.0 changed >}}
-
 {{< admonition >}}
 Hugo **extended** 版本对于 `style` shortcode 是必需的.
 {{< /admonition >}}
@@ -59,12 +57,10 @@ This is a **right-aligned** paragraph.
 
 ## 2 link
 
-{{< version 0.2.0 >}}
-
 `link` shortcode 是 [Markdown 链接语法](../basic-markdown-syntax#links) 的替代.
 `link` shortcode 可以提供一些其它的功能并且可以在代码块中使用.
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
 
 `link` shortcode 有以下命名参数:
 
@@ -126,11 +122,9 @@ This is a **right-aligned** paragraph.
 
 ## 3 image {#image}
 
-{{< version 0.2.0 changed >}}
-
 `image` shortcode 是 [`figure` shortcode](../theme-documentation-built-in-shortcodes#figure) 的替代. `image` shortcode 可以充分利用 [lazysizes](https://github.com/aFarkas/lazysizes) 和 [lightgallery.js](https://github.com/sachinchoolur/lightgallery.js) 两个依赖库.
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
 
 `image` shortcode 有以下命名参数:
 
@@ -256,7 +250,7 @@ _支持 Markdown 或者 HTML 格式._
 
   `admonition` 横幅的标题, 默认值是 **type** 参数的值.
 
-- **open** _[可选]_ (**第三个**位置参数) {{< version 0.2.0 changed >}}
+- **open** _[可选]_ (**第三个**位置参数)
 
   横幅内容是否默认展开, 默认值是 `true`.
 
@@ -908,15 +902,13 @@ data = [
 
 - **width** _[可选]_ (**第一个**位置参数)
 
-  {{< version 0.2.0 >}} 数据可视化的宽度, 默认值是 `100%`.
+  数据可视化的宽度, 默认值是 `100%`.
 
 - **height** _[可选]_ (**第二个**位置参数)
 
-  {{< version 0.2.0 >}} 数据可视化的高度, 默认值是 `30rem`.
+  数据可视化的高度, 默认值是 `30rem`.
 
 ## 7 mapbox
-
-{{< version 0.2.0 >}}
 
 [Mapbox GL JS](https://docs.mapbox.com/mapbox-gl-js) 是一个 JavaScript 库，它使用 WebGL, 以 [vector tiles](https://docs.mapbox.com/help/glossary/vector-tiles/) 和 [Mapbox styles](https://docs.mapbox.com/mapbox-gl-js/style-spec/) 为来源, 将它们渲染成互动式地图.
 
@@ -1002,7 +994,7 @@ data = [
 
 ### 8.1 自定义音乐 URL {#custom-music-url}
 
-{{< version 0.2.10 >}} 支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
+支持[本地资源引用](../theme-documentation-content#contents-organization)的完整用法.
 
 `music` shortcode 有以下命名参数来使用自定义音乐 URL:
 
@@ -1090,7 +1082,7 @@ data = [
 
 - **theme** _[可选]_
 
-  {{< version 0.2.0 changed >}} 音乐播放器的主题色, 默认值是 `#448aff`.
+  音乐播放器的主题色, 默认值是 `#448aff`.
 
 - **fixed** _[可选]_
 
@@ -1135,8 +1127,6 @@ data = [
   音乐列表的最大高度, 默认值是 `340px`.
 
 ## 9 bilibili
-
-{{< version 0.2.0 changed >}}
 
 `bilibili` shortcode 提供了一个内嵌的用来播放 bilibili 视频的响应式播放器.
 
@@ -1272,8 +1262,6 @@ System.out.println("Hello World");
 {{< /typeit >}}
 
 ## 11 script
-
-{{< version 0.2.8 >}}
 
 `script` shortcode 用来在你的文章中插入 **:(fab fa-js fa-fw): Javascript** 脚本.
 

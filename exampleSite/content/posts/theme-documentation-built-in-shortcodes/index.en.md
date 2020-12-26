@@ -8,8 +8,8 @@ author: "Sunt Programator!"
 authorLink: "https://suntprogramator.dev/"
 description: "Hugo provides multiple built-in shortcodes for author convenience and to keep your markdown content clean."
 resources:
-- name: "featured-image"
-  src: "featured-image.png"
+  - name: "featured-image"
+    src: "featured-image.png"
 
 tags: ["shortcodes"]
 categories: ["documentation"]
@@ -48,10 +48,10 @@ The HTML looks like this:
 
 ```html
 <figure>
-    <img src="/images/lighthouse.jpg"/>
-    <figcaption>
-        <h4>Lighthouse (figure)</h4>
-    </figcaption>
+  <img src="/images/lighthouse.jpg" />
+  <figcaption>
+    <h4>Lighthouse (figure)</h4>
+  </figcaption>
 </figure>
 ```
 
@@ -72,7 +72,10 @@ The rendered output looks like this:
 The HTML looks like this:
 
 ```html
-<script type="application/javascript" src="https://gist.github.com/spf13/7896402.js"></script>
+<script
+  type="application/javascript"
+  src="https://gist.github.com/spf13/7896402.js"
+></script>
 ```
 
 ## 3 highlight
@@ -83,6 +86,7 @@ Example `highlight` input:
 
 ```markdown
 {{</* highlight html */>}}
+
 <section id="main">
     <div>
         <h1 id="title">{{ .Title }}</h1>
@@ -97,6 +101,7 @@ Example `highlight` input:
 The rendered output looks like this:
 
 {{< highlight html >}}
+
 <section id="main">
     <div>
         <h1 id="title">{{ .Title }}</h1>

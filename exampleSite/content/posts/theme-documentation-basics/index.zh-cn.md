@@ -194,7 +194,7 @@ hugo
 
 ```toml
 [params]
-  # {{< version 0.2.0 changed >}} CodeIT 主题版本
+  #  CodeIT 主题版本
   version = "0.2.X"
   # 网站描述
   description = "这是我的全新 Hugo 网站"
@@ -204,15 +204,15 @@ hugo
   defaultTheme = "auto"
   # 公共 git 仓库路径，仅在 enableGitInfo 设为 true 时有效
   gitRepo = ""
-  # {{< version 0.1.1 >}} 哪种哈希函数用来 SRI, 为空时表示不使用 SRI
+  #  哪种哈希函数用来 SRI, 为空时表示不使用 SRI
   # ("sha256", "sha384", "sha512", "md5")
   fingerprint = ""
-  # {{< version 0.2.0 >}} 日期格式
+  #  日期格式
   dateFormat = "2006-01-02"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
-  # {{< version 0.2.0 >}} 应用图标配置
+  #  应用图标配置
   [params.app]
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
     title = "CodeIT"
@@ -227,7 +227,7 @@ hugo
     # Windows v8-10磁贴颜色
     tileColor = "#da532c"
 
-  # {{< version 0.2.0 >}} 搜索配置
+  #  搜索配置
   [params.search]
     enable = true
     # 搜索引擎的类型 ("lunr", "algolia")
@@ -236,13 +236,13 @@ hugo
     contentLength = 4000
     # 搜索框的占位提示语
     placeholder = ""
-    # {{< version 0.2.1 >}} 最大结果数目
+    #  最大结果数目
     maxResultLength = 10
-    # {{< version 0.2.3 >}} 结果内容片段长度
+    #  结果内容片段长度
     snippetLength = 50
-    # {{< version 0.2.1 >}} 搜索结果中高亮部分的 HTML 标签
+    #  搜索结果中高亮部分的 HTML 标签
     highlightTag = "em"
-    # {{< version 0.2.4 >}} 是否在搜索索引中使用基于 baseURL 的绝对路径
+    #  是否在搜索索引中使用基于 baseURL 的绝对路径
     absoluteURL = false
     [params.search.algolia]
       index = ""
@@ -255,7 +255,7 @@ hugo
     desktopMode = "fixed"
     # 移动端导航栏模式 ("fixed", "normal", "auto")
     mobileMode = "auto"
-    # {{< version 0.2.0 >}} 页面头部导航栏标题配置
+    #  页面头部导航栏标题配置
     [params.header.title]
       # LOGO 的 URL
       logo = ""
@@ -265,19 +265,19 @@ hugo
       pre = ""
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
       post = ""
-      # {{< version 0.2.5 >}} 是否为标题显示打字机动画
+      #  是否为标题显示打字机动画
       typeit = false
 
   # 页面底部信息配置
   [params.footer]
     enable = true
-    # {{< version 0.2.0 >}} 自定义内容 (支持 HTML 格式)
+    #  自定义内容 (支持 HTML 格式)
     custom = ''
-    # {{< version 0.2.0 >}} 是否显示 Hugo 和主题信息
+    #  是否显示 Hugo 和主题信息
     hugo = true
-    # {{< version 0.2.0 >}} 是否显示版权信息
+    #  是否显示版权信息
     copyright = true
-    # {{< version 0.2.0 >}} 是否显示作者
+    #  是否显示作者
     author = true
     # 网站创立年份
     since = 2019
@@ -286,7 +286,7 @@ hugo
     # 许可协议信息 (支持 HTML 格式)
     license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
 
-  # {{< version 0.2.0 >}} Section (所有文章) 页面配置
+  #  Section (所有文章) 页面配置
   [params.section]
     # section 页面每页显示文章数量
     paginate = 20
@@ -295,7 +295,7 @@ hugo
     # RSS 文章数目
     rss = 10
 
-  # {{< version 0.2.0 >}} List (目录或标签) 页面配置
+  #  List (目录或标签) 页面配置
   [params.list]
     # list 页面每页显示文章数量
     paginate = 20
@@ -306,7 +306,7 @@ hugo
 
   # 主页配置
   [params.home]
-    # {{< version 0.2.0 >}} RSS 文章数目
+    #  RSS 文章数目
     rss = 10
     # 主页个人信息
     [params.home.profile]
@@ -315,7 +315,7 @@ hugo
       gravatarEmail = ""
       # 主页显示头像的 URL
       avatarURL = "/images/avatar.png"
-      # {{< version 0.2.7 changed >}} 主页显示的网站标题 (支持 HTML 格式)
+      #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题
       subtitle = "这是我的全新 Hugo 网站"
@@ -323,14 +323,14 @@ hugo
       typeit = true
       # 是否显示社交账号
       social = true
-      # {{< version 0.2.0 >}} 免责声明 (支持 HTML 格式)
+      #  免责声明 (支持 HTML 格式)
       disclaimer = ""
     # 主页文章列表
     [params.home.posts]
       enable = true
       # 主页每页显示文章数量
       paginate = 6
-      # {{< version 0.2.0 deleted >}} 被 params.page 中的 hiddenFromHomePage 替代
+      #  被 params.page 中的 hiddenFromHomePage 替代
       # 当你没有在文章前置参数中设置 "hiddenFromHomePage" 时的默认行为
       defaultHiddenFromHomePage = false
 
@@ -399,43 +399,43 @@ hugo
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true # {{< version 0.2.0 >}}
+    RSS = true #
 
-  # {{< version 0.2.0 changed >}} 文章页面配置
+  #  文章页面配置
   [params.page]
-    # {{< version 0.2.0 >}} 是否在主页隐藏一篇文章
+    #  是否在主页隐藏一篇文章
     hiddenFromHomePage = false
-    # {{< version 0.2.0 >}} 是否在搜索结果中隐藏一篇文章
+    #  是否在搜索结果中隐藏一篇文章
     hiddenFromSearch = false
-    # {{< version 0.2.0 >}} 是否使用 twemoji
+    #  是否使用 twemoji
     twemoji = false
     # 是否使用 lightgallery
     lightgallery = false
-    # {{< version 0.2.0 >}} 是否使用 ruby 扩展语法
+    #  是否使用 ruby 扩展语法
     ruby = true
-    # {{< version 0.2.0 >}} 是否使用 fraction 扩展语法
+    #  是否使用 fraction 扩展语法
     fraction = true
-    # {{< version 0.2.0 >}} 是否使用 fontawesome 扩展语法
+    #  是否使用 fontawesome 扩展语法
     fontawesome = true
     # 是否在文章页面显示原始 Markdown 文档链接
     linkToMarkdown = true
-    # {{< version 0.2.4 >}} 是否在 RSS 中显示全文内容
+    #  是否在 RSS 中显示全文内容
     rssFullText = false
-    # {{< version 0.2.0 >}} 目录配置
+    #  目录配置
     [params.page.toc]
       # 是否使用目录
       enable = true
-      # {{< version 0.2.9 >}} 是否保持使用文章前面的静态目录
+      #  是否保持使用文章前面的静态目录
       keepStatic = true
       # 是否使侧边目录自动折叠展开
       auto = true
-    # {{< version 0.2.0 >}} 代码配置
+    #  代码配置
     [params.page.code]
       # 是否显示代码块的复制按钮
       copy = true
       # 默认展开显示的代码行数
       maxShownLines = 10
-    # {{< version 0.2.0 changed >}} {{< link "https://katex.org/" KaTeX >}} 数学公式
+    # {{< link "https://katex.org/" KaTeX >}} 数学公式
     [params.page.math]
       enable = true
       # 默认块定界符是 $$ ... $$ 和 \\[ ... \\]
@@ -448,7 +448,7 @@ hugo
       copyTex = true
       # KaTeX 插件 mhchem
       mhchem = true
-    # {{< version 0.2.0 >}} {{< link "https://docs.mapbox.com/mapbox-gl-js" "Mapbox GL JS" >}} 配置
+    # {{< link "https://docs.mapbox.com/mapbox-gl-js" "Mapbox GL JS" >}} 配置
     [params.page.mapbox]
       # Mapbox GL JS 的 access token
       accessToken = ""
@@ -464,7 +464,7 @@ hugo
       scale = true
       # 是否添加 {{< link "https://docs.mapbox.com/mapbox-gl-js/api#fullscreencontrol" FullscreenControl >}}
       fullscreen = true
-    # {{< version 0.2.0 changed >}} 文章页面的分享信息设置
+    #  文章页面的分享信息设置
     [params.page.share]
       enable = true
       Twitter = true
@@ -494,18 +494,16 @@ hugo
       Skype = false
       Trello = false
       Mix = false
-    # {{< version 0.2.0 changed >}} 评论系统设置
+    #  评论系统设置
     [params.page.comment]
       enable = true
       # {{< link "https://disqus.com/" Disqus >}} 评论系统设置
       [params.page.comment.disqus]
-        # {{< version 0.1.1 >}}
         enable = false
         # Disqus 的 shortname，用来在文章中启用 Disqus 评论系统
         shortname = ""
       # {{< link "https://github.com/gitalk/gitalk" Gitalk >}} 评论系统设置
       [params.page.comment.gitalk]
-        # {{< version 0.1.1 >}}
         enable = false
         owner = ""
         repo = ""
@@ -526,7 +524,7 @@ hugo
         highlight = true
         enableQQ = false
         serverURLs = ""
-        # {{< version 0.2.6 >}} emoji 数据文件名称, 默认是 "google.yml"
+        #  emoji 数据文件名称, 默认是 "google.yml"
         # ("apple.yml", "google.yml", "facebook.yml", "twitter.yml")
         # 位于 "themes/CodeIT/assets/data/emoji/" 目录
         # 可以在你的项目下相同路径存放你自己的数据文件:
@@ -539,7 +537,7 @@ hugo
         numPosts = 10
         appId = ""
         languageCode = "zh_CN"
-      # {{< version 0.2.0 >}} {{< link "https://comments.app/" "Telegram Comments" >}} 评论系统设置
+      # {{< link "https://comments.app/" "Telegram Comments" >}} 评论系统设置
       [params.page.comment.telegram]
         enable = false
         siteID = ""
@@ -549,10 +547,10 @@ hugo
         colorful = true
         dislikes = false
         outlined = false
-      # {{< version 0.2.0 >}} {{< link "https://commento.io/" "Commento" >}} 评论系统设置
+      # {{< link "https://commento.io/" "Commento" >}} 评论系统设置
       [params.page.comment.commento]
         enable = false
-      # {{< version 0.2.5 >}} {{< link "https://utteranc.es/" "Utterances" >}} 评论系统设置
+      # {{< link "https://utteranc.es/" "Utterances" >}} 评论系统设置
       [params.page.comment.utterances]
         enable = false
         # owner/repo
@@ -561,7 +559,7 @@ hugo
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
-    # {{< version 0.2.7 >}} 第三方库配置
+    #  第三方库配置
     [params.page.library]
       [params.page.library.css]
         # someCSS = "some.css"
@@ -573,7 +571,7 @@ hugo
         # 位于 "assets/"
         # 或者
         # someJavascript = "https://cdn.example.com/some.js"
-    # {{< version 0.2.10 changed >}} 页面 SEO 配置
+    #  页面 SEO 配置
     [params.page.seo]
       # 图片 URL
       images = []
@@ -582,7 +580,7 @@ hugo
         name = ""
         logoUrl = ""
 
-  # {{< version 0.2.5 >}} TypeIt 配置
+  #  TypeIt 配置
   [params.typeit]
     # 每一步的打字速度 (单位是毫秒)
     speed = 100
@@ -601,14 +599,14 @@ hugo
     pinterest = ""
     baidu = ""
 
-  # {{< version 0.2.10 >}} 网站 SEO 配置
+  #  网站 SEO 配置
   [params.seo]
     # 图片 URL
     image = ""
     # 缩略图 URL
     thumbnailUrl = ""
 
-  # {{< version 0.2.0 >}} 网站分析配置
+  #  网站分析配置
   [params.analytics]
     enable = false
     # Google Analytics
@@ -621,8 +619,11 @@ hugo
       id = ""
       # 自行托管追踪器时的主机路径
       server = ""
+    # {{< version 0.1.0 >}} Plausible Analytics
+    [params.analytics.plausible]
+      domain = ""
 
-  # {{< version 0.2.7 >}} Cookie 许可配置
+  #  Cookie 许可配置
   [params.cookieconsent]
     enable = true
     # 用于 Cookie 许可横幅的文本字符串
@@ -631,7 +632,7 @@ hugo
       dismiss = ""
       link = ""
 
-  # {{< version 0.2.7 changed >}} 第三方库文件的 CDN 设置
+  #  第三方库文件的 CDN 设置
   [params.cdn]
     # CDN 数据文件名称, 默认不启用
     # ("jsdelivr.yml")
@@ -640,7 +641,7 @@ hugo
     # "assets/data/cdn/"
     data = ""
 
-  # {{< version 0.2.8 >}} 兼容性设置
+  #  兼容性设置
   [params.compatibility]
     # 是否使用 Polyfill.io 来兼容旧式浏览器
     polyfill = false
@@ -695,7 +696,7 @@ hugo
 
 # {{< link "https://gohugo.io/about/hugo-and-gdpr/" "隐私信息配置" >}}
 [privacy]
-  # {{< version 0.2.0 deleted >}} Google Analytics 相关隐私 (被 params.analytics.google 替代)
+  #  Google Analytics 相关隐私 (被 params.analytics.google 替代)
   [privacy.googleAnalytics]
     # ...
   [privacy.twitter]
@@ -716,7 +717,6 @@ hugo
 
 # 用于 Hugo 输出文档的设置
 [outputs]
-  # {{< version 0.2.0 changed >}}
   home = ["HTML", "RSS", "JSON"]
   page = ["HTML", "MarkDown"]
   section = ["HTML", "RSS"]
@@ -739,7 +739,6 @@ hugo
 {{< /admonition >}}
 
 {{< admonition tip "关于 CDN 配置的技巧" >}}
-{{< version 0.2.7 changed >}}
 
 ```toml
 [params.cdn]
@@ -753,7 +752,6 @@ hugo
 {{< /admonition >}}
 
 {{< admonition tip "关于社交链接配置的技巧" >}}
-{{< version 0.2.0 >}}
 
 你可以直接配置你的社交 ID 来生成一个默认社交链接和图标:
 
@@ -802,8 +800,6 @@ hugo
 
 ### 3.3 自定义样式
 
-{{< version 0.2.8 changed >}}
-
 {{< admonition >}}
 Hugo **extended** 版本对于自定义样式是必需的.
 {{< /admonition >}}
@@ -831,8 +827,6 @@ $code-font-family: Fira Mono, Source Code Pro, Menlo, Consolas, Monaco,
 ![语言切换](language-switch.gif "语言切换")
 
 ### 4.1 兼容性 {#language-compatibility}
-
-{{< version 0.2.10 changed >}}
 
 | 语言         | Hugo 代码 | HTML `lang` 属性 |           主题文档            |         Lunr.js 支持          |
 | :----------- | :-------: | :--------------: | :---------------------------: | :---------------------------: |
@@ -981,8 +975,6 @@ defaultContentLanguage = "zh-cn"
 
 ## 5 搜索
 
-{{< version 0.2.0 >}}
-
 基于 [Lunr.js](https://lunrjs.com/) 或 [algolia](https://www.algolia.com/), **CodeIT** 主题支持搜索功能.
 
 ### 5.1 输出配置
@@ -1009,13 +1001,13 @@ defaultContentLanguage = "zh-cn"
   contentLength = 4000
   # 搜索框的占位提示语
   placeholder = ""
-  # {{< version 0.2.1 >}} 最大结果数目
+  #  最大结果数目
   maxResultLength = 10
-  # {{< version 0.2.3 >}} 结果内容片段长度
+  #  结果内容片段长度
   snippetLength = 50
-  # {{< version 0.2.1 >}} 搜索结果中高亮部分的 HTML 标签
+  #  搜索结果中高亮部分的 HTML 标签
   highlightTag = "em"
-  # {{< version 0.2.4 >}} 是否在搜索索引中使用基于 baseURL 的绝对路径
+  #  是否在搜索索引中使用基于 baseURL 的绝对路径
   absoluteURL = false
   [params.search.algolia]
     index = ""
@@ -1029,7 +1021,7 @@ defaultContentLanguage = "zh-cn"
 - `lunr`: 简单, 无需同步 `index.json`, 没有 `contentLength` 的限制, 但占用带宽大且性能低 (特别是中文需要一个较大的分词依赖库)
 - `algolia`: 高性能并且占用带宽低, 但需要同步 `index.json` 且有 `contentLength` 的限制
 
-{{< version 0.2.3 >}} 文章内容被 `h2` 和 `h3` HTML 标签切分来提高查询效果并且基本实现全文搜索.
+文章内容被 `h2` 和 `h3` HTML 标签切分来提高查询效果并且基本实现全文搜索.
 `contentLength` 用来限制 `h2` 和 `h3` HTML 标签开头的内容部分的最大长度.
 {{< /admonition >}}
 

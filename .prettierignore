@@ -1,0 +1,10 @@
+# Ignore all minified files
+**/*.min.*
+
+# Node.js modules
+node_modules/
+
+# Example site public folders
+exampleSite/public/
+exampleSite/resources/
+exampleSite/content/posts/basic-markdown-syntax

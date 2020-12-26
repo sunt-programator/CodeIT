@@ -1,10 +1,10 @@
-@import 'flowchart';
-@import 'sequence';
-@import 'gantt';
-@import 'class';
-@import 'git';
-@import 'pie';
-@import 'state';
+@import "flowchart";
+@import "sequence";
+@import "gantt";
+@import "class";
+@import "git";
+@import "pie";
+@import "state";
 
 // .composit {
 //   fill: white;
@@ -16,4 +16,3 @@
   --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive;
   // --mermaid-alt-font-family: '"Lucida Console", Monaco, monospace';
 }
-

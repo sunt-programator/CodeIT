@@ -3,12 +3,11 @@ name: 🐛 Bug Report
 about: Create a bug report
 title: "[BUG] Some problem..."
 labels: bug
-
 ---
 
 ## Describe the bug
 
-Briefly describe the issue you are experiencing, what you were trying to do and what happened instead. Remember, this is *not* a place to ask questions. For that, go to the official [Discord channel](https://discord.com/channels/777188233284681768/777188575485493259)!
+Briefly describe the issue you are experiencing, what you were trying to do and what happened instead. Remember, this is _not_ a place to ask questions. For that, go to the official [Discord channel](https://discord.com/channels/777188233284681768/777188575485493259)!
 
 ## Expected behavior
 

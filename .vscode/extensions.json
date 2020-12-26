@@ -1,8 +1,11 @@
 {
-    "recommendations": [
-        "budparr.language-hugo-vscode",
-        "be5invis.toml",
-        "esbenp.prettier-vscode",
-        "visualstudioexptteam.vscodeintellicode"
-    ]
+  "recommendations": [
+    "budparr.language-hugo-vscode",
+    "be5invis.toml",
+    "esbenp.prettier-vscode",
+    "visualstudioexptteam.vscodeintellicode",
+    "eamodio.gitlens",
+    "mutantdino.resourcemonitor",
+    "budparr.language-hugo-vscode"
+  ]
 }

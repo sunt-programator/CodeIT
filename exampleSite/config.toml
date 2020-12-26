@@ -902,6 +902,9 @@ ignoreErrors = ["error-remote-getjson"]
       id = ""
       # server url for your tracker if you're self hosting
       server = ""
+    # Plausible Analytics
+    [params.analytics.plausible]
+      domain = ""
 
   # Cookie consent config
   [params.cookieconsent]

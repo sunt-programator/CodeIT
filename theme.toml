@@ -3,7 +3,7 @@
 
 name = "CodeIT"
 license = "MIT"
-licenselink = "https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE"
+licenselink = "https://github.com/sunt-programator/CodeIT/blob/master/LICENSE"
 description = "A clean, elegant but advanced blog theme for Hugo."
 homepage = "https://codeit.suntprogramator.dev/"
 tags = [
