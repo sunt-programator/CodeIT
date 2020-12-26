@@ -10,7 +10,5 @@
     { "type": "test", "hidden": true },
     { "type": "build", "section": "Build changes" },
     { "type": "ci", "section": "CI/CD configuration changes" }
-  ],
-  "commitUrlFormat": "https://github.com/mokkapps/changelog-generator-demo/commits/{{hash}}",
-  "compareUrlFormat": "https://github.com/mokkapps/changelog-generator-demo/compare/{{previousTag}}...{{currentTag}}"
+  ]
 }

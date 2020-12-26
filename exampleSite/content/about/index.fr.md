@@ -10,9 +10,9 @@ math:
 ---
 
 {{< style "img { height: 1.25rem; }" >}}
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT?style=flat-square)](https://github.com/sunt-programator/CodeIT/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-ff4088?style=flat-square&logo=hugo)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/sunt-programator/hugo-codeit?style=flat-square)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/sunt-programator/CodeIT?style=flat-square)](https://github.com/sunt-programator/CodeIT/blob/master/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/sunt-programator/CodeIT?style=social)](https://github.com/sunt-programator/CodeIT)
 [![GitHub forks](https://img.shields.io/github/forks/sunt-programator/CodeIT?style=social)](https://github.com/sunt-programator/CodeIT/fork)
 {{< /style >}}

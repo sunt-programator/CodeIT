@@ -1,8 +1,8 @@
 # CodeIT Theme | Hugo
 
-[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT)](https://github.com/sunt-programator/hugo-codeit/releases)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/sunt-programator/CodeIT)](https://github.com/sunt-programator/CodeIT/releases)
 [![Hugo](https://img.shields.io/badge/Hugo-%5E0.78.1-blue)](https://gohugo.io/)
-[![License](https://img.shields.io/github/license/sunt-programator/CodeIT)](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/sunt-programator/CodeIT)](https://github.com/sunt-programator/CodeIT/blob/master/LICENSE)
 [![CodeQL](https://github.com/sunt-programator/CodeIT/workflows/CodeQL/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3ACodeQL)
 [![Deploy status](https://github.com/sunt-programator/CodeIT/workflows/Deploy%20status/badge.svg)](https://github.com/sunt-programator/CodeIT/actions?query=workflow%3A%22Deploy+status%22)
 ![Github All Contributors](https://img.shields.io/github/all-contributors/sunt-programator/CodeIT)
@@ -14,7 +14,7 @@ It is based on the original [LoveIt Theme](https://github.com/dillonzq/LoveIt), 
 Since the three themes have a similar look, if you have questions about their differences,
 read [Why to choose CodeIT](#why-choose-CodeIT) so that you can choose the one that works best for you.
 
-![Hugo Theme CodeIT](https://github.com/sunt-programator/hugo-codeit/raw/master/images/Apple-Devices-Preview.png)
+![Hugo Theme CodeIT](https://github.com/sunt-programator/CodeIT/raw/master/images/Apple-Devices-Preview.png)
 
 ## Brief history
 
@@ -172,17 +172,17 @@ CodeIT supports the following languages:
 - Russian
 - Romanian
 - Vietnamese
-- [Contribute with a new language](https://github.com/sunt-programator/hugo-codeit/pulls)
+- [Contribute with a new language](https://github.com/sunt-programator/CodeIT/pulls)
 
 [Languages Compatibility](https://codeit.suntprogramator.dev/theme-documentation-basics/#language-compatibility)
 
 ## Questions, ideas, bugs, pull requests
 
-All feedback is welcome! Head over to the [issue tracker](https://github.com/sunt-programator/hugo-codeit/issues).
+All feedback is welcome! Head over to the [issue tracker](https://github.com/sunt-programator/CodeIT/issues).
 
 ## License
 
-CodeIT is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/sunt-programator/hugo-codeit/blob/master/LICENSE) for details.
+CodeIT is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/sunt-programator/CodeIT/blob/master/LICENSE) for details.
 
 Thanks to the authors of the following resources included in the theme:
 
