@@ -17,7 +17,7 @@
     "babelify": "^10.0.0",
     "browserify": "^17.0.0",
     "commitizen": "^4.2.2",
-    "core-js": "^3.8.1",
+    "core-js": "^3.8.2",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.16.0",
     "eslint-config-prettier": "^7.1.0",
