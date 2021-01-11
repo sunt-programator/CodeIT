@@ -16,6 +16,23 @@ read [Why to choose CodeIT](#why-choose-CodeIT) so that you can choose the one t
 
 ![Hugo Theme CodeIT](https://github.com/sunt-programator/CodeIT/raw/master/images/Apple-Devices-Preview.png)
 
+## Table of Contents
+* [Brief history](#brief-history)
+* [Demo Site](#demo-site)
+* [Why choose CodeIT](#why-choose-codeit)
+* [Features](#features)
+  * [Performance and SEO](#performance-and-seo)
+  * [Appearance and Layout](#appearance-and-layout)
+  * [Social and Comment Systems](#social-and-comment-systems)
+  * [Extended Features](#extended-features)
+* [Add the theme to your blog](#add-the-theme-to-your-blog)
+* [Build documentation instructions](#build-documentation-instructions)
+* [Multilingual and i18n](#multilingual-and-i18n)
+* [Questions, ideas, bugs, pull requests](#questions-ideas-bugs-pull-requests)
+* [Llicense](#license)
+* [Sponsor](#sponsor)
+* [Contributors](#contributors-)
+
 ## Brief history
 
 This theme is based on the original [LoveIt](https://github.com/dillonzq/LoveIt) theme. The original theme was loved by many users, but since May 2020 it has not been maintained.
