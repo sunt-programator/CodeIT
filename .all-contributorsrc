@@ -49,7 +49,8 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/11393826?v=4",
       "profile": "http://www.thatamazingprogrammer.com/",
       "contributions": [
-        "code"
+        "code",
+        "doc"
       ]
     },
     {
@@ -314,5 +315,6 @@
       ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
