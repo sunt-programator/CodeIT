@@ -16,6 +16,23 @@ read [Why to choose CodeIT](#why-choose-CodeIT) so that you can choose the one t
 
 ![Hugo Theme CodeIT](https://github.com/sunt-programator/CodeIT/raw/master/images/Apple-Devices-Preview.png)
 
+## Table of Contents
+* [Brief history](#brief-history)
+* [Demo Site](#demo-site)
+* [Why choose CodeIT](#why-choose-codeit)
+* [Features](#features)
+  * [Performance and SEO](#performance-and-seo)
+  * [Appearance and Layout](#appearance-and-layout)
+  * [Social and Comment Systems](#social-and-comment-systems)
+  * [Extended Features](#extended-features)
+* [Add the theme to your blog](#add-the-theme-to-your-blog)
+* [Build documentation instructions](#build-documentation-instructions)
+* [Multilingual and i18n](#multilingual-and-i18n)
+* [Questions, ideas, bugs, pull requests](#questions-ideas-bugs-pull-requests)
+* [Llicense](#license)
+* [Sponsor](#sponsor)
+* [Contributors](#contributors-)
+
 ## Brief history
 
 This theme is based on the original [LoveIt](https://github.com/dillonzq/LoveIt) theme. The original theme was loved by many users, but since May 2020 it has not been maintained.
@@ -229,7 +246,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://suntprogramator.dev/"><img src="https://avatars1.githubusercontent.com/u/24962085?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Victor Pogor</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=victor-pogor" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Avictor-pogor" title="Bug reports">🐛</a> <a href="#projectManagement-victor-pogor" title="Project Management">📆</a></td>
     <td align="center"><a href="https://github.com/dillonzq"><img src="https://avatars1.githubusercontent.com/u/30786232?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dillon</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=dillonzq" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Adillonzq" title="Bug reports">🐛</a> <a href="#projectManagement-dillonzq" title="Project Management">📆</a></td>
     <td align="center"><a href="https://giuseppepignataro.eu/"><img src="https://avatars0.githubusercontent.com/u/16869546?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Giuseppe Pignataro</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Fastbyte01" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3AFastbyte01" title="Bug reports">🐛</a> <a href="#projectManagement-Fastbyte01" title="Project Management">📆</a></td>
-    <td align="center"><a href="http://www.thatamazingprogrammer.com/"><img src="https://avatars0.githubusercontent.com/u/11393826?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher C. Johnson</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Programazing" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3AProgramazing" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://www.thatamazingprogrammer.com/"><img src="https://avatars0.githubusercontent.com/u/11393826?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Christopher C. Johnson</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Programazing" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3AProgramazing" title="Bug reports">🐛</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=Programazing" title="Documentation">📖</a></td>
     <td align="center"><a href="https://astropengu.in/"><img src="https://avatars2.githubusercontent.com/u/13254278?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Akio Taniguchi</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=astropenguin" title="Code">💻</a></td>
     <td align="center"><a href="https://www.holo.co.de/"><img src="https://avatars0.githubusercontent.com/u/6415842?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dave A-W</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=DaveA-W" title="Code">💻</a></td>
     <td align="center"><a href="https://blog.realsangil.net/"><img src="https://avatars1.githubusercontent.com/u/15508203?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sangil Park</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=realsangil" title="Code">💻</a></td>
@@ -267,6 +284,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SilkeHenderickx"><img src="https://avatars0.githubusercontent.com/u/28140438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Silke Henderickx</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=SilkeHenderickx" title="Code">💻</a></td>
     <td align="center"><a href="https://ghos.in/"><img src="https://avatars1.githubusercontent.com/u/26043355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ghosin</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Ghosin" title="Code">💻</a></td>
     <td align="center"><a href="https://automationd.com/"><img src="https://avatars2.githubusercontent.com/u/1790594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmitry Kireev</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=AutomationD" title="Code">💻</a></td>
+    <td align="center"><a href="https://sosiristseng.github.io"><img src="https://avatars2.githubusercontent.com/u/40054455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wen Wei Tseng</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sosiristseng" title="Code">💻</a></td>
   </tr>
 </table>
 
