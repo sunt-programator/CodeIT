@@ -332,6 +332,15 @@
       "contributions": [
         "bug"
       ]
+    },
+    {
+      "login": "sosiristseng",
+      "name": "Wen Wei Tseng",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/40054455?v=4",
+      "profile": "https://sosiristseng.github.io",
+      "contributions": [
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
