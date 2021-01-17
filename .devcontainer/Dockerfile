@@ -15,6 +15,7 @@ RUN apt update && \
     powerline \
     fonts-powerline \
     software-properties-common \
+    vim \
     # set up locale
     && locale-gen en_US.UTF-8
 
