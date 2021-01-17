@@ -267,6 +267,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/SilkeHenderickx"><img src="https://avatars0.githubusercontent.com/u/28140438?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Silke Henderickx</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=SilkeHenderickx" title="Code">💻</a></td>
     <td align="center"><a href="https://ghos.in/"><img src="https://avatars1.githubusercontent.com/u/26043355?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ghosin</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Ghosin" title="Code">💻</a></td>
     <td align="center"><a href="https://automationd.com/"><img src="https://avatars2.githubusercontent.com/u/1790594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Dmitry Kireev</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=AutomationD" title="Code">💻</a></td>
+    <td align="center"><a href="https://epogrebnyak.github.io"><img src="https://avatars3.githubusercontent.com/u/9265326?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Evgeny Pogrebnyak</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Aepogrebnyak" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
