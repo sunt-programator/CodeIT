@@ -312,6 +312,8 @@ Please open the code block below to view the complete sample configuration :(far
       gravatarEmail = ""
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
+      # {{< version 0.1.1 >}} Alt text for avatar (default is the author name)
+      avatarAlt = ""
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
