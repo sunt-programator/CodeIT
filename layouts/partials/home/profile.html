@@ -7,16 +7,17 @@
     {{- if $avatar -}}
         <div class="home-avatar">
             {{- $menus := $.Site.Menus.main | default slice -}}
+            {{- $avatarAlt := $profile.avatarAlt | default .Site.Author.name -}}
             {{- with index $menus 0 -}}
                 {{- $url := .URL | relLangURL -}}
                 {{- with .Page -}}
                     {{- $url = .RelPermalink -}}
                 {{- end -}}
                 <a href="{{ $url }}"{{ with .Title | default .Name }} title="{{ . }}"{{ end }}{{ if (urls.Parse $url).Host }} rel="noopener noreferrer" target="_blank"{{ end }}>
-                    {{- dict "Src" $avatar | partial "plugin/image.html" -}}
+                    {{- dict "Src" $avatar "Alt" $avatarAlt | partial "plugin/image.html" -}}
                 </a>
             {{- else -}}
-                {{- dict "Src" $avatar | partial "plugin/image.html" -}}
+                {{- dict "Src" $avatar "Alt" $avatarAlt | partial "plugin/image.html" -}}
             {{- end -}}
         </div>
     {{- end -}}

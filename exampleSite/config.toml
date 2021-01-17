@@ -138,6 +138,8 @@ ignoreErrors = ["error-remote-getjson"]
           gravatarEmail = ""
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
+          # {{< version 0.1.1 >}} Alt text for avatar (default is the author name)
+          avatarAlt = ""
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
@@ -338,6 +340,8 @@ ignoreErrors = ["error-remote-getjson"]
           gravatarEmail = ""
           # 主页显示头像的 URL
           avatarURL = "/images/avatar.png"
+          # {{< version 0.1.1 >}} Alt text for avatar (default is the author name)
+          avatarAlt = ""
           # 主页显示的网站标题 (支持 HTML 格式)
           title = ""
           # 主页显示的网站副标题
@@ -534,6 +538,8 @@ ignoreErrors = ["error-remote-getjson"]
           gravatarEmail = ""
           # URL of avatar shown in home page
           avatarURL = "/images/avatar.png"
+          # {{< version 0.1.1 >}} Alt text for avatar (default is the author name)
+          avatarAlt = ""
           # title shown in home page (HTML format is supported)
           title = ""
           # subtitle shown in home page
@@ -902,7 +908,7 @@ ignoreErrors = ["error-remote-getjson"]
       id = ""
       # server url for your tracker if you're self hosting
       server = ""
-    # Plausible Analytics
+    # {{< version 0.1.0 >}} Plausible Analytics
     [params.analytics.plausible]
       domain = ""
 
@@ -961,7 +967,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 # Author config
 [author]
-  name = "xxxx"
+  name = "CodeIT"
   email = ""
   link = ""
 
