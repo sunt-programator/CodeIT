@@ -315,6 +315,7 @@ Please open the code block below to view the complete sample configuration :(far
       # title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page
+      # {{< version 0.1.1 changed >}} (HTML format is supported)
       subtitle = "This is My New Hugo Site"
       # whether to use typeit animation for subtitle
       typeit = true

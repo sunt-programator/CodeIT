@@ -140,7 +140,8 @@ ignoreErrors = ["error-remote-getjson"]
           avatarURL = "/images/avatar.png"
           # title shown in home page (HTML format is supported)
           title = ""
-          # subtitle shown in home page (HTML format is supported)
+          # subtitle shown in home page
+          # {{< version 0.1.1 changed >}} (HTML format is supported)
           subtitle = "A Clean, Elegant but Advanced Hugo Theme"
           # whether to use typeit animation for subtitle
           typeit = true
