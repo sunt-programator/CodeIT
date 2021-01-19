@@ -1,0 +1,35 @@
+name: Lighthouse CI
+on:
+  push:
+    branches:
+      - feat/lighthouse-ci
+jobs:
+  build:
+    name: Collect LightHouse metrics
+    runs-on: ubuntu-20.04
+    defaults:
+      run:
+        working-directory: CodeIT
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+        with:
+          path: "CodeIT"
+          fetch-depth: 0
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: "latest"
+          extended: true
+      - name: Build static pages
+        run: hugo --source=exampleSite -v --gc
+      - name: Use Node.js 15.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: 15.x
+      - name: Run the Lighthouse CI
+        run: |
+          npm install -g @lhci/cli@0.6.x
+          lhci autorun
+        env:
+          LHCI_GITHUB_APP_TOKEN: ${{ secrets.LHCI_GITHUB_APP_TOKEN }}
