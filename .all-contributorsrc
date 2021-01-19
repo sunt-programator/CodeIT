@@ -312,7 +312,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "michael0liver",
+      "name": "Michael Oliver",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55017335?v=4",
+      "profile": "https://michaeloliver.dev",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }
