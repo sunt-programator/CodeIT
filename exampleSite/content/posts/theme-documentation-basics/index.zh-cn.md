@@ -319,6 +319,7 @@ hugo
       title = ""
       # 主页显示的网站副标题
       subtitle = "这是我的全新 Hugo 网站"
+      # {{< version 0.1.1 changed >}} (HTML format is supported)
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
