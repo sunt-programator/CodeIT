@@ -16,5 +16,6 @@
     "mutantdino.resourcemonitor",
     "budparr.language-hugo-vscode"
   ],
-  "runArgs": []
+  "runArgs": [],
+  "forwardPorts": [1313]
 }
