@@ -31,7 +31,7 @@
     "stylelint": "^13.9.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-scss": "^3.19.0"
   },
   "scripts": {
     "preinstall": "npx npm-force-resolutions",
