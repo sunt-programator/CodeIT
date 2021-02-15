@@ -54,7 +54,6 @@ pre,
       margin: 0;
       padding: 0;
       border: none !important;
-      white-space: nowrap;
     }
   }
 }
@@ -399,5 +398,23 @@ pre,
     .pl-mdi {
       color: #df6b75;
     }
+  }
+}
+.markdown-body {
+  background-color: $global-background-color;
+  color: $global-font-color;
+
+  .highlight {
+    background-color: $code-background-color;
+    color: $code-color;
+
+    [theme="dark"] & {
+      background-color: $code-background-color-dark;
+      color: $code-color-dark;
+    }
+  }
+  [theme="dark"] & {
+    background-color: $global-background-color-dark !important;
+    color: $global-font-color-dark !important;
   }
 }
