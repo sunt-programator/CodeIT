@@ -399,7 +399,9 @@ Please open the code block below to view the complete sample configuration :(far
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true #
+    RSS = true
+    # {{< version 0.1.2 >}} Open Researcher and Contributor ID
+    Orcid = ""
 
   # Page config
   [params.page]
