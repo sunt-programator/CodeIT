@@ -10,5 +10,6 @@
     { "type": "test", "hidden": true },
     { "type": "build", "section": "Build changes" },
     { "type": "ci", "section": "CI/CD configuration changes" }
-  ]
+  ],
+  "compareUrlFormat": "{{host}}/{{owner}}/{{repository}}/compare/{{previousTag}}...{{currentTag}}"
 }
