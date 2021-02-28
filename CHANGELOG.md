@@ -2,6 +2,49 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.1](https://github.com/sunt-programator/CodeIT/compare/v0.1.0...v0.1.1) (2021-02-28)
+
+
+### Features
+
+* 💄 add h3-h5 header-mark before style to improve header display on single page posts ([4b35855](https://github.com/sunt-programator/CodeIT/commit/4b35855c31069d2de03f14ec7f114b09cb294250))
+* **avatar:** added alt text ([dbd66ba](https://github.com/sunt-programator/CodeIT/commit/dbd66ba290571e474b6f67527fa755da4dc5b57c)), closes [#83](https://github.com/sunt-programator/CodeIT/issues/83)
+
+
+### Bug Fixes
+
+* **icon:** fixed search icon shiftin on Firefox browser ([d46221c](https://github.com/sunt-programator/CodeIT/commit/d46221ce1148f1a9eeeef6c4d063632586d2a7e3)), closes [#76](https://github.com/sunt-programator/CodeIT/issues/76)
+
+
+### Documentation changes
+
+* update .all-contributorsrc [skip ci] ([f93fcac](https://github.com/sunt-programator/CodeIT/commit/f93fcac9ce8cd92b02ce82125e33c6394d820ebc))
+* update .all-contributorsrc [skip ci] ([98b25de](https://github.com/sunt-programator/CodeIT/commit/98b25de39c6085408e231b7843ea14a933e7ba58))
+* update .all-contributorsrc [skip ci] ([122cbf8](https://github.com/sunt-programator/CodeIT/commit/122cbf8058e0526e78a08b2da4a11ff02eb1582c))
+* update .all-contributorsrc [skip ci] ([ac3042e](https://github.com/sunt-programator/CodeIT/commit/ac3042e6a3bd7ca65987611af34bc8e9a54a1fa2))
+* update .all-contributorsrc [skip ci] ([e1df683](https://github.com/sunt-programator/CodeIT/commit/e1df683cc6c8e32e8856d0250b6f874c10fa3a80))
+* update .all-contributorsrc [skip ci] ([e25e6eb](https://github.com/sunt-programator/CodeIT/commit/e25e6eb26a6d69c2e0654df5a64d33e31e563b96))
+* update README.md [skip ci] ([6705912](https://github.com/sunt-programator/CodeIT/commit/6705912021d80b6fff61d4d2b64c402068ec925f))
+* update README.md [skip ci] ([fb23183](https://github.com/sunt-programator/CodeIT/commit/fb23183bc63bf8cd934f21a0680145a5dc898a62))
+* **preview-image:** changed preview image of the theme ([c832e33](https://github.com/sunt-programator/CodeIT/commit/c832e337d7861124f57584049c8a6cfd794ffb04)), closes [#29](https://github.com/sunt-programator/CodeIT/issues/29)
+* update README.md [skip ci] ([c33db6b](https://github.com/sunt-programator/CodeIT/commit/c33db6bd71fc893e9f02688283c0385c77a4fb4d))
+* update README.md [skip ci] ([c9589eb](https://github.com/sunt-programator/CodeIT/commit/c9589ebe9959df61d2304df74793b748e4ca9c3b))
+* update README.md [skip ci] ([076ae7f](https://github.com/sunt-programator/CodeIT/commit/076ae7f54646980427932f927e8f5586f78e0f40))
+* update README.md [skip ci] ([e844580](https://github.com/sunt-programator/CodeIT/commit/e844580eec5d75c9720238b91c983bc27f9d64f3))
+
+
+### Build changes
+
+* updated packages ([ea3e157](https://github.com/sunt-programator/CodeIT/commit/ea3e157be62f062b91ad29cd50ecabbc92909179))
+* updated packages ([fc3ba71](https://github.com/sunt-programator/CodeIT/commit/fc3ba71577202db77123ebf340b697d658993055))
+* updated packages ([16aa115](https://github.com/sunt-programator/CodeIT/commit/16aa115d89dcf4227499c09cd6495f9a1efb9b76))
+* updated packages ([fa12232](https://github.com/sunt-programator/CodeIT/commit/fa12232ed47e9aaee3112b0e72b89feed21ae5e5))
+
+
+### Other changes
+
+* **versionrc:** added compare URL format ([37fd853](https://github.com/sunt-programator/CodeIT/commit/37fd853cb108777d092d84991a9e7d9679b96f6b))
+
 ## 0.1.0 (2020-12-26)
 
 ### Features
