@@ -49,7 +49,9 @@
       "avatar_url": "https://avatars0.githubusercontent.com/u/11393826?v=4",
       "profile": "http://www.thatamazingprogrammer.com/",
       "contributions": [
-        "code"
+        "code",
+        "bug",
+        "doc"
       ]
     },
     {
@@ -312,7 +314,44 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "michael0liver",
+      "name": "Michael Oliver",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/55017335?v=4",
+      "profile": "https://michaeloliver.dev",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "epogrebnyak",
+      "name": "Evgeny Pogrebnyak",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/9265326?v=4",
+      "profile": "https://epogrebnyak.github.io",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
+      "login": "sosiristseng",
+      "name": "Wen Wei Tseng",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/40054455?v=4",
+      "profile": "https://sosiristseng.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "sheldonhull",
+      "name": "sheldonhull",
+      "avatar_url": "https://avatars.githubusercontent.com/u/3526320?v=4",
+      "profile": "https://www.sheldonhull.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 7
+  "contributorsPerLine": 7,
+  "skipCi": true
 }

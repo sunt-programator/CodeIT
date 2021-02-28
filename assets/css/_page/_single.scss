@@ -116,7 +116,15 @@
     > h2 > .header-mark::before {
       content: "#";
     }
-
+    > h3 > .header-mark::before {
+      content: "##";
+    }
+    > h4 > .header-mark::before {
+      content: "###";
+    }
+    > h5 > .header-mark::before {
+      content: "####";
+    }
     p {
       margin: 0.5rem 0;
     }
