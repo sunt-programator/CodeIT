@@ -351,6 +351,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jadmadi",
+      "name": "Madi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29486218?v=4",
+      "profile": "https://github.com/jadmadi",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
