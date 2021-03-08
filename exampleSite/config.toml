@@ -788,6 +788,7 @@ ignoreErrors = ["error-remote-getjson"]
       Skype = false
       Trello = false
       Mix = false
+      Telegram = false
     # Comment config
     [params.page.comment]
       enable = true
