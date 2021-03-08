@@ -497,6 +497,8 @@ hugo
       Skype = false
       Trello = false
       Mix = false
+      # {{< version 0.1.2 >}}
+      Telegram = false
     #  评论系统设置
     [params.page.comment]
       enable = true
