@@ -1,0 +1,200 @@
+# Translations for Traditional Chinese (Taiwan)
+# 繁體中文(台灣)的翻譯
+# https://gohugo.io/content-management/multilingual/#translation-of-strings
+
+# === baseof ==
+[backToTop]
+other = "回到頁首"
+
+[viewComments]
+other = "檢視回應"
+# === baseof ==
+
+# === Post ===
+[posts]
+other = "文章"
+# === Post ===
+
+# === Taxonomy ===
+[allSome]
+other = "所有{{ .Some }}"
+
+[tag]
+other = "標籤"
+
+[tags]
+other = "標籤"
+
+[category]
+other = "類別"
+
+[categories]
+other = "類別"
+# === Taxonomy ===
+
+# === Pagination ===
+[more]
+other = "更多"
+# === Pagination ===
+
+# === partials/header.html ===
+[selectLanguage]
+other = "選取語言"
+
+[switchTheme]
+other = "切換主題"
+# === partials/header.html ===
+
+# === partials/footer.html ===
+[poweredBySome]
+other = "Powered by {{ .Hugo }} | 主題 - {{ .Theme }}"
+# === partials/footer.html ===
+
+# === partials/comment.html ===
+[valineLang]
+other = "zh-tw"
+
+[valinePlaceholder]
+other = "你的留言 ..."
+
+[facebookLanguageCode]
+other = "zh_TW"
+# === partials/comment.html ===
+
+# === partials/assets.html ===
+[search]
+other = "搜尋"
+
+[searchPlaceholder]
+other = "搜尋文章標題或內容..."
+
+[clear]
+other = "清除"
+
+[cancel]
+other = "取消"
+
+[noResultsFound]
+other = "找不到任何結果"
+
+[lunrLanguageCode]
+other = "zh"
+
+[lunrLanguageLib]
+other = "lib/lunr/lunr.zh.js"
+
+[lunrSegmentitLib]
+other = "lib/lunr/lunr.segmentit.js"
+
+[copyToClipboard]
+other = "複製至剪貼簿"
+
+[cookieconsentMessage]
+other = "本網站使用 Cookies 來改善您的瀏覽體驗."
+
+[cookieconsentDismiss]
+other = "我知道了"
+
+[cookieconsentLink]
+other = "深入瞭解"
+# === partials/assets.html ===
+
+# === partials/plugin/share.html ===
+[shareOn]
+other = "分享至"
+# === partials/plugin/share.html ===
+
+# === posts/single.html ===
+[contents]
+other = "目錄"
+
+[publishedOnDate]
+other = "發佈於 {{ .Date }}"
+
+[includedInCategories]
+other = "收錄於 {{ .Categories }}"
+
+[wordCount]
+other = "約 {{ .Count }} 字"
+
+[readingTime]
+other = "預計閱讀 {{ .Count }} 分鐘"
+
+[views]
+other = "觀看次數"
+
+[author]
+other = "作者"
+
+[updatedOnDate]
+other = "更新於 {{ .Date }}"
+
+[readMarkdown]
+other = "閱讀 Markdown"
+
+[back]
+other = "返回"
+
+[home]
+other = "首頁"
+
+[readMore]
+other = "顯示全文"
+# === posts/single.html ===
+
+# === 404.html ===
+[pageNotFound]
+other = "找不到頁面"
+
+[pageNotFoundText]
+other = "抱歉，您要尋找的頁面不存在。"
+# === 404.html ===
+
+# === shortcodes/admonition.html ===
+[note]
+other = "注意"
+
+[abstract]
+other = "摘要"
+
+[info]
+other = "資訊"
+
+[tip]
+other = "提示"
+
+[success]
+other = "成功"
+
+[question]
+other = "問題"
+
+[warning]
+other = "警告"
+
+[failure]
+other = "失敗"
+
+[danger]
+other = "危險"
+
+[bug]
+other = "Bug"
+
+[example]
+other = "範例"
+
+[quote]
+other = "引述"
+# === shortcodes/admonition.html ===
+
+# === shortcodes/version.html ===
+[new]
+other = "新增"
+
+[changed]
+other = "更改"
+
+[deleted]
+other = "刪除"
+# === shortcodes/version.html ===
