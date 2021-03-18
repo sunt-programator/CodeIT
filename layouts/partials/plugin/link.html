@@ -4,6 +4,10 @@
         {{- partial "plugin/icon.html" . -}}
     {{- end -}}
     {{- with .Content -}}
-        {{- . | safeHTML -}}
+        {{ if (eq "[]string" (printf "%T" .) ) }}
+          {{ delimit . ", " }}
+        {{ else }}
+          {{ . }}
+        {{ end }}
     {{- end -}}
 </a>
