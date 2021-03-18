@@ -70,6 +70,7 @@
 .archive-item-date {
   width: 4em;
   text-align: right;
+  font-family: Courier, "Courier New", "Andale Mono", monospace;
   color: $global-font-secondary-color;
 
   [theme="dark"] & {

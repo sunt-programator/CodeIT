@@ -5,7 +5,10 @@
     margin: 1rem 0 0.5rem;
     font-size: 1.6rem;
     font-weight: bold;
-    line-height: 140%;
+    line-height: 150%;
+    padding: 5px;
+    border-bottom: 2px LightGrey solid;
+    color: #343434;
   }
 
   .single-subtitle {
@@ -126,7 +129,7 @@
       content: "####";
     }
     p {
-      margin: 0.5rem 0;
+      margin: 1.2rem 0;
     }
 
     b,
