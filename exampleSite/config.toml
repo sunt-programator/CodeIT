@@ -631,7 +631,7 @@ ignoreErrors = ["error-remote-getjson"]
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/sunt-programator/CodeIT"
   # which hash function used for SRI, when empty, no SRI is used ("sha256", "sha384", "sha512", "md5")
-  fingerprint = ""
+  fingerprint = "sha256"
   # date format
   dateFormat = "2006-01-02"
   # website images for Open Graph and Twitter Cards
