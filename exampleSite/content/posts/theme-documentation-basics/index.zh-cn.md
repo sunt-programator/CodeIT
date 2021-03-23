@@ -400,7 +400,9 @@ hugo
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true #
+    RSS = true
+    # {{< version 0.1.2 >}} Open Researcher and Contributor ID
+    Orcid = ""
 
   #  文章页面配置
   [params.page]
