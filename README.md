@@ -16,7 +16,7 @@ read [Why to choose CodeIT](#why-choose-CodeIT) so that you can choose the one t
 
 ![Hugo Theme CodeIT](https://github.com/sunt-programator/CodeIT/raw/master/images/Apple-Devices-Preview.png)
 
-## Brief history
+## :hourglass_flowing_sand: Brief history
 
 This theme is based on the original [LoveIt](https://github.com/dillonzq/LoveIt) theme. The original theme was loved by many users, but since May 2020 it has not been maintained.
 
@@ -24,11 +24,11 @@ We tried to contact the theme [owner](https://github.com/dillonzq), but without 
 
 So we decided to create and maintain the theme with a new name, keeping the original style, but continuously improving it. Feel free to contribute to this theme 😊.
 
-## [Demo Site](https://codeit.suntprogramator.dev/)
+## :computer: Demo Site
 
 To see this theme in action, here is a live [demo site](https://codeit.suntprogramator.dev/) that is rendered with the **CodeIT** theme.
 
-## Why choose CodeIT
+## :question: Why choose CodeIT
 
 Compared to the original LeaveIt theme and the KeepIt theme, the CodeIT theme has the following modifications.
 
@@ -64,9 +64,9 @@ the CodeIT theme may be more suitable for you.
 
 I hope you will CodeIT 👩‍💻!
 
-## Features
+## :open_book: Features
 
-### Performance and SEO
+### :zap: Performance and SEO
 
 - Optimized for **performance**: 99/100 on mobile and 100/100 on the desktop in [Google PageSpeed Insights](https://developers.google.com/speed/pagespeed/insights)
 - Optimized SEO performance with a correct **SEO SCHEMA** based on JSON-LD
@@ -77,7 +77,7 @@ I hope you will CodeIT 👩‍💻!
 - **CDN** for third-party libraries supported
 - Automatically converted images with **Lazy Load** by [lazysizes](https://github.com/aFarkas/lazysizes)
 
-### Appearance and Layout
+### :desktop_computer: Appearance and Layout
 
 - **Responsive** layout
 - **Light/Dark** mode
@@ -87,7 +87,7 @@ I hope you will CodeIT 👩‍💻!
 - **Multilanguage** supported and i18n ready
 - Beautiful **CSS animation**
 
-### Social and Comment Systems
+### :thought_balloon: Social and Comment Systems
 
 - **Gravatar** supported by [Gravatar](https://gravatar.com)
 - Local **Avatar** supported
@@ -101,7 +101,7 @@ I hope you will CodeIT 👩‍💻!
 - **Commento** comment system supported by [Commento](https://commento.io/)
 - **Utterances** comment system supported by [Utterances](https://utteranc.es/)
 
-### Extended Features
+### :sparkles: Extended Features
 
 - **Search** supported by [Lunr.js](https://lunrjs.com/) or [algolia](https://www.algolia.com/)
 - **Twemoji** supported
@@ -125,7 +125,7 @@ I hope you will CodeIT 👩‍💻!
 - **Cookie consent banner** supported by [cookieconsent](https://github.com/osano/cookieconsent)
 - ...
 
-## Add the theme to your blog
+## :dart: Add the theme to your blog
 
 First, download the theme from GitHub and add it to your site’s themes directory:
 
@@ -147,7 +147,7 @@ Then, add the theme to the site configuration:
 echo 'theme = "CodeIT"' >> config.toml
 ```
 
-## [Build documentation instructions](https://codeit.suntprogramator.dev/categories/documentation/)
+## :page_facing_up: [Build documentation instructions](https://codeit.suntprogramator.dev/categories/documentation/)
 
 You can build the theme documentation locally by using a [devcontainer](https://code.visualstudio.com/docs/remote/containers) or by manually install the [`Hugo`](https://gohugo.io/getting-started/installing).
 The main advantage of the `devcontainer` is that you will have a preconfigured container with all tools required for developing and building the theme documentation.
@@ -156,7 +156,7 @@ The main advantage of the `devcontainer` is that you will have a preconfigured c
 hugo server --source=exampleSite
 ```
 
-## Multilingual and i18n
+## :earth_africa: Multilingual and i18n
 
 CodeIT supports the following languages:
 
@@ -176,11 +176,11 @@ CodeIT supports the following languages:
 
 [Languages Compatibility](https://codeit.suntprogramator.dev/theme-documentation-basics/#language-compatibility)
 
-## Questions, ideas, bugs, pull requests
+## :question: Questions, ideas, bugs, pull requests
 
 All feedback is welcome! Head over to the [issue tracker](https://github.com/sunt-programator/CodeIT/issues).
 
-## License
+## :scroll: License
 
 CodeIT is licensed under the **MIT** license. Check the [LICENSE file](https://github.com/sunt-programator/CodeIT/blob/master/LICENSE) for details.
 
@@ -211,13 +211,13 @@ Thanks to the authors of the following resources included in the theme:
 - [Valine](https://valine.js.org/)
 - [cookieconsent](https://github.com/osano/cookieconsent)
 
-## Sponsor
+## :moneybag: Sponsor
 
 If you enjoy the theme, please consider buying me a coffee ☕️.
 
 - [PayPal](https://paypal.me/victorpogor)
 
-## Contributors ✨
+## :tada: Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
