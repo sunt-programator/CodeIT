@@ -34,10 +34,10 @@ pre,
 .highlight table,
 .highlight tr,
 .highlight td {
-  background: $code-background-color;
+  background: $code-background-color !important;
 
   [theme="dark"] & {
-    background: $code-background-color-dark;
+    background: $code-background-color-dark !important;
   }
 }
 
@@ -54,6 +54,7 @@ pre,
       margin: 0;
       padding: 0;
       border: none !important;
+      white-space: nowrap;
     }
   }
 }
@@ -228,7 +229,15 @@ pre,
   .gist-file,
   .gist-data,
   .gist-meta {
-    border: none;
+    background: none;
+  }
+
+  .gist-file {
+    border-color: $global-font-secondary-color;
+
+    [theme="dark"] & {
+      border-color: $global-font-secondary-color-dark;
+    }
   }
 
   .gist-meta {
@@ -242,10 +251,14 @@ pre,
     }
   }
 
+  color: $global-font-color;
+
   [theme="dark"] & {
+    color: $global-font-color-dark;
+
     // imported from https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/one-dark.css
     .highlight {
-      background: #141414;
+      background: none;
     }
     .blob-num,
     .blob-code-inner,
@@ -398,41 +411,5 @@ pre,
     .pl-mdi {
       color: #df6b75;
     }
-  }
-}
-.markdown-body {
-  background-color: $global-background-color;
-  color: $global-font-color;
-
-  .highlight {
-    background-color: $code-background-color;
-    color: $code-color;
-
-    [theme="dark"] & {
-      background-color: $code-background-color-dark;
-      color: $code-color-dark;
-    }
-  }
-  [theme="dark"] & {
-    background-color: $global-background-color-dark !important;
-    color: $global-font-color-dark !important;
-  }
-}
-.markdown-body {
-  background-color: $global-background-color;
-  color: $global-font-color;
-
-  .highlight {
-    background-color: $code-background-color;
-    color: $code-color;
-
-    [theme="dark"] & {
-      background-color: $code-background-color-dark;
-      color: $code-color-dark;
-    }
-  }
-  [theme="dark"] & {
-    background-color: $global-background-color-dark !important;
-    color: $global-font-color-dark !important;
   }
 }
