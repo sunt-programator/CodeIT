@@ -289,7 +289,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://sosiristseng.github.io"><img src="https://avatars2.githubusercontent.com/u/40054455?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Wen Wei Tseng</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sosiristseng" title="Code">💻</a></td>
-    <td align="center"><a href="https://www.sheldonhull.com"><img src="https://avatars.githubusercontent.com/u/3526320?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sheldonhull</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sheldonhull" title="Code">💻</a></td>
+    <td align="center"><a href="https://www.sheldonhull.com"><img src="https://avatars.githubusercontent.com/u/3526320?v=4?s=100" width="100px;" alt=""/><br /><sub><b>sheldonhull</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=sheldonhull" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Asheldonhull" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
