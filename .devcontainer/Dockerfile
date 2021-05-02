@@ -4,26 +4,18 @@ FROM klakegg/hugo:ext-ubuntu
 ENV DEBIAN_FRONTEND=noninteractive
 
 # Install required packages
-RUN apt update && \
-    apt install -y sudo \
-    curl \
-    gnupg2 \
-    linuxbrew-wrapper \
-    locales \
-    zsh \
-    wget \
-    powerline \
-    fonts-powerline \
-    software-properties-common \
-    vim \
-    # set up locale
-    && locale-gen en_US.UTF-8
-
-# Install git
-RUN add-apt-repository -y ppa:git-core/ppa && apt update && apt install git -y
+RUN apt update
+RUN apt install -y curl
+RUN apt install -y gnupg2
+RUN apt install -y fonts-firacode
+RUN apt install -y zsh
+RUN apt install -y sudo
+RUN apt install -y locales
+RUN apt install -y vim
+RUN locale-gen en_US.UTF-8
 
 # Install Node.js
-RUN curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+RUN curl -sL https://deb.nodesource.com/setup_16.x | bash -
 RUN apt install nodejs
 
 # Switch back to dialog for any ad-hoc use of apt-get
@@ -54,13 +46,16 @@ ENV TERM xterm
 ENV SHELL /bin/zsh
 
 # Run the installation script  
-RUN wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
+RUN sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install powerlevel10k theme
-RUN git clone https://github.com/romkatv/powerlevel10k.git ~/.oh-my-zsh/custom/themes/powerlevel10k
+RUN git clone https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Install syntax highlighting
-RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.zsh-syntax-highlighting --depth 1
+RUN git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+# Install zsh autosuggestions
+RUN git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # Add .zsh configuration
 ADD .p10k.zsh $HOME
