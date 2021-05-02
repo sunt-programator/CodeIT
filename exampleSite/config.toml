@@ -1,4 +1,4 @@
-baseURL = "https://example.com"
+baseURL = "https://codeit.suntprogramator.dev"
 # [en, zh-cn, fr, pl, ...] determines default content language
 defaultContentLanguage = "en"
 # theme
@@ -221,6 +221,7 @@ ignoreErrors = ["error-remote-getjson"]
         Bilibili = ""
         Email = "xxxx@xxxx.com"
         RSS = true
+        Orcid = ""
         [languages.en.params.social.Mastodon]
           id = "@xxxx"
           prefix = "https://mastodon.technology/"
@@ -424,6 +425,7 @@ ignoreErrors = ["error-remote-getjson"]
         Bilibili = "xxxx"
         Email = "xxxx@xxxx.com"
         RSS = true
+        Orcid = ""
 
   [languages.fr]
     weight = 3
@@ -622,6 +624,7 @@ ignoreErrors = ["error-remote-getjson"]
         Bilibili = ""
         Email = "xxxx@xxxx.com"
         RSS = true
+        Orcid = ""
 
 [params]
   # CodeIT theme version
@@ -785,6 +788,7 @@ ignoreErrors = ["error-remote-getjson"]
       Skype = false
       Trello = false
       Mix = false
+      Telegram = false
     # Comment config
     [params.page.comment]
       enable = true

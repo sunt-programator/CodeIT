@@ -1,4 +1,4 @@
-{{- $params := .Page.Params | merge .Site.Params.Page | merge (dict "author" .Site.Author.name) -}}
+{{- $params := .Page.Params | merge .Site.Params.Page | merge (dict "author" .Site.Author.name "email" .Site.Author.email) -}}
 <item>
     <title>
         {{- .Page.Title -}}
@@ -9,9 +9,16 @@
     <pubDate>
         {{- .Page.Date.Format "Mon, 02 Jan 2006 15:04:05 -0700"  -}}
     </pubDate>
-    <author>
-        {{- .params.author | default (T "author") -}}
-    </author>
+    {{- with $params.email -}}
+        <author>
+            {{- $params.email -}}
+        </author>
+    {{- end -}}
+    {{- with $params.author -}}
+        <dc:creator>
+            {{- $params.author -}}
+        </dc:creator>
+    {{- end -}}
     <guid>
         {{- .Page.Permalink -}}
     </guid>

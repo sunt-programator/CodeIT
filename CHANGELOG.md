@@ -2,6 +2,75 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.2](https://github.com/sunt-programator/CodeIT/compare/v0.1.0...v0.1.2) (2021-05-02)
+
+
+### Features
+
+* **avatar:** added alt text ([dbd66ba](https://github.com/sunt-programator/CodeIT/commit/dbd66ba290571e474b6f67527fa755da4dc5b57c)), closes [#83](https://github.com/sunt-programator/CodeIT/issues/83)
+* **orcid:** added ORCID social button ([57b4180](https://github.com/sunt-programator/CodeIT/commit/57b418061ca076d8dae4187edc94bf7432eae699)), closes [#82](https://github.com/sunt-programator/CodeIT/issues/82)
+* **telegram:** added Telegram sharing option ([7614d2e](https://github.com/sunt-programator/CodeIT/commit/7614d2ef1ef0d548690bdf9ce2bdf55251d64b03)), closes [#93](https://github.com/sunt-programator/CodeIT/issues/93)
+* 💄 add h3-h5 header-mark before style to improve header display on single page posts ([4b35855](https://github.com/sunt-programator/CodeIT/commit/4b35855c31069d2de03f14ec7f114b09cb294250))
+
+
+### Bug Fixes
+
+* **icon:** fixed search icon shiftin on Firefox browser ([d46221c](https://github.com/sunt-programator/CodeIT/commit/d46221ce1148f1a9eeeef6c4d063632586d2a7e3)), closes [#76](https://github.com/sunt-programator/CodeIT/issues/76)
+* **rss:** fixed wrong author value ([8d5b0dc](https://github.com/sunt-programator/CodeIT/commit/8d5b0dc1e7553fa09741485b22d0299967cd575e)), closes [#116](https://github.com/sunt-programator/CodeIT/issues/116)
+* **style:** gist style improvements ([976eb12](https://github.com/sunt-programator/CodeIT/commit/976eb124d9949effd0922dfd38d60621be77a8cc))
+* **style:** improve gist markdown file rendering ([da4ed46](https://github.com/sunt-programator/CodeIT/commit/da4ed46db8425b6da58b051298ce34b393dd796a))
+* **style:** remove whitespace setting to preserve gist indentation ([0f37c69](https://github.com/sunt-programator/CodeIT/commit/0f37c69852e59d06f300e6d9e6cbada4442d3877))
+
+
+### Build changes
+
+* updated packages ([ea3e157](https://github.com/sunt-programator/CodeIT/commit/ea3e157be62f062b91ad29cd50ecabbc92909179))
+* updated packages ([fc3ba71](https://github.com/sunt-programator/CodeIT/commit/fc3ba71577202db77123ebf340b697d658993055))
+* updated packages ([16aa115](https://github.com/sunt-programator/CodeIT/commit/16aa115d89dcf4227499c09cd6495f9a1efb9b76))
+* updated packages ([fa12232](https://github.com/sunt-programator/CodeIT/commit/fa12232ed47e9aaee3112b0e72b89feed21ae5e5))
+
+
+### CI/CD configuration changes
+
+* **dependabot:** added job ([0502b08](https://github.com/sunt-programator/CodeIT/commit/0502b0897b0f7e89e441bfd5317cbfaee0b6c6d5))
+* changed dependabot action ([f79d41b](https://github.com/sunt-programator/CodeIT/commit/f79d41b4f7f77f8d17ba228e93912bdeca94d37a))
+* **dependabot:** added auto merger action ([a8ada22](https://github.com/sunt-programator/CodeIT/commit/a8ada228915bcc79862dac952c85ca72db0ce386))
+
+
+### Documentation changes
+
+* update .all-contributorsrc [skip ci] ([ea1305c](https://github.com/sunt-programator/CodeIT/commit/ea1305c4721fa7e49583871c13089cc1ff8a8cd7))
+* update README.md [skip ci] ([1d85835](https://github.com/sunt-programator/CodeIT/commit/1d858354647133235f932a26ce2cf014756330d7))
+* **readme:** added emoji on titles ([7e49cdf](https://github.com/sunt-programator/CodeIT/commit/7e49cdf87197a674fc4b6b381dfff30a45324b38))
+* **readme:** removed TOC since Github implemented it ([66812e2](https://github.com/sunt-programator/CodeIT/commit/66812e277920a80684c021617fa2a50893c7f67b))
+* update .all-contributorsrc [skip ci] ([6245177](https://github.com/sunt-programator/CodeIT/commit/6245177a5a2b0ad1b8c5972d9e19a718b3313d42))
+* update .all-contributorsrc [skip ci] ([8969557](https://github.com/sunt-programator/CodeIT/commit/8969557c24e8a967a25c47e7e783b98fe36031c1))
+* update .all-contributorsrc [skip ci] ([1840013](https://github.com/sunt-programator/CodeIT/commit/18400135d2d8008280db405f5d9ad2208c8b2e37))
+* update .all-contributorsrc [skip ci] ([f93fcac](https://github.com/sunt-programator/CodeIT/commit/f93fcac9ce8cd92b02ce82125e33c6394d820ebc))
+* update .all-contributorsrc [skip ci] ([98b25de](https://github.com/sunt-programator/CodeIT/commit/98b25de39c6085408e231b7843ea14a933e7ba58))
+* update .all-contributorsrc [skip ci] ([122cbf8](https://github.com/sunt-programator/CodeIT/commit/122cbf8058e0526e78a08b2da4a11ff02eb1582c))
+* update .all-contributorsrc [skip ci] ([ac3042e](https://github.com/sunt-programator/CodeIT/commit/ac3042e6a3bd7ca65987611af34bc8e9a54a1fa2))
+* update .all-contributorsrc [skip ci] ([e1df683](https://github.com/sunt-programator/CodeIT/commit/e1df683cc6c8e32e8856d0250b6f874c10fa3a80))
+* update .all-contributorsrc [skip ci] ([e25e6eb](https://github.com/sunt-programator/CodeIT/commit/e25e6eb26a6d69c2e0654df5a64d33e31e563b96))
+* update README.md [skip ci] ([2b1ff75](https://github.com/sunt-programator/CodeIT/commit/2b1ff750fc6deb0c849f1461d52cd68cb83cd071))
+* update README.md [skip ci] ([058153e](https://github.com/sunt-programator/CodeIT/commit/058153ecef723aefaf38a4bbe809077270cb2eb6))
+* update README.md [skip ci] ([b4f0d34](https://github.com/sunt-programator/CodeIT/commit/b4f0d34164b73c4dbc3a9d939e2c002d1827a003))
+* update README.md [skip ci] ([6705912](https://github.com/sunt-programator/CodeIT/commit/6705912021d80b6fff61d4d2b64c402068ec925f))
+* update README.md [skip ci] ([fb23183](https://github.com/sunt-programator/CodeIT/commit/fb23183bc63bf8cd934f21a0680145a5dc898a62))
+* **preview-image:** changed preview image of the theme ([c832e33](https://github.com/sunt-programator/CodeIT/commit/c832e337d7861124f57584049c8a6cfd794ffb04)), closes [#29](https://github.com/sunt-programator/CodeIT/issues/29)
+* update README.md [skip ci] ([c33db6b](https://github.com/sunt-programator/CodeIT/commit/c33db6bd71fc893e9f02688283c0385c77a4fb4d))
+* update README.md [skip ci] ([c9589eb](https://github.com/sunt-programator/CodeIT/commit/c9589ebe9959df61d2304df74793b748e4ca9c3b))
+* update README.md [skip ci] ([076ae7f](https://github.com/sunt-programator/CodeIT/commit/076ae7f54646980427932f927e8f5586f78e0f40))
+* update README.md [skip ci] ([e844580](https://github.com/sunt-programator/CodeIT/commit/e844580eec5d75c9720238b91c983bc27f9d64f3))
+
+
+### Other changes
+
+* changed dev container configs ([b575a22](https://github.com/sunt-programator/CodeIT/commit/b575a22cfdcb512939b02eea024c32470bea5090))
+* enabled fingerprint ([6ed8392](https://github.com/sunt-programator/CodeIT/commit/6ed8392c88e6036680f94239c6b63600d7f20d32))
+* **release:** 0.1.1 ([f13aab5](https://github.com/sunt-programator/CodeIT/commit/f13aab53547d2bd31cad866c51e1d0e5bd0d37fc))
+* **versionrc:** added compare URL format ([37fd853](https://github.com/sunt-programator/CodeIT/commit/37fd853cb108777d092d84991a9e7d9679b96f6b))
+
 ## [0.1.1](https://github.com/sunt-programator/CodeIT/compare/v0.1.0...v0.1.1) (2021-02-28)
 
 

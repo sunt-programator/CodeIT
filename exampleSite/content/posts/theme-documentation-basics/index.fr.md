@@ -404,7 +404,9 @@ Please open the code block below to view the complete sample configuration :(far
     Matrix = ""
     Bilibili = ""
     Email = "xxxx@xxxx.com"
-    RSS = true #
+    RSS = true
+    # {{< version 0.1.2 >}} Open Researcher and Contributor ID
+    Orcid = ""
 
   # Page config
   [params.page]
@@ -499,6 +501,8 @@ Please open the code block below to view the complete sample configuration :(far
       Skype = false
       Trello = false
       Mix = false
+      # {{< version 0.1.2 >}}
+      Telegram = false
     # Comment config
     [params.page.comment]
       enable = true

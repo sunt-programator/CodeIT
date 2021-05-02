@@ -330,7 +330,8 @@
       "avatar_url": "https://avatars3.githubusercontent.com/u/9265326?v=4",
       "profile": "https://epogrebnyak.github.io",
       "contributions": [
-        "bug"
+        "bug",
+        "ideas"
       ]
     },
     {
@@ -350,6 +351,25 @@
       "contributions": [
         "code",
         "bug"
+      ]
+    },
+    {
+      "login": "jadmadi",
+      "name": "Madi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29486218?v=4",
+      "profile": "https://github.com/jadmadi",
+      "contributions": [
+        "code",
+        "bug"
+      ]
+    },
+    {
+      "login": "trmendes",
+      "name": "Thiago Mendes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16507629?v=4",
+      "profile": "https://tmendes.gitlab.io/28lbackpack",
+      "contributions": [
+        "code"
       ]
     }
   ],

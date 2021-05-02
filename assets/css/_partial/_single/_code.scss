@@ -34,10 +34,10 @@ pre,
 .highlight table,
 .highlight tr,
 .highlight td {
-  background: $code-background-color;
+  background: $code-background-color !important;
 
   [theme="dark"] & {
-    background: $code-background-color-dark;
+    background: $code-background-color-dark !important;
   }
 }
 
@@ -229,7 +229,15 @@ pre,
   .gist-file,
   .gist-data,
   .gist-meta {
-    border: none;
+    background: none;
+  }
+
+  .gist-file {
+    border-color: $global-font-secondary-color;
+
+    [theme="dark"] & {
+      border-color: $global-font-secondary-color-dark;
+    }
   }
 
   .gist-meta {
@@ -243,10 +251,14 @@ pre,
     }
   }
 
+  color: $global-font-color;
+
   [theme="dark"] & {
+    color: $global-font-color-dark;
+
     // imported from https://github.com/lonekorean/gist-syntax-themes/blob/master/stylesheets/one-dark.css
     .highlight {
-      background: #141414;
+      background: none;
     }
     .blob-num,
     .blob-code-inner,
