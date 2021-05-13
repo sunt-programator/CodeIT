@@ -371,6 +371,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "aiyasin",
+      "name": "Yasin",
+      "avatar_url": "https://avatars.githubusercontent.com/u/61509470?v=4",
+      "profile": "http://aimoon.top",
+      "contributions": [
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
