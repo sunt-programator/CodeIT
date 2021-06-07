@@ -19,7 +19,7 @@
     "commitizen": "^4.2.4",
     "core-js": "^3.13.1",
     "cz-conventional-changelog": "^3.3.0",
-    "eslint": "^7.27.0",
+    "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^6.0.0",
     "lint-staged": "^11.0.0",
