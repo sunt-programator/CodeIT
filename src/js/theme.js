@@ -576,8 +576,8 @@ class Theme {
       const $headerLinkElements = document.getElementsByClassName("headerLink");
       const headerIsFixed =
         document.body.getAttribute("header-desktop") !== "normal";
-      const headerHeight = document.getElementById("header-desktop")
-        .offsetHeight;
+      const headerHeight =
+        document.getElementById("header-desktop").offsetHeight;
       const TOP_SPACING = 20 + (headerIsFixed ? headerHeight : 0);
       const minTocTop = $toc.offsetTop;
       const minScrollTop =
@@ -610,8 +610,8 @@ class Theme {
           let activeTocIndex = $headerLinkElements.length - 1;
           for (let i = 0; i < $headerLinkElements.length - 1; i++) {
             const thisTop = $headerLinkElements[i].getBoundingClientRect().top;
-            const nextTop = $headerLinkElements[i + 1].getBoundingClientRect()
-              .top;
+            const nextTop =
+              $headerLinkElements[i + 1].getBoundingClientRect().top;
             if (
               (i == 0 && thisTop > INDEX_SPACING) ||
               (thisTop <= INDEX_SPACING && nextTop > INDEX_SPACING)
@@ -708,6 +708,7 @@ class Theme {
             geolocate,
             scale,
             fullscreen,
+            optionsJson,
           } = this.data[$mapbox.id];
           const mapbox = new mapboxgl.Map({
             container: $mapbox,
@@ -740,6 +741,18 @@ class Theme {
           }
           if (fullscreen) {
             mapbox.addControl(new mapboxgl.FullscreenControl());
+          }
+          if (typeof optionsJson === "object" && optionsJson !== null) {
+            console.log(optionsJson);
+            mapbox.on("load", function () {
+              for (const source of optionsJson.sources) {
+                mapbox.addSource(source.id, source.properties);
+              }
+
+              for (const layer of optionsJson.layers) {
+                mapbox.addLayer(layer);
+              }
+            });
           }
           mapbox.addControl(new MapboxLanguage());
           this._mapboxArr.push(mapbox);
