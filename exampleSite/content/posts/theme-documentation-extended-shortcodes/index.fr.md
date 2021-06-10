@@ -964,6 +964,10 @@ The `mapbox` shortcode has the following named parameters to use Mapbox GL JS:
 
   Height of the map, default value is `20rem`.
 
+- **properties** _[optional]_
+
+  GeoJSON sources and the layers of the map.
+
 Example simple `mapbox` input:
 
 ```markdown
@@ -987,6 +991,16 @@ Or
 The rendered output looks like this:
 
 {{< mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/navigation-preview-day-v4?optimize=true" "mapbox://styles/mapbox/navigation-preview-night-v4?optimize=true" >}}
+
+Example `mapbox` input with the GetJSON data:
+
+```markdown
+{{</* mapbox lng=28.836 lat=47.021 zoom=8 marked=false properties="/static/features-layers.json" */>}}
+```
+
+The rendered output looks like this:
+
+{{< mapbox lng=28.836 lat=47.021 zoom=8 marked=false properties="/static/features-layers.json" >}}
 
 ## 8 music
 

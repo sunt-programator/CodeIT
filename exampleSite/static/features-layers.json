@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "id": "logo",
+      "properties": {
+        "type": "geojson",
+        "data": "/features.geojson"
+      }
+    }
+  ],
+  "layers": [
+    {
+      "id": "logo-layer",
+      "type": "fill",
+      "source": "logo",
+      "paint": {
+        "fill-color": ["coalesce", ["get", "fill"], "#005c7c"],
+        "fill-opacity": 0.5
+      }
+    }
+  ]
+}
