@@ -59,6 +59,17 @@ pre,
   }
 }
 
+.gist {
+  .table-wrapper {
+    > table,
+    > table thead,
+    > table tr,
+    > table td {
+      white-space: pre;
+    }
+  }
+}
+
 .highlight {
   line-height: 1.4em;
   margin: 0.5rem 0;
