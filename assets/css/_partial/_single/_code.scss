@@ -54,17 +54,6 @@ pre,
       margin: 0;
       padding: 0;
       border: none !important;
-      white-space: nowrap;
-    }
-  }
-}
-
-.gist {
-  .table-wrapper {
-    > table,
-    > table thead,
-    > table tr,
-    > table td {
       white-space: pre;
     }
   }
