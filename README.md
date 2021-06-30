@@ -276,6 +276,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/jadmadi"><img src="https://avatars.githubusercontent.com/u/29486218?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Madi</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=jadmadi" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Ajadmadi" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://tmendes.gitlab.io/28lbackpack"><img src="https://avatars.githubusercontent.com/u/16507629?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Thiago Mendes</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=trmendes" title="Code">💻</a></td>
     <td align="center"><a href="http://aimoon.top"><img src="https://avatars.githubusercontent.com/u/61509470?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Yasin</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Aaiyasin" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://www.jesustorres.es/"><img src="https://avatars.githubusercontent.com/u/266452?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jesús Torres</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=aplatanado" title="Code">💻</a></td>
   </tr>
 </table>
 
