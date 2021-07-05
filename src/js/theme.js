@@ -102,7 +102,7 @@ class Theme {
               document.body.setAttribute("theme", "light");
             else document.body.setAttribute("theme", "dark");
             this.isDark = !this.isDark;
-            window.localStorage &&
+            this.config.cookieconsent && window.localStorage &&
               localStorage.setItem("theme", this.isDark ? "dark" : "light");
             for (let event of this.switchThemeEventSet) event();
           },
