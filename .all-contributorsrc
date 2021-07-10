@@ -389,6 +389,16 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "ktw717",
+      "name": "Karl Webster",
+      "avatar_url": "https://avatars.githubusercontent.com/u/19327709?v=4",
+      "profile": "https://github.com/ktw717",
+      "contributions": [
+        "code",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
