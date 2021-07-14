@@ -857,6 +857,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
       [params.page.comment.twikoo]
         enable = false
 		js = "https://cdn.jsdelivr.net/npm/twikoo@1.4.1/dist/twikoo.all.min.js"
+		evnId = "https://xxx.vercel.app"
 
     # Third-party library config
     [params.page.library]

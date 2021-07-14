@@ -132,12 +132,15 @@
 			<script src="{{ $twikoo.js }}"></script>
 			<script>
 			twikoo.init({
-			  envId: 'https://xxxxx.vercel.app/',
+			  envId: '{{ $twikoo.evnId }}',
 			  el: '#twikoo',
 			  // region: 'ap-guangzhou',
 			  // path: 'window.location.pathname',
 			})
 			</script>
+            <noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://twikoo.js.org/">Twikoo</a>.
+            </noscript>
         {{- end -}}
 
     </div>
