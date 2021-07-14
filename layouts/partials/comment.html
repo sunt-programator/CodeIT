@@ -124,6 +124,22 @@
                 Please enable JavaScript to view the comments powered by <a href="https://utteranc.es/">Utterances</a>.
             </noscript>
         {{- end -}}
+
+        {{- /* Twikoo Comment System */ -}}
+        {{- $twikoo := $comment.twikoo | default dict -}}
+        {{- if $twikoo.enable -}}
+			<div id="twikoo"></div>
+			<script src="{{ $twikoo.js }}"></script>
+			<script>
+			twikoo.init({
+			  envId: 'https://xxxxx.vercel.app/',
+			  el: '#twikoo',
+			  // region: 'ap-guangzhou',
+			  // path: 'window.location.pathname',
+			})
+			</script>
+        {{- end -}}
+
     </div>
 {{- end -}}
 
