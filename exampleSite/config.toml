@@ -855,7 +855,7 @@ ignoreErrors = ["error-missing-instagram-accesstoken"]
         lightTheme = "github-light"
         darkTheme = "github-dark"
       [params.page.comment.waline]
-        enable = true
+        enable = false
         #js = "https://cdn.jsdelivr.net/npm/@waline/client@latest"
         js = "https://cdn.jsdelivr.net/npm/@waline/client/dist/Waline.min.js"
 		serverURL = "https://xxx.vercel.app"
