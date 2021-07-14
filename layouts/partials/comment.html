@@ -125,6 +125,24 @@
             </noscript>
         {{- end -}}
 
+        {{- /* Waline Comment System */ -}}
+        {{- $waline := $comment.waline | default dict -}}
+        {{- if $waline.enable -}}
+            <div id="waline"></div>
+			<script src='{{ $waline.js }}'></script>
+			<script>
+			Waline({
+			  el: '#waline',
+			  serverURL: '{{ $waline.serverURL }}',
+			  visitor: '{{ $waline.visitor }}',
+			  dark: '{{ $waline.dark }}',
+			});
+			</script>
+            <noscript>
+                Please enable JavaScript to view the comments powered by <a href="https://waline.js.org/">Waline</a>.
+            </noscript>
+        {{- end -}}
+
         {{- /* Twikoo Comment System */ -}}
         {{- $twikoo := $comment.twikoo | default dict -}}
         {{- if $twikoo.enable -}}
