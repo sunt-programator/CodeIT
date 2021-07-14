@@ -854,6 +854,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      [params.page.comment.twikoo]
+        enable = false
+		js = "https://cdn.jsdelivr.net/npm/twikoo@1.4.1/dist/twikoo.all.min.js"
+
     # Third-party library config
     [params.page.library]
       [params.page.library.css]
