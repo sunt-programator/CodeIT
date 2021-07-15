@@ -130,7 +130,7 @@
         {{- if $waline.enable -}}
             <div id="waline"></div>
             {{- $source := $cdn.walineJS | default "/lib/waline/Waline.min.js" -}}
-			{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+            {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
             <script src='{{ $source }}'></script>
             <script>
             Waline({
@@ -150,9 +150,9 @@
         {{- if $twikoo.enable -}}
             <div id="twikoo"></div>
             {{- $source := $cdn.twikooJS | default "/lib/twikoo/twikoo.all.min.js" -}}
-			{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
-			<script src='{{ $source }}'></script>
-			<script>
+            {{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+            <script src='{{ $source }}'></script>
+            <script>
             twikoo.init({
               envId: '{{ $twikoo.evnId }}',
               el: '#twikoo',
