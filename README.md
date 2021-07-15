@@ -100,6 +100,8 @@ I hope you will CodeIT 👩‍💻!
 - **Telegram comments** system supported by [Telegram Comments](https://comments.app/)
 - **Commento** comment system supported by [Commento](https://commento.io/)
 - **Utterances** comment system supported by [Utterances](https://utteranc.es/)
+- **Waline** comment system supported by [Waline](https://waline.js.org/)
+- **Twikoo** comment system supported by [Twikoo](https://twikoo.js.org/)
 
 ### :sparkles: Extended Features
 

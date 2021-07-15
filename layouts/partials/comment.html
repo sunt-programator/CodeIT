@@ -129,15 +129,17 @@
         {{- $waline := $comment.waline | default dict -}}
         {{- if $waline.enable -}}
             <div id="waline"></div>
-			<script src='{{ $waline.js }}'></script>
-			<script>
-			Waline({
-			  el: '#waline',
-			  serverURL: '{{ $waline.serverURL }}',
-			  visitor: '{{ $waline.visitor }}',
-			  dark: '{{ $waline.dark }}',
-			});
-			</script>
+            {{- $source := $cdn.walineJS | default "/lib/waline/Waline.min.js" -}}
+			{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+            <script src='{{ $source }}'></script>
+            <script>
+            Waline({
+              el: '#waline',
+              serverURL: '{{ $waline.serverURL }}',
+              visitor: '{{ $waline.visitor }}',
+              dark: '{{ $waline.dark }}',
+            });
+            </script>
             <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://waline.js.org/">Waline</a>.
             </noscript>
@@ -146,16 +148,18 @@
         {{- /* Twikoo Comment System */ -}}
         {{- $twikoo := $comment.twikoo | default dict -}}
         {{- if $twikoo.enable -}}
-			<div id="twikoo"></div>
-			<script src="{{ $twikoo.js }}"></script>
+            <div id="twikoo"></div>
+            {{- $source := $cdn.twikooJS | default "/lib/twikoo/twikoo.all.min.js" -}}
+			{{- dict "Source" $source "Fingerprint" $fingerprint | dict "Scratch" .Scratch "Data" | partial "scratch/script.html" -}}
+			<script src='{{ $source }}'></script>
 			<script>
-			twikoo.init({
-			  envId: '{{ $twikoo.evnId }}',
-			  el: '#twikoo',
-			  // region: 'ap-guangzhou',
-			  // path: 'window.location.pathname',
-			})
-			</script>
+            twikoo.init({
+              envId: '{{ $twikoo.evnId }}',
+              el: '#twikoo',
+              // region: 'ap-guangzhou',
+              // path: 'window.location.pathname',
+            })
+            </script>
             <noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://twikoo.js.org/">Twikoo</a>.
             </noscript>
