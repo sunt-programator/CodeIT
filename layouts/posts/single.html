@@ -64,12 +64,12 @@
                     <span id="{{ .RelPermalink }}" class="leancloud_visitors" data-flag-title="{{ .Title }}">
                         <i class="far fa-eye fa-fw"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;{{ T "views" }}
                     </span>&nbsp;
-					<a href="#comments" id="post-meta-vcount" title="{{ T `viewComments` }}">
-						<i class="fas fa-comment fa-fw"></i>&nbsp;<span id="{{ .RelPermalink }}" class="waline-comment-count"></span>&nbsp;条评论
-					</a>
+                    <a href="#comments" id="post-meta-vcount" title="{{ T `viewComments` }}">
+                        <i class="fas fa-comment fa-fw"></i>&nbsp;<span id="{{ .RelPermalink }}" class="waline-comment-count"></span>&nbsp;条评论
+                    </a>
                 {{- end -}}
                 {{- if $comment.enable | and $comment.twikoo.enable -}}
-					<i class="far fa-eye fa-fw"></i>&nbsp;<span id="twikoo_visitors">0</span>&nbsp;{{ T "views" }}
+                    <i class="far fa-eye fa-fw"></i>&nbsp;<span id="twikoo_visitors">0</span>&nbsp;{{ T "views" }}
                 {{- end -}}
             </div>
         </div>
