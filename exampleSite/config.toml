@@ -17,7 +17,7 @@ enableGitInfo = true
 enableEmoji = true
 
 # Ignore build errors.
-ignoreErrors = ["error-missing-instagram-accesstoken"]
+ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 
 [languages]
   [languages.en]
