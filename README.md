@@ -279,6 +279,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="http://www.jesustorres.es/"><img src="https://avatars.githubusercontent.com/u/266452?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jesús Torres</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=aplatanado" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/ktw717"><img src="https://avatars.githubusercontent.com/u/19327709?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Karl Webster</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=ktw717" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=ktw717" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/OnlyFor"><img src="https://avatars.githubusercontent.com/u/16849187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>OnlyFor</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=OnlyFor" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=OnlyFor" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
