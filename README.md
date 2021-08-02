@@ -281,6 +281,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/OnlyFor"><img src="https://avatars.githubusercontent.com/u/16849187?v=4?s=100" width="100px;" alt=""/><br /><sub><b>OnlyFor</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=OnlyFor" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=OnlyFor" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://tbm98.dev"><img src="https://avatars.githubusercontent.com/u/52562340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Minh Tran</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tbm98" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Atbm98" title="Bug reports">🐛</a></td>
   </tr>
 </table>
 
