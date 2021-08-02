@@ -409,6 +409,16 @@
         "code",
         "doc"
       ]
+    },
+    {
+      "login": "tbm98",
+      "name": "Minh Tran",
+      "avatar_url": "https://avatars.githubusercontent.com/u/52562340?v=4",
+      "profile": "https://tbm98.dev",
+      "contributions": [
+        "code",
+        "bug"
+      ]
     }
   ],
   "contributorsPerLine": 7,
