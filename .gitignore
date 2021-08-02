@@ -17,3 +17,6 @@ $RECYCLE.BIN/
 
 # Linux
 .directory
+
+#idea IDE
+.idea
