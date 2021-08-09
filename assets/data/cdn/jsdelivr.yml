@@ -67,4 +67,4 @@ libFiles:
   # twikoo@1.4.3 https://github.com/imaegoo/twikoo
   twikooJS: twikoo@1.4.3/dist/twikoo.all.min.js
   # waline@1.3.3 https://github.com/walinejs/waline
-  walineJS: @waline/client@1.3.3/dist/Waline.min.js
+  walineJS: waline/client@1.3.3/dist/Waline.min.js
