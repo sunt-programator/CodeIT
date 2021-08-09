@@ -2,6 +2,65 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/sunt-programator/CodeIT/compare/v0.1.2...v0.2.0) (2021-08-09)
+
+
+### Features
+
+* **localstorage:** restricted adding the theme option when the cookie consent is disabled ([f4f46a8](https://github.com/sunt-programator/CodeIT/commit/f4f46a88ddd0189e42a0881ca18a489ecede9724)), closes [#145](https://github.com/sunt-programator/CodeIT/issues/145)
+* **mapbox:** added the possibility to load geojson file ([d2fd6d7](https://github.com/sunt-programator/CodeIT/commit/d2fd6d75cbd4579b551f530b8cb7eed725f91ef8))
+
+
+### Bug Fixes
+
+* **gist:**  fixed the lost of indentation ([650a791](https://github.com/sunt-programator/CodeIT/commit/650a791a16af52d5743d09529d7fe089540b53bb)), closes [sunt-programator/CodeIT#173](https://github.com/sunt-programator/CodeIT/issues/173) [sunt-programator/CodeIT#173](https://github.com/sunt-programator/CodeIT/issues/173)
+* **gist:** fixed the lost of indentation ([0f2081d](https://github.com/sunt-programator/CodeIT/commit/0f2081db3f83ae5983da5c57a096f6ffe000b69c))
+* **katex:** added overflow to show correctly on mobile devices ([9f84d2f](https://github.com/sunt-programator/CodeIT/commit/9f84d2f507470d6021b37f59e75ab2f91fde748a)), closes [#194](https://github.com/sunt-programator/CodeIT/issues/194)
+
+
+### Documentation changes
+
+* update .all-contributorsrc [skip ci] ([588cc5d](https://github.com/sunt-programator/CodeIT/commit/588cc5ddd70d6e14f8dcab3ee0026eb367a93928))
+* update .all-contributorsrc [skip ci] ([07abfa9](https://github.com/sunt-programator/CodeIT/commit/07abfa9a5823180a4f6ba6f68daf965ee65accb8))
+* update .all-contributorsrc [skip ci] ([ac5914c](https://github.com/sunt-programator/CodeIT/commit/ac5914cc2857102c7f89f8b9bcfabe2b9c014988))
+* update .all-contributorsrc [skip ci] ([a7c218c](https://github.com/sunt-programator/CodeIT/commit/a7c218cad0a17c186a63ccde75840b24fa639df3))
+* update .all-contributorsrc [skip ci] ([25e10de](https://github.com/sunt-programator/CodeIT/commit/25e10deae075a0886f39196553c1ed1bb8052e6a))
+* update README.md [skip ci] ([8700cd9](https://github.com/sunt-programator/CodeIT/commit/8700cd958aa6f3415fd82d3cd920ab188d8b0fc4))
+* update README.md [skip ci] ([f89f119](https://github.com/sunt-programator/CodeIT/commit/f89f119b32fd1a8572fde1f2fac89a4a786db512))
+* update README.md [skip ci] ([59fb620](https://github.com/sunt-programator/CodeIT/commit/59fb620d90e7d296afd872d89add17d4510e6c96))
+* update README.md [skip ci] ([de65a1d](https://github.com/sunt-programator/CodeIT/commit/de65a1d2142f4c91d102ebbd7509d9f294d1b037))
+* update README.md [skip ci] ([bd1368e](https://github.com/sunt-programator/CodeIT/commit/bd1368e1f75876f0528a56cf7ae4e00b9194586b))
+
+
+### CI/CD configuration changes
+
+* **dependabot:** removed automerge action ([049ea8b](https://github.com/sunt-programator/CodeIT/commit/049ea8b55f58f00e59e3589c0a7e4c997582f9ca))
+* **deploy:** changed trigger event to tag pushing ([7a6850b](https://github.com/sunt-programator/CodeIT/commit/7a6850b5de8dbbb15522752724de563edb3f5a90))
+
+
+### Build changes
+
+* **js:** removed compiled js files ([ca7fcf5](https://github.com/sunt-programator/CodeIT/commit/ca7fcf5e228f9caf28587167b60cb92b19eb030c))
+* **npm:** updated packages ([17b56f8](https://github.com/sunt-programator/CodeIT/commit/17b56f8ea48fbc76b8ca2b18b432cae5e7d63732))
+* **npm:** updated packages ([daaadea](https://github.com/sunt-programator/CodeIT/commit/daaadeaded7649be9ffda6fc5074ff06b32b9c52))
+* **npm:** updated packages ([2ceff1e](https://github.com/sunt-programator/CodeIT/commit/2ceff1e5cbfb42754f9b88d54068bcf0f38948f3))
+* **npm:** updated packages ([131e1e9](https://github.com/sunt-programator/CodeIT/commit/131e1e9329a74b1d59c182d7c3602333f99bb2bd))
+* **npm:** updated packages ([a74cdcf](https://github.com/sunt-programator/CodeIT/commit/a74cdcf1dfd2e1ceb0a997ae3a045c8b088abe24))
+* ignored the 'missing Instagram AccessToken' error ([248048c](https://github.com/sunt-programator/CodeIT/commit/248048cbb46c93dc0f6775c7b8399f82965f5d9d))
+* **npm:** updated packages ([01ed5d2](https://github.com/sunt-programator/CodeIT/commit/01ed5d28652d2710ccd6a83d07af1a7c0619ba70))
+* **npm:** updated packages ([1fdda4d](https://github.com/sunt-programator/CodeIT/commit/1fdda4d4ca1ee54c56e95b307985170e330d9a49))
+* **npm:** updated packages ([fab6811](https://github.com/sunt-programator/CodeIT/commit/fab6811bac4f6ab2bc4f7f7f67e4d9fa573555c4))
+* **npm:** updated packages ([9904b35](https://github.com/sunt-programator/CodeIT/commit/9904b35243cdb10b1fc3fdb4690e362449b9d8b9))
+* **npm:** updated packages ([fe9ee8c](https://github.com/sunt-programator/CodeIT/commit/fe9ee8cacb0f993579e955395cb93f6917b73769))
+* **npm:** updated packages ([5cedad5](https://github.com/sunt-programator/CodeIT/commit/5cedad5958bc8196235b9bf9625222b1d7140bc4))
+* **npm:** updated packages ([272899d](https://github.com/sunt-programator/CodeIT/commit/272899d77fb598902e1549e8fc49ceaf572f91f9))
+
+
+### Other changes
+
+* **devcontainer:** changed configurations ([a9f3d95](https://github.com/sunt-programator/CodeIT/commit/a9f3d95a37f0f6b177b3abd8c6e356582404a9e9))
+* **gitignore:** ignored compiled js files ([fb48140](https://github.com/sunt-programator/CodeIT/commit/fb481403be14441d917ebc2b40d821c09dd7342b))
+
 ## [0.1.2](https://github.com/sunt-programator/CodeIT/compare/v0.1.0...v0.1.2) (2021-05-02)
 
 
