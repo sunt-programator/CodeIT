@@ -1,14 +1,14 @@
 {
   "name": "codeit-src",
   "description": "CodeIT theme source file",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "homepage": "https://codeit.suntprogramator.dev/",
   "author": "Victor Pogor",
   "license": "MIT",
   "private": true,
   "devDependencies": {
     "@babel/cli": "^7.14.8",
-    "@babel/core": "^7.14.8",
+    "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.14.8",
     "@commitlint/cli": "^13.1.0",
     "@commitlint/config-conventional": "^13.1.0",
