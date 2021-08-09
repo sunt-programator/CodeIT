@@ -12,6 +12,7 @@
 {{- $fullscreen := $mapbox.fullscreen -}}
 {{- $width := "100%" -}}
 {{- $height := "20rem" -}}
+{{- $properties := "" -}}
 
 {{- if .IsNamedParams -}}
     {{- $lightStyle = .Get "light-style" | default $lightStyle -}}
@@ -22,12 +23,16 @@
     {{- $fullscreen = .Get "fullscreen" | ne false | and $fullscreen -}}
     {{- $width = .Get "width" | default $width -}}
     {{- $height = .Get "height" | default $height -}}
+    {{- $properties = .Get "properties" | default "" -}}
 {{- else -}}
     {{- $lightStyle = .Get 4 | default $lightStyle -}}
     {{- $darkStyle = .Get 5 | default $darkStyle -}}
 {{- end -}}
+
+{{- $optionsJson := getJSON $properties -}}
+
 {{- $darkStyle = $darkStyle | default $lightStyle -}}
-{{- $options := dict "lng" $lng "lat" $lat "zoom" $zoom "marked" $marked "lightStyle" $lightStyle "darkStyle" $darkStyle "geolocate" $geolocate "navigation" $navigation "scale" $scale "fullscreen" $fullscreen -}}
+{{- $options := dict "lng" $lng "lat" $lat "zoom" $zoom "marked" $marked "lightStyle" $lightStyle "darkStyle" $darkStyle "geolocate" $geolocate "navigation" $navigation "scale" $scale "fullscreen" $fullscreen "optionsJson" $optionsJson -}}
 {{- $id := dict "Content" $options "Scratch" .Page.Scratch | partial "function/id.html" -}}
 <div class="mapbox" id="{{ $id }}" style="width: {{ $width }}; height: {{ $height }};"></div>
 {{- .Page.Scratch.SetInMap "this" "mapbox" true -}}

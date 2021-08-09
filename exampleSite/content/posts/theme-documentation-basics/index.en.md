@@ -563,6 +563,17 @@ Please open the code block below to view the complete sample configuration :(far
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # {{< version 0.2.0 >}} {{< link "https://waline.js.org/en/" "Waline" >}} comment config
+      [params.page.comment.waline]
+        enable = false
+        serverURL = "https://xxx.vercel.com"
+        visitor = true
+        dark = 'auto'
+      # {{< version 0.2.0 >}} {{< link "https://twikoo.js.org" "Twikoo" >}} comment config
+      [params.page.comment.twikoo]
+        enable = false
+        evnId = "https://xxx.vercel.com"
+
     # Third-party library config
     [params.page.library]
       [params.page.library.css]

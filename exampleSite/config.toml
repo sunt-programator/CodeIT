@@ -854,6 +854,15 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      [params.page.comment.waline]
+        enable = false
+        serverURL = "https://xxx.vercel.app"
+        visitor = true
+        dark = 'auto'
+      [params.page.comment.twikoo]
+        enable = false
+        evnId = "https://xxx.vercel.app"
+
     # Third-party library config
     [params.page.library]
       [params.page.library.css]

@@ -5,6 +5,6 @@
     ".lintstagedrc": "json",
     ".all-contributorsrc": "json",
   },
-  "terminal.integrated.fontFamily": "FiraCode NF",
+  "terminal.integrated.fontFamily": "CaskaydiaCove NF, Cascadia Mono, Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true
 }

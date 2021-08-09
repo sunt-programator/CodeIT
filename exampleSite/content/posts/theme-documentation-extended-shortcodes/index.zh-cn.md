@@ -962,6 +962,10 @@ data = [
 
   地图的高度, 默认值是 `20rem`.
 
+- **properties** _[optional]_
+
+  GeoJSON sources and the layers of the map.
+
 一个简单的 `mapbox` 示例:
 
 ```markdown
@@ -985,6 +989,16 @@ data = [
 呈现的输出效果如下:
 
 {{< mapbox -122.252 37.453 10 false "mapbox://styles/mapbox/streets-zh-v1?optimize=true" >}}
+
+Example `mapbox` input with the GetJSON data:
+
+```markdown
+{{</* mapbox lng=28.836 lat=47.021 zoom=8 marked=false properties="/static/features-layers.json" */>}}
+```
+
+The rendered output looks like this:
+
+{{< mapbox lng=28.836 lat=47.021 zoom=8 marked=false properties="/static/features-layers.json" >}}
 
 ## 8 music
 

@@ -564,6 +564,17 @@ hugo
         label = ""
         lightTheme = "github-light"
         darkTheme = "github-dark"
+      # {{< version 0.2.0 >}} {{< link "https://waline.js.org/" "Waline" >}} 评论系统设置
+      [params.page.comment.waline]
+        enable = false
+        serverURL = "https://xxx.vercel.com"
+        visitor = true
+        dark = 'auto'
+      # {{< version 0.2.0 >}} {{< link "https://twikoo.js.org" "Twikoo" >}} 评论系统设置
+      [params.page.comment.twikoo]
+        enable = false
+        evnId = "https://xxx.vercel.com"
+
     #  第三方库配置
     [params.page.library]
       [params.page.library.css]

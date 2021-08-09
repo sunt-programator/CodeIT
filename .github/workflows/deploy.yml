@@ -1,8 +1,8 @@
 name: "Deploy status"
 on:
   push:
-    branches:
-      - master
+    tags:
+      - "v*"
 jobs:
   deploy-blog:
     name: Deploying the static pages to the FTP server

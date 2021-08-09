@@ -20,3 +20,6 @@ $RECYCLE.BIN/
 
 #idea IDE
 .idea
+
+# Compiled js files
+assets/js/

@@ -4,7 +4,7 @@
   "settings": {
     "resmon.show.battery": false,
     "resmon.show.cpufreq": false,
-    "terminal.integrated.fontFamily": "'Source Code Pro for Powerline', 'Hack Nerd Font'",
+    "terminal.integrated.fontFamily": "CaskaydiaCove NF, Cascadia Mono, Consolas, 'Courier New', monospace",
     "terminal.integrated.shell.linux": "/bin/zsh"
   },
   "extensions": [
@@ -14,8 +14,8 @@
     "visualstudioexptteam.vscodeintellicode",
     "eamodio.gitlens",
     "mutantdino.resourcemonitor",
-    "budparr.language-hugo-vscode"
+    "budparr.language-hugo-vscode",
+    "vscode-icons-team.vscode-icons"
   ],
-  "runArgs": [],
   "forwardPorts": [1313]
 }

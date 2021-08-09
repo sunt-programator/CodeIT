@@ -7,11 +7,11 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN apt update
 RUN apt install -y curl
 RUN apt install -y gnupg2
-RUN apt install -y fonts-firacode
 RUN apt install -y zsh
 RUN apt install -y sudo
 RUN apt install -y locales
 RUN apt install -y vim
+RUN apt install -y fontconfig
 RUN locale-gen en_US.UTF-8
 
 # Install Node.js
@@ -44,6 +44,12 @@ ENV TERM xterm
 
 # Set the default shell to bash rather than sh
 ENV SHELL /bin/zsh
+
+# Install Cascadia Code Nerd Font
+RUN mkdir -p ~/.local/share/fonts
+RUN cd ~/.local/share/fonts && curl -fLo "Caskaydia Cove Regular Nerd Font Complete Mono.otf" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete%20Mono.otf?raw=true
+RUN cd ~/.local/share/fonts && curl -fLo "Caskaydia Cove Regular Nerd Font Complete.otf" https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/CascadiaCode/Regular/complete/Caskaydia%20Cove%20Regular%20Nerd%20Font%20Complete.otf?raw=true
+RUN fc-cache -fv
 
 # Run the installation script  
 RUN sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
