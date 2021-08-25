@@ -21,7 +21,7 @@
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
-    "husky": "^7.0.1",
+    "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
     "markdownlint": "^0.24.0",
     "minimist": "^1.2.5",
