@@ -5,7 +5,7 @@
     "resmon.show.battery": false,
     "resmon.show.cpufreq": false,
     "terminal.integrated.fontFamily": "CaskaydiaCove NF, Cascadia Mono, Consolas, 'Courier New', monospace",
-    "terminal.integrated.shell.linux": "/bin/zsh"
+    "terminal.integrated.defaultProfile.linux": "zsh"
   },
   "extensions": [
     "budparr.language-hugo-vscode",
@@ -15,7 +15,8 @@
     "eamodio.gitlens",
     "mutantdino.resourcemonitor",
     "budparr.language-hugo-vscode",
-    "vscode-icons-team.vscode-icons"
+    "vscode-icons-team.vscode-icons",
+    "wakatime.vscode-wakatime"
   ],
   "forwardPorts": [1313]
 }

@@ -20,3 +20,6 @@ $RECYCLE.BIN/
 
 #idea IDE
 .idea
+
+# WakaTime
+.wakatime/

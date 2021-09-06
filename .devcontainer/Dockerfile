@@ -1,5 +1,7 @@
 FROM klakegg/hugo:ext-ubuntu
 
+ENV WAKATIME_HOME /workspaces/CodeIT/.wakatime/
+
 # Configure apt
 ENV DEBIAN_FRONTEND=noninteractive
 
