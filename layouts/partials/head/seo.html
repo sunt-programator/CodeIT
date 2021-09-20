@@ -144,7 +144,12 @@
         {{- with .Params.author | default .Site.Author.name | default (T "author") -}}
             "author": {
                 "@type": "Person",
-                "name": {{ . | safeHTML }}
+                "name":
+                  {{ if (eq "[]string" (printf "%T" .) ) }}
+                    {{ delimit . ", " }}
+                  {{ else }}
+                    {{ . }}
+                  {{ end }}
             },
         {{- end -}}
         "description": {{ .Description | safeHTML }}
