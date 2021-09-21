@@ -97,11 +97,11 @@
       }
     }
 
-    > h2,
-    > h3,
-    > h4,
-    > h5,
-    > h6 {
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
       > .header-mark::before {
         content: "|";
         margin-right: 0.3125rem;
@@ -113,16 +113,16 @@
       }
     }
 
-    > h2 > .header-mark::before {
+    h2 > .header-mark::before {
       content: "#";
     }
-    > h3 > .header-mark::before {
+    h3 > .header-mark::before {
       content: "##";
     }
-    > h4 > .header-mark::before {
+    h4 > .header-mark::before {
       content: "###";
     }
-    > h5 > .header-mark::before {
+    h5 > .header-mark::before {
       content: "####";
     }
     p {
