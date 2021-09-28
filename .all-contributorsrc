@@ -50,8 +50,7 @@
       "profile": "http://www.thatamazingprogrammer.com/",
       "contributions": [
         "code",
-        "bug",
-        "doc"
+        "bug"
       ]
     },
     {
@@ -316,107 +315,11 @@
       ]
     },
     {
-      "login": "michael0liver",
-      "name": "Michael Oliver",
-      "avatar_url": "https://avatars3.githubusercontent.com/u/55017335?v=4",
-      "profile": "https://michaeloliver.dev",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
       "login": "epogrebnyak",
       "name": "Evgeny Pogrebnyak",
       "avatar_url": "https://avatars3.githubusercontent.com/u/9265326?v=4",
       "profile": "https://epogrebnyak.github.io",
       "contributions": [
-        "bug",
-        "ideas"
-      ]
-    },
-    {
-      "login": "sosiristseng",
-      "name": "Wen Wei Tseng",
-      "avatar_url": "https://avatars2.githubusercontent.com/u/40054455?v=4",
-      "profile": "https://sosiristseng.github.io",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "sheldonhull",
-      "name": "sheldonhull",
-      "avatar_url": "https://avatars.githubusercontent.com/u/3526320?v=4",
-      "profile": "https://www.sheldonhull.com",
-      "contributions": [
-        "code",
-        "bug"
-      ]
-    },
-    {
-      "login": "jadmadi",
-      "name": "Madi",
-      "avatar_url": "https://avatars.githubusercontent.com/u/29486218?v=4",
-      "profile": "https://github.com/jadmadi",
-      "contributions": [
-        "code",
-        "bug"
-      ]
-    },
-    {
-      "login": "trmendes",
-      "name": "Thiago Mendes",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16507629?v=4",
-      "profile": "https://tmendes.gitlab.io/28lbackpack",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "aiyasin",
-      "name": "Yasin",
-      "avatar_url": "https://avatars.githubusercontent.com/u/61509470?v=4",
-      "profile": "http://aimoon.top",
-      "contributions": [
-        "bug"
-      ]
-    },
-    {
-      "login": "aplatanado",
-      "name": "Jesús Torres",
-      "avatar_url": "https://avatars.githubusercontent.com/u/266452?v=4",
-      "profile": "http://www.jesustorres.es/",
-      "contributions": [
-        "code"
-      ]
-    },
-    {
-      "login": "ktw717",
-      "name": "Karl Webster",
-      "avatar_url": "https://avatars.githubusercontent.com/u/19327709?v=4",
-      "profile": "https://github.com/ktw717",
-      "contributions": [
-        "code",
-        "doc"
-      ]
-    },
-    {
-      "login": "OnlyFor",
-      "name": "OnlyFor",
-      "avatar_url": "https://avatars.githubusercontent.com/u/16849187?v=4",
-      "profile": "https://github.com/OnlyFor",
-      "contributions": [
-        "code",
-        "doc"
-      ]
-    },
-    {
-      "login": "tbm98",
-      "name": "Minh Tran",
-      "avatar_url": "https://avatars.githubusercontent.com/u/52562340?v=4",
-      "profile": "https://tbm98.dev",
-      "contributions": [
-        "code",
         "bug"
       ]
     }
