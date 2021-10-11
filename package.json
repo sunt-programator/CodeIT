@@ -22,7 +22,7 @@
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "husky": "^7.0.2",
-    "lint-staged": "^11.1.2",
+    "lint-staged": "^11.2.3",
     "markdownlint": "^0.24.0",
     "minimist": "^1.2.5",
     "prettier": "^2.4.1",
