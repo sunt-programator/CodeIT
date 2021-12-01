@@ -521,7 +521,7 @@ pie
 
 [ECharts](https://echarts.apache.org/) is a library helping you to generate interactive data visualization.
 
-The basic chart types ECharts supports include [line series](https://echarts.apache.org/en/option.html#series-line), [bar series](https://echarts.apache.org/en/option.html#series-line), [scatter series](https://echarts.apache.org/en/option.html#series-scatter), [pie charts](https://echarts.apache.org/en/option.html#series-pie), [candle-stick series](https://echarts.apache.org/en/option.html#series-candlestick), [boxplot series](https://echarts.apache.org/en/option.html#series-boxplot) for statistics, [map series](https://echarts.apache.org/en/option.html#series-map), [heatmap series](https://echarts.apache.org/en/option.html#series-heatmap), [lines series](https://echarts.apache.org/en/option.html#series-lines) for directional information, [graph series](https://echarts.apache.org/en/option.html#series-graph) for relationships, [treemap series](https://echarts.apache.org/en/option.html#series-treemap), [sunburst series](https://echarts.apache.org/en/option.html#series-sunburst), [parallel series](https://echarts.apache.org/en/option.html#series-parallel) for multi-dimensional data, [funnel series](https://echarts.apache.org/en/option.html#series-funnel), [gauge series](https://echarts.apache.org/en/option.html#series-gauge). And it's extremely easy to create a combinition of them with ECharts.
+The basic chart types ECharts supports include [line series](https://echarts.apache.org/en/option.html#series-line), [bar series](https://echarts.apache.org/en/option.html#series-line), [scatter series](https://echarts.apache.org/en/option.html#series-scatter), [pie charts](https://echarts.apache.org/en/option.html#series-pie), [candle-stick series](https://echarts.apache.org/en/option.html#series-candlestick), [boxplot series](https://echarts.apache.org/en/option.html#series-boxplot) for statistics, [map series](https://echarts.apache.org/en/option.html#series-map), [heatmap series](https://echarts.apache.org/en/option.html#series-heatmap), [lines series](https://echarts.apache.org/en/option.html#series-lines) for directional information, [graph series](https://echarts.apache.org/en/option.html#series-graph) for relationships, [treemap series](https://echarts.apache.org/en/option.html#series-treemap), [sunburst series](https://echarts.apache.org/en/option.html#series-sunburst), [parallel series](https://echarts.apache.org/en/option.html#series-parallel) for multi-dimensional data, [funnel series](https://echarts.apache.org/en/option.html#series-funnel), [gauge series](https://echarts.apache.org/en/option.html#series-gauge). And it's extremely easy to create a combination of them with ECharts.
 
 Just insert your ECharts option in `JSON`/`YAML`/`TOML` format in the `echarts` shortcode and that’s it.
 
@@ -913,11 +913,11 @@ The `mapbox` shortcode has the following named parameters to use Mapbox GL JS:
 
 - **lng** _[required]_ (**first** positional parameter)
 
-  Longitude of the inital centerpoint of the map, measured in degrees.
+  Longitude of the initial centerpoint of the map, measured in degrees.
 
 - **lat** _[required]_ (**second** positional parameter)
 
-  Latitude of the inital centerpoint of the map, measured in degrees.
+  Latitude of the initial centerpoint of the map, measured in degrees.
 
 - **zoom** _[optional]_ (**third** positional parameter)
 
@@ -925,7 +925,7 @@ The `mapbox` shortcode has the following named parameters to use Mapbox GL JS:
 
 - **marked** _[optional]_ (**fourth** positional parameter)
 
-  Whether to add a marker at the inital centerpoint of the map, default value is `true`.
+  Whether to add a marker at the initial centerpoint of the map, default value is `true`.
 
 - **light-style** _[optional]_ (**fifth** positional parameter)
 

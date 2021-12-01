@@ -132,13 +132,13 @@ seo:
 
 - **title**: the title for the content.
 - **subtitle**: the subtitle for the content.
-- **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurabl in the [site configuration](../theme-documentation-basics#site-configuration).
+- **date**: the datetime assigned to this page, which is usually fetched from the `date` field in front matter, but this behaviour is configurable in the [site configuration](../theme-documentation-basics#site-configuration).
 - **lastmod**: the datetime at which the content was last modified.
 - **draft**: if `true`, the content will not be rendered unless the `--buildDrafts`/`-D` flag is passed to the `hugo` command.
 - **author**: the author for the content.
 - **authorLink**: the link of the author.
 - **description**: the description for the content.
-- **license**: the special lisence for this content.
+- **license**: the special license for this content.
 - **images**: page images for Open Graph and Twitter Cards.
 
 - **tags**: the tags for the content.
@@ -153,7 +153,7 @@ seo:
 - **ruby**: if `true`, the content will enable the [ruby extended syntax](#ruby).
 - **fraction**: if `true`, the content will enable the [fraction extended syntax](#fraction).
 - **fontawesome**: if `true`, the content will enable the [Font Awesome extended syntax](#fontawesome).
-- **linkToMarkdown**: if `true`, the footer of the content will be shown the link to the orignal Markdown file.
+- **linkToMarkdown**: if `true`, the footer of the content will be shown the link to the original Markdown file.
 - **rssFullText**: if `true`, the full text content will be shown in RSS.
 
 - **toc**: the same as the `params.page.toc` part in the [site configuration](../theme-documentation-basics#site-configuration).
