@@ -1,22 +1,53 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.205.2/containers/debian
 {
-  "name": "Hugo CodeIT theme",
-  "dockerFile": "Dockerfile",
-  "settings": {
-    "resmon.show.battery": false,
-    "resmon.show.cpufreq": false,
-    "terminal.integrated.fontFamily": "CaskaydiaCove NF, Cascadia Mono, Consolas, 'Courier New', monospace",
-    "terminal.integrated.defaultProfile.linux": "zsh"
-  },
-  "extensions": [
-    "budparr.language-hugo-vscode",
-    "be5invis.toml",
-    "esbenp.prettier-vscode",
-    "visualstudioexptteam.vscodeintellicode",
-    "eamodio.gitlens",
-    "mutantdino.resourcemonitor",
-    "budparr.language-hugo-vscode",
-    "vscode-icons-team.vscode-icons",
-    "wakatime.vscode-wakatime"
-  ],
-  "forwardPorts": [1313]
+	"name": "Debian",
+	"build": {
+		"dockerfile": "Dockerfile",
+		// Update 'VARIANT' to pick an Debian version: bullseye, buster, stretch
+		// Use bullseye or stretch on local arm64/Apple Silicon.
+		"args": { "VARIANT": "bullseye" }
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+	"resmon.show.battery": false,
+	"resmon.show.cpufreq": false,
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"budparr.language-hugo-vscode",
+		"be5invis.toml",
+		"esbenp.prettier-vscode",
+		"visualstudioexptteam.vscodeintellicode",
+		"eamodio.gitlens",
+		"mutantdino.resourcemonitor",
+		"budparr.language-hugo-vscode",
+		"vscode-icons-team.vscode-icons"
+	  ],
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Uncomment to use the Docker CLI from inside the container. See https://aka.ms/vscode-remote/samples/docker-from-docker.
+	// "mounts": [ "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind" ],
+
+	// Uncomment when using a ptrace-based debugger like C++, Go, and Rust
+	// "runArgs": [ "--cap-add=SYS_PTRACE", "--security-opt", "seccomp=unconfined" ],
+	"runArgs": [
+		"--userns=keep-id"
+	],
+	// "workspaceMount": "source=${localWorkspaceFolder},target=/workspace,type=bind,Z",
+	// "workspaceFolder": "/workspace",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode",
+	"containerUser": "vscode",
+	"features": {
+		"git": "os-provided",
+		"github-cli": "latest",
+		"node": "latest"
+	},
+	"postCreateCommand": "bash -i -c 'nvm install --lts && npm i'"
 }
