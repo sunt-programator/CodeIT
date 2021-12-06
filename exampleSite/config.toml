@@ -222,6 +222,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         Email = "xxxx@xxxx.com"
         RSS = true
         Orcid = ""
+        Threema = ""
         [languages.en.params.social.Mastodon]
           id = "@xxxx"
           prefix = "https://mastodon.technology/"

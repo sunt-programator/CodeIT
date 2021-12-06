@@ -518,3 +518,11 @@ orcid:
   Newtab: true
   Icon:
     Class: fab fa-orcid fa-fw
+
+# 066: Threema
+threema:
+  Weight: 66 
+  Prefix: https://threema.id/
+  Title: Threema
+  Icon:
+    Simpleicons: threema

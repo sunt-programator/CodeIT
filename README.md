@@ -91,7 +91,7 @@ I hope you will CodeIT 👩‍💻!
 
 - **Gravatar** supported by [Gravatar](https://gravatar.com)
 - Local **Avatar** supported
-- Up to **64** social links supported
+- Up to **65** social links supported
 - Up to **28** share sites supported
 - **Disqus** comment system supported by [Disqus](https://disqus.com)
 - **Gitalk** comment system supported by [Gitalk](https://github.com/gitalk/gitalk)
