@@ -286,6 +286,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://tbm98.dev"><img src="https://avatars.githubusercontent.com/u/52562340?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Minh Tran</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=tbm98" title="Code">💻</a> <a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Atbm98" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://github.com/aozaki-kuro"><img src="https://avatars.githubusercontent.com/u/28428951?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Aozaki</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/issues?q=author%3Aaozaki-kuro" title="Bug reports">🐛</a> <a href="https://github.com/sunt-programator/CodeIT/commits?author=aozaki-kuro" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/deining"><img src="https://avatars.githubusercontent.com/u/18169566?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andreas Deininger</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=deining" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/KHannibal"><img src="https://avatars.githubusercontent.com/u/3843004?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KHannibal</b></sub></a><br /><a href="#ideas-KHannibal" title="Ideas, Planning, & Feedback">🤔</a></td>
   </tr>
 </table>
 
