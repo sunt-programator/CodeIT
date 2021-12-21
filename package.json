@@ -31,7 +31,7 @@
     "stylelint": "^14.1.0",
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-standard": "^24.0.0",
-    "stylelint-scss": "^4.0.0"
+    "stylelint-scss": "^4.1.0"
   },
   "scripts": {
     "babel": "npx babel src/js --out-file assets/js/theme.min.js --source-maps",
