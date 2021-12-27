@@ -42,12 +42,12 @@ other = "Mehr"
 other = "Sprache wählen"
 
 [switchTheme]
-other = "Thema wechseln"
+other = "Umschaltung Hell/Dunkel"
 # === partials/header.html ===
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Ermöglicht durch {{ .Hugo }} | Thema - {{ .Theme }}"
+other = "Ermöglicht durch {{ .Hugo }} | Theme - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
@@ -87,7 +87,7 @@ other = "lib/lunr/lunr.de.js"
 other = "In Zwischenablage kopieren"
 
 [cookieconsentMessage]
-other = "Diese Website verwendet Cookies, um Ihre Erfahrung zu verbessern."
+other = "Diese Website verwendet Cookies, um Ihren Besuch auf unserer Website optimal zu gestalten."
 
 [cookieconsentDismiss]
 other = "Zustimmen"
@@ -112,15 +112,15 @@ other = "veröffentlicht auf {{ .Date }}"
 other = "enthalten in {{ .Categories }}"
 
 [wordCount]
-one = "Ein wort"
-other = "{{ .Count }} wörter"
+one = "Ein Wort"
+other = "{{ .Count }} Wörter"
 
 [readingTime]
-one = "Eine minute"
-other = "{{ .Count }} minuten"
+one = "Eine Minute"
+other = "{{ .Count }} Minuten"
 
 [views]
-other = "aufrufe"
+other = "Aufrufe"
 
 [author]
 other = "Autor"
