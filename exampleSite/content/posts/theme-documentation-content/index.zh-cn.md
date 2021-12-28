@@ -285,7 +285,7 @@ $ c = \pm\sqrt{a^2 + b^2} $ 和 \\( f(x)=\int\_{-\infty}^{\infty} \hat{f}(\xi) e
 
 #### Copy-tex
 
-**[Copy-tex](https://github.com/Khan/KaTeX/tree/master/contrib/copy-tex)** 是一个 **$ \KaTeX $** 的插件.
+**[Copy-tex](https://github.com/KaTeX/KaTeX/tree/main/contrib/copy-tex)** 是一个 **$ \KaTeX $** 的插件.
 
 通过这个扩展, 在选择并复制 $ \KaTeX $ 渲染的公式时, 会将其 $ \LaTeX $ 源代码复制到剪贴板.
 
