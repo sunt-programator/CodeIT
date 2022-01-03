@@ -17,7 +17,7 @@ other = "Articoli"
 
 # === Taxonomy ===
 [allSome]
-other = "Tutti {{ .Some }}"
+other = "{{ .Some }}"
 
 [tag]
 other = "Etichetta"
@@ -34,20 +34,20 @@ other = "Categorie"
 
 # === Pagination ===
 [more]
-other = "Più"
+other = "Di più"
 # === Pagination ===
 
 # === partials/header.html ===
 [selectLanguage]
-other = "Scegliere la lingua"
+other = "Scegli lingua"
 
 [switchTheme]
-other = "Cambiare il tema"
+other = "Cambia tema"
 # === partials/header.html ===
 
 # === partials/footer.html ===
 [poweredBySome]
-other = "Realizzato da {{ .Hugo }} | Tema - {{ .Theme }}"
+other = "Realizzato con {{ .Hugo }} | Tema - {{ .Theme }}"
 # === partials/footer.html ===
 
 # === partials/comment.html ===
@@ -69,7 +69,7 @@ other = "Cerca"
 other = "Cerca il titolo o il contenuto dell'articolo ..."
 
 [clear]
-other = "Chiaro"
+other = "Cancella"
 
 [cancel]
 other = "Annulla"
@@ -87,10 +87,10 @@ other = "lib/lunr/lunr.it.js"
 other = "Copia negli appunti"
 
 [cookieconsentMessage]
-other = "Questo sito Web utilizza i Cookies per migliorare la tua esperienza."
+other = "Questo sito Web utilizza i Cookie per migliorare la tua esperienza."
 
 [cookieconsentDismiss]
-other = "Essere d'accordo"
+other = "Sono d'accordo"
 
 [cookieconsentLink]
 other = "Per saperne di più"
@@ -106,7 +106,7 @@ other = "Condividi su"
 other = "Contenuti"
 
 [publishedOnDate]
-other = "pubblicato su {{ .Date }}"
+other = "pubblicato il {{ .Date }}"
 
 [includedInCategories]
 other = "incluso in {{ .Categories }}"
@@ -151,7 +151,7 @@ other = "Mi spiace, la pagina cercata non esiste."
 
 # === shortcodes/admonition.html ===
 [note]
-other = "Note"
+other = "Nota"
 
 [abstract]
 other = "Sommario"
@@ -160,13 +160,13 @@ other = "Sommario"
 other = "Info"
 
 [tip]
-other = "Suggerimenti"
+other = "Suggerimento"
 
 [success]
 other = "Successo"
 
 [question]
-other = "Domande"
+other = "Domanda"
 
 [warning]
 other = "Avvertimento"
