@@ -288,6 +288,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/deining"><img src="https://avatars.githubusercontent.com/u/18169566?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Andreas Deininger</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=deining" title="Documentation">📖</a></td>
     <td align="center"><a href="http://ashpex.eu.org"><img src="https://avatars.githubusercontent.com/u/38400042?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ashpex</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=Ashpex" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/KHannibal"><img src="https://avatars.githubusercontent.com/u/3843004?v=4?s=100" width="100px;" alt=""/><br /><sub><b>KHannibal</b></sub></a><br /><a href="#ideas-KHannibal" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://gitlab.com/SonoMichele"><img src="https://avatars.githubusercontent.com/u/31669768?v=4?s=100" width="100px;" alt=""/><br /><sub><b>xMicky24GIT</b></sub></a><br /><a href="https://github.com/sunt-programator/CodeIT/commits?author=xMicky24GIT" title="Documentation">📖</a></td>
   </tr>
 </table>
 
