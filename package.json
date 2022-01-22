@@ -8,8 +8,8 @@
   "private": true,
   "devDependencies": {
     "@babel/cli": "7.16.8",
-    "@babel/core": "7.16.7",
-    "@babel/preset-env": "7.16.8",
+    "@babel/core": "7.16.12",
+    "@babel/preset-env": "7.16.11",
     "@commitlint/cli": "16.1.0",
     "@commitlint/config-conventional": "16.0.0",
     "all-contributors-cli": "6.20.0",
